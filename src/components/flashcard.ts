@@ -34,12 +34,12 @@ const renderFlashcard = ({
   vocabEl.textContent = vocab;
 
   const romajiEl = document.createElement('span');
-  romajiEl.className = 'font-bold text-xl';
+  romajiEl.className = 'font-bold text-xl opacity-60';
   romajiEl.textContent = romaji;
 
   const linkEl = document.createElement('a');
   linkEl.className =
-    'absolute bottom-5 font-semibold flex gap-1.5 items-center';
+    'absolute bottom-5 font-semibold flex gap-1.5 items-center opacity-50';
   linkEl.href = `https://jisho.org/search/${encodeURIComponent(vocab)}`;
   linkEl.target = '_blank';
   const linkIconEl = renderIcon({ raw: IconBook, size: 24 });
