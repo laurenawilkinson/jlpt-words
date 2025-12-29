@@ -1,11 +1,11 @@
-import type { JLPT } from '../types';
+import type { JlptLevel } from '../types';
 
 interface JlptLevelProps {
-  level: JLPT;
+  level: JlptLevel;
 }
 
 const renderJlptLevel = ({ level }: JlptLevelProps) => {
-  const backgroundColors: Record<JLPT, string> = {
+  const backgroundColors: Record<JlptLevel, string> = {
     N1: 'bg-red-400',
     N2: 'bg-orange-400',
     N3: 'bg-yellow-400',

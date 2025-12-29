@@ -18,6 +18,7 @@
     "vite": "^7.2.4"
   },
   "dependencies": {
-    "seedrandom": "^3.0.5"
+    "seedrandom": "^3.0.5",
+    "wanakana": "^5.3.1"
   }
 }

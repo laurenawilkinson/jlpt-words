@@ -1,18 +1,18 @@
-import type { JLPT } from '../types';
+import type { JlptLevel } from '../types';
 import renderJlptLevel from './jlptLevel';
 
 interface FlashcardProps {
-  jlptLevel: JLPT;
-  kanji: string;
-  reading: string;
+  jlpt: JlptLevel;
+  vocab: string;
+  furigana?: string;
   meaning: string;
   romaji: string;
 }
 
 const renderFlashcard = ({
-  jlptLevel,
-  kanji,
-  reading,
+  jlpt,
+  vocab,
+  furigana,
   meaning,
   romaji,
 }: FlashcardProps): HTMLElement => {
@@ -20,16 +20,16 @@ const renderFlashcard = ({
   el.className =
     'relative flex flex-col justify-center items-center rounded-4xl border sm:min-w-80 max-w-sm w-full sm:flex-1 h-96';
 
-  const jlptEl = renderJlptLevel({ level: jlptLevel });
+  const jlptEl = renderJlptLevel({ level: jlpt });
   jlptEl.classList.add('absolute', 'top-5');
 
-  const readingEl = document.createElement('span');
-  readingEl.className = 'font-bold text-xl';
-  readingEl.textContent = reading;
+  const furiganaEl = document.createElement('span');
+  furiganaEl.className = 'font-bold text-xl';
+  furiganaEl.textContent = furigana || '';
 
-  const kanjiEl = document.createElement('h2');
-  kanjiEl.className = 'font-bold text-6xl';
-  kanjiEl.textContent = kanji;
+  const vocabEl = document.createElement('h2');
+  vocabEl.className = 'font-bold text-6xl';
+  vocabEl.textContent = vocab;
 
   const romajiEl = document.createElement('span');
   romajiEl.className = 'font-bold text-xl';
@@ -37,11 +37,19 @@ const renderFlashcard = ({
 
   const linkEl = document.createElement('a');
   linkEl.className = 'absolute bottom-5 font-semibold';
-  linkEl.href = `https://jisho.org/search/${encodeURIComponent(kanji)}`;
+  linkEl.href = `https://jisho.org/search/${encodeURIComponent(vocab)}`;
   linkEl.textContent = 'Dictionary';
   linkEl.target = '_blank';
 
-  el.append(jlptEl, readingEl, kanjiEl, romajiEl, linkEl);
+  const nodes = [
+    jlptEl,
+    ...(furigana ? [furiganaEl] : []),
+    vocabEl,
+    romajiEl,
+    linkEl,
+  ];
+
+  el.append(...nodes);
 
   return el;
 };

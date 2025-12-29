@@ -1,9 +1,15 @@
-export type JLPT = 'N5' | 'N4' | 'N3' | 'N2' | 'N1';
+export type JlptLevel = 'N5' | 'N4' | 'N3' | 'N2' | 'N1';
+
+export type JlptWord = {
+  jp: string;
+  en: string;
+  furigana?: string;
+};
 
 export type Word = {
   jp: string;
-  reading: string;
+  furigana?: string;
   romaji: string;
   en: string;
-  jlpt: JLPT;
+  jlpt: JlptLevel;
 };

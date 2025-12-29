@@ -1,5 +1,6 @@
 import seedrandom from 'seedrandom';
-import type { Word } from '../types';
+import { isKana, toRomaji } from 'wanakana';
+import type { JlptLevel, JlptWord, Word } from '../types';
 
 export function getWordsForDate(
   words: Word[],
@@ -11,4 +12,16 @@ export function getWordsForDate(
 
   const shuffled = [...words].sort(() => rng() - 0.5);
   return shuffled.slice(0, count);
+}
+
+export function transformWords(level: JlptLevel, words?: JlptWord[]): Word[] {
+  if (!words || !Array.isArray(words)) return [];
+
+  return words.map((word) => ({
+    jp: word.jp,
+    en: word.en,
+    furigana: word.furigana,
+    jlpt: level,
+    romaji: toRomaji(isKana(word.jp) ? word.jp : word.furigana),
+  }));
 }
