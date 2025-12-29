@@ -1,4 +1,6 @@
+import IconBook from '../assets/icons/book.svg?raw';
 import type { JlptLevel } from '../types';
+import renderIcon from './icon';
 import renderJlptLevel from './jlptLevel';
 
 interface FlashcardProps {
@@ -18,7 +20,7 @@ const renderFlashcard = ({
 }: FlashcardProps): HTMLElement => {
   const el = document.createElement('div');
   el.className =
-    'relative flex flex-col justify-center items-center rounded-4xl border sm:min-w-80 max-w-sm w-full sm:flex-1 h-96';
+    'relative flex flex-col justify-center items-center rounded-4xl border border-gray-300 sm:min-w-80 max-w-sm w-full sm:flex-1 h-96';
 
   const jlptEl = renderJlptLevel({ level: jlpt });
   jlptEl.classList.add('absolute', 'top-5');
@@ -36,10 +38,12 @@ const renderFlashcard = ({
   romajiEl.textContent = romaji;
 
   const linkEl = document.createElement('a');
-  linkEl.className = 'absolute bottom-5 font-semibold';
+  linkEl.className =
+    'absolute bottom-5 font-semibold flex gap-1.5 items-center';
   linkEl.href = `https://jisho.org/search/${encodeURIComponent(vocab)}`;
-  linkEl.textContent = 'Dictionary';
   linkEl.target = '_blank';
+  const linkIconEl = renderIcon({ raw: IconBook, size: 24 });
+  linkEl.append(linkIconEl, 'Dictionary');
 
   const nodes = [
     jlptEl,
