@@ -10,11 +10,14 @@
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.18",
+    "@types/seedrandom": "^3.0.8",
     "prettier": "^3.7.4",
     "prettier-plugin-tailwindcss": "^0.7.2",
     "tailwindcss": "^4.1.18",
     "typescript": "~5.9.3",
     "vite": "^7.2.4"
   },
-  "dependencies": {}
+  "dependencies": {
+    "seedrandom": "^3.0.5"
+  }
 }
