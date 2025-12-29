@@ -13,3 +13,10 @@ export type Word = {
   en: string;
   jlpt: JlptLevel;
 };
+
+export type Settings = {
+  words: number;
+  showFurigana: boolean;
+  showRomaji: boolean;
+  jlptLevels: JlptLevel[];
+};

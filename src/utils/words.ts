@@ -25,3 +25,10 @@ export function transformWords(level: JlptLevel, words?: JlptWord[]): Word[] {
     romaji: toRomaji(isKana(word.jp) ? word.jp : word.furigana),
   }));
 }
+
+export async function loadWordsForLevel(level: JlptLevel): Promise<Word[]> {
+  const res = await fetch(`/data/${level}.json`);
+  if (!res.ok) throw new Error(`Failed to load ${level} words`);
+  const data: JlptWord[] = await res.json();
+  return transformWords(level, data);
+}

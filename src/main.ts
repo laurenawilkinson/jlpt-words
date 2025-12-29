@@ -1,14 +1,11 @@
 import renderFlashcard from './components/flashcard';
+import renderIcon from './components/icon';
 import './style.css';
-import type { JlptLevel, JlptWord, Word } from './types';
-import { getWordsForDate, transformWords } from './utils/words';
+import IconSettings from './assets/icons/settings.svg?raw';
+import { getWordsForDate, loadWordsForLevel } from './utils/words';
+import { getSettings } from './utils/settings';
 
-const loadWordsForLevel = async (level: JlptLevel): Promise<Word[]> => {
-  const res = await fetch(`/data/${level}.json`);
-  if (!res.ok) throw new Error(`Failed to load ${level} words`);
-  const data: JlptWord[] = await res.json();
-  return transformWords(level, data);
-};
+const settings = getSettings();
 
 const displayDate = () => {
   const el = document.getElementById('todaysDate');
@@ -19,12 +16,27 @@ const displayDate = () => {
 
 displayDate();
 
+const configureSettingsButton = () => {
+  const settingsBtnEl = document.getElementById('settingsBtn');
+  if (!settingsBtnEl) return;
+
+  const iconEl = renderIcon({ raw: IconSettings, size: 24 });
+  settingsBtnEl.append(iconEl);
+};
+
+configureSettingsButton();
+
 const displayFlashcards = async () => {
   const el = document.getElementById('flashcards');
   if (!el) return;
 
-  const words = await loadWordsForLevel('N5');
-  const todaysWords = getWordsForDate(words, 3);
+  const words = await Promise.all(
+    settings.jlptLevels.map((jlpt) => loadWordsForLevel(jlpt))
+  );
+  const todaysWords = getWordsForDate(
+    words.flatMap((wordArr) => wordArr),
+    settings.words
+  );
 
   for (const word of todaysWords) {
     el.appendChild(
