@@ -1,0 +1,3004 @@
+[
+  {
+    "jp": "あ",
+    "en": "Ah"
+  },
+  {
+    "jp": "ああ",
+    "en": "like that"
+  },
+  {
+    "jp": "あいさつ・する",
+    "en": "to greet"
+  },
+  {
+    "jp": "間",
+    "en": "a space",
+    "furigana": "あいだ"
+  },
+  {
+    "jp": "合う",
+    "en": "to match",
+    "furigana": "あう"
+  },
+  {
+    "jp": "あかちゃん",
+    "en": "infant"
+  },
+  {
+    "jp": "上る",
+    "en": "to rise",
+    "furigana": "あがる"
+  },
+  {
+    "jp": "赤ん坊",
+    "en": "baby",
+    "furigana": "あかんぼう"
+  },
+  {
+    "jp": "空く",
+    "en": "to open, to become empty",
+    "furigana": "あく"
+  },
+  {
+    "jp": "アクセサリー",
+    "en": "accessory"
+  },
+  {
+    "jp": "あげる",
+    "en": "to give"
+  },
+  {
+    "jp": "浅い",
+    "en": "shallow, superficial",
+    "furigana": "あさい"
+  },
+  {
+    "jp": "味",
+    "en": "flavour",
+    "furigana": "あじ"
+  },
+  {
+    "jp": "アジア",
+    "en": "Asia"
+  },
+  {
+    "jp": "明日",
+    "en": "tomorrow",
+    "furigana": "あす"
+  },
+  {
+    "jp": "遊び",
+    "en": "play",
+    "furigana": "あそび"
+  },
+  {
+    "jp": "集る",
+    "en": "to gather",
+    "furigana": "あつまる"
+  },
+  {
+    "jp": "集める",
+    "en": "to collect something",
+    "furigana": "あつめる"
+  },
+  {
+    "jp": "アナウンサー",
+    "en": "announcer"
+  },
+  {
+    "jp": "アフリカ",
+    "en": "Africa"
+  },
+  {
+    "jp": "アメリカ",
+    "en": "America"
+  },
+  {
+    "jp": "謝る",
+    "en": "to apologize",
+    "furigana": "あやまる"
+  },
+  {
+    "jp": "アルコール",
+    "en": "alcohol"
+  },
+  {
+    "jp": "アルバイト",
+    "en": "part-time job"
+  },
+  {
+    "jp": "安心",
+    "en": "relief",
+    "furigana": "あんしん"
+  },
+  {
+    "jp": "安全",
+    "en": "safety",
+    "furigana": "あんぜん"
+  },
+  {
+    "jp": "あんな",
+    "en": "such"
+  },
+  {
+    "jp": "案内",
+    "en": "あんない・する to guide"
+  },
+  {
+    "jp": "以下",
+    "en": "less than",
+    "furigana": "いか"
+  },
+  {
+    "jp": "以外",
+    "en": "with the exception of",
+    "furigana": "いがい"
+  },
+  {
+    "jp": "医学",
+    "en": "medical science",
+    "furigana": "いがく"
+  },
+  {
+    "jp": "生きる",
+    "en": "to live",
+    "furigana": "いきる"
+  },
+  {
+    "jp": "意見",
+    "en": "opinion",
+    "furigana": "いけん"
+  },
+  {
+    "jp": "石",
+    "en": "stone",
+    "furigana": "いし"
+  },
+  {
+    "jp": "いじめる",
+    "en": "to tease"
+  },
+  {
+    "jp": "以上",
+    "en": "more than, this is all",
+    "furigana": "いじょう"
+  },
+  {
+    "jp": "急ぐ",
+    "en": "to hurry",
+    "furigana": "いそぐ"
+  },
+  {
+    "jp": "致す",
+    "en": "(humble) to do",
+    "furigana": "いたす"
+  },
+  {
+    "jp": "いただく",
+    "en": "(humble) to receive"
+  },
+  {
+    "jp": "一度",
+    "en": "once",
+    "furigana": "いちど"
+  },
+  {
+    "jp": "一生懸命",
+    "en": "with utmost effort",
+    "furigana": "いっしょうけんめい"
+  },
+  {
+    "jp": "いっぱい",
+    "en": "full"
+  },
+  {
+    "jp": "糸",
+    "en": "thread",
+    "furigana": "いと"
+  },
+  {
+    "jp": "以内",
+    "en": "within",
+    "furigana": "いない"
+  },
+  {
+    "jp": "田舎",
+    "en": "countryside",
+    "furigana": "いなか"
+  },
+  {
+    "jp": "祈る",
+    "en": "to pray",
+    "furigana": "いのる"
+  },
+  {
+    "jp": "いらっしゃる",
+    "en": "(respectful) to be, to come or to go"
+  },
+  {
+    "jp": "植える",
+    "en": "to plant, to grow",
+    "furigana": "うえる"
+  },
+  {
+    "jp": "うかがう",
+    "en": "to visit"
+  },
+  {
+    "jp": "受付",
+    "en": "receipt",
+    "furigana": "うけつけ"
+  },
+  {
+    "jp": "受ける",
+    "en": "to take a lesson or test",
+    "furigana": "うける"
+  },
+  {
+    "jp": "動く",
+    "en": "to move",
+    "furigana": "うごく"
+  },
+  {
+    "jp": "うそ",
+    "en": "a lie"
+  },
+  {
+    "jp": "うち",
+    "en": "within"
+  },
+  {
+    "jp": "打つ",
+    "en": "to hit",
+    "furigana": "うつ"
+  },
+  {
+    "jp": "美しい",
+    "en": "beautiful",
+    "furigana": "うつくしい"
+  },
+  {
+    "jp": "写す",
+    "en": "to copy or photograph",
+    "furigana": "うつす"
+  },
+  {
+    "jp": "移る",
+    "en": "to move house or transfer",
+    "furigana": "うつる"
+  },
+  {
+    "jp": "腕",
+    "en": "arm",
+    "furigana": "うで"
+  },
+  {
+    "jp": "うまい",
+    "en": "delicious"
+  },
+  {
+    "jp": "裏",
+    "en": "reverse side",
+    "furigana": "うら"
+  },
+  {
+    "jp": "売り場",
+    "en": "place where things are sold",
+    "furigana": "うりば"
+  },
+  {
+    "jp": "うれしい",
+    "en": "glad"
+  },
+  {
+    "jp": "うん",
+    "en": "(informal) yes"
+  },
+  {
+    "jp": "運転",
+    "en": "うんてん・する to drive"
+  },
+  {
+    "jp": "運転手",
+    "en": "driver",
+    "furigana": "うんてんしゅ"
+  },
+  {
+    "jp": "運動",
+    "en": "うんどう・する to exercise"
+  },
+  {
+    "jp": "エスカレーター",
+    "en": "escalator"
+  },
+  {
+    "jp": "枝",
+    "en": "branch, twig",
+    "furigana": "えだ"
+  },
+  {
+    "jp": "選ぶ",
+    "en": "to choose",
+    "furigana": "えらぶ"
+  },
+  {
+    "jp": "遠慮",
+    "en": "えんりょ・する to be reserved, to be restrained"
+  },
+  {
+    "jp": "おいでになる",
+    "en": "(respectful) to be"
+  },
+  {
+    "jp": "お祝い",
+    "en": "congratulation",
+    "furigana": "おいわい"
+  },
+  {
+    "jp": "オートバイ",
+    "en": "motorcycle"
+  },
+  {
+    "jp": "おかげ",
+    "en": "owing to"
+  },
+  {
+    "jp": "おかしい",
+    "en": "strange or funny"
+  },
+  {
+    "jp": "億",
+    "en": "one hundred million",
+    "furigana": "おく"
+  },
+  {
+    "jp": "屋上",
+    "en": "rooftop",
+    "furigana": "おくじょう"
+  },
+  {
+    "jp": "贈り物",
+    "en": "gift",
+    "furigana": "おくりもの"
+  },
+  {
+    "jp": "送る",
+    "en": "to send",
+    "furigana": "おくる"
+  },
+  {
+    "jp": "遅れる",
+    "en": "to be late",
+    "furigana": "おくれる"
+  },
+  {
+    "jp": "起す",
+    "en": "to wake",
+    "furigana": "おこす"
+  },
+  {
+    "jp": "行う",
+    "en": "to do",
+    "furigana": "おこなう"
+  },
+  {
+    "jp": "怒る",
+    "en": "to get angry, to be angry",
+    "furigana": "おこる"
+  },
+  {
+    "jp": "押し入れ",
+    "en": "closet",
+    "furigana": "おしいれ"
+  },
+  {
+    "jp": "お嬢さん",
+    "en": "young lady",
+    "furigana": "おじょうさん"
+  },
+  {
+    "jp": "お宅",
+    "en": "(polite) your house",
+    "furigana": "おたく"
+  },
+  {
+    "jp": "落る",
+    "en": "to fall or drop",
+    "furigana": "おちる"
+  },
+  {
+    "jp": "おっしゃる",
+    "en": "(respectful) to say"
+  },
+  {
+    "jp": "夫",
+    "en": "husband",
+    "furigana": "おっと"
+  },
+  {
+    "jp": "おつり",
+    "en": "change from purchase, balance"
+  },
+  {
+    "jp": "音",
+    "en": "sound, note",
+    "furigana": "おと"
+  },
+  {
+    "jp": "落す",
+    "en": "to drop",
+    "furigana": "おとす"
+  },
+  {
+    "jp": "踊り",
+    "en": "a dance",
+    "furigana": "おどり"
+  },
+  {
+    "jp": "踊る",
+    "en": "to dance",
+    "furigana": "おどる"
+  },
+  {
+    "jp": "驚く",
+    "en": "to be surprised",
+    "furigana": "おどろく"
+  },
+  {
+    "jp": "お祭り",
+    "en": "festival",
+    "furigana": "おまつり"
+  },
+  {
+    "jp": "お見舞い",
+    "en": "calling on someone who is ill, enquiry",
+    "furigana": "おみまい"
+  },
+  {
+    "jp": "お土産",
+    "en": "souvenir",
+    "furigana": "おみやげ"
+  },
+  {
+    "jp": "思い出す",
+    "en": "to remember",
+    "furigana": "おもいだす"
+  },
+  {
+    "jp": "思う",
+    "en": "to think, to feel",
+    "furigana": "おもう"
+  },
+  {
+    "jp": "おもちゃ",
+    "en": "toy"
+  },
+  {
+    "jp": "表",
+    "en": "the front",
+    "furigana": "おもて"
+  },
+  {
+    "jp": "親",
+    "en": "parents",
+    "furigana": "おや"
+  },
+  {
+    "jp": "下りる",
+    "en": "to get off",
+    "furigana": "おりる"
+  },
+  {
+    "jp": "折る",
+    "en": "to break or to fold",
+    "furigana": "おる"
+  },
+  {
+    "jp": "お礼",
+    "en": "expression of gratitude",
+    "furigana": "おれい"
+  },
+  {
+    "jp": "折れる",
+    "en": "to break or be folded",
+    "furigana": "おれる"
+  },
+  {
+    "jp": "終わり",
+    "en": "the end",
+    "furigana": "おわり"
+  },
+  {
+    "jp": "カーテン",
+    "en": "curtain"
+  },
+  {
+    "jp": "海岸",
+    "en": "coast",
+    "furigana": "かいがん"
+  },
+  {
+    "jp": "会議",
+    "en": "meeting",
+    "furigana": "かいぎ"
+  },
+  {
+    "jp": "会議室",
+    "en": "meeting room",
+    "furigana": "かいぎしつ"
+  },
+  {
+    "jp": "会場",
+    "en": "assembly hall or meeting place",
+    "furigana": "かいじょう"
+  },
+  {
+    "jp": "会話",
+    "en": "conversation",
+    "furigana": "かいわ"
+  },
+  {
+    "jp": "帰り",
+    "en": "return",
+    "furigana": "かえり"
+  },
+  {
+    "jp": "変える",
+    "en": "to change",
+    "furigana": "かえる"
+  },
+  {
+    "jp": "科学",
+    "en": "science",
+    "furigana": "かがく"
+  },
+  {
+    "jp": "鏡",
+    "en": "mirror",
+    "furigana": "かがみ"
+  },
+  {
+    "jp": "掛ける",
+    "en": "to hang something",
+    "furigana": "かける"
+  },
+  {
+    "jp": "飾る",
+    "en": "to decorate",
+    "furigana": "かざる"
+  },
+  {
+    "jp": "火事",
+    "en": "fire",
+    "furigana": "かじ"
+  },
+  {
+    "jp": "ガス",
+    "en": "petrol"
+  },
+  {
+    "jp": "ガソリン",
+    "en": "petrol"
+  },
+  {
+    "jp": "ガソリンスタンド",
+    "en": "petrol station"
+  },
+  {
+    "jp": "堅/硬/固い",
+    "en": "hard",
+    "furigana": "かたい"
+  },
+  {
+    "jp": "形",
+    "en": "shape",
+    "furigana": "かたち"
+  },
+  {
+    "jp": "片付ける",
+    "en": "to tidy up",
+    "furigana": "かたづける"
+  },
+  {
+    "jp": "課長",
+    "en": "section manager",
+    "furigana": "かちょう"
+  },
+  {
+    "jp": "勝つ",
+    "en": "to win",
+    "furigana": "かつ"
+  },
+  {
+    "jp": "かっこう",
+    "en": "appearance"
+  },
+  {
+    "jp": "家内",
+    "en": "housewife",
+    "furigana": "かない"
+  },
+  {
+    "jp": "悲しい",
+    "en": "sad",
+    "furigana": "かなしい"
+  },
+  {
+    "jp": "必ず",
+    "en": "certainly, necessarily",
+    "furigana": "かならず"
+  },
+  {
+    "jp": "お・金持ち",
+    "en": "かねもち/おかねもち rich man"
+  },
+  {
+    "jp": "彼女",
+    "en": "she, girlfriend",
+    "furigana": "かのじょ"
+  },
+  {
+    "jp": "壁",
+    "en": "wall",
+    "furigana": "かべ"
+  },
+  {
+    "jp": "かまう",
+    "en": "to mind"
+  },
+  {
+    "jp": "髪",
+    "en": "hair",
+    "furigana": "かみ"
+  },
+  {
+    "jp": "噛む",
+    "en": "to bite, to chew",
+    "furigana": "かむ"
+  },
+  {
+    "jp": "通う",
+    "en": "to commute",
+    "furigana": "かよう"
+  },
+  {
+    "jp": "ガラス",
+    "en": "a glass pane"
+  },
+  {
+    "jp": "彼",
+    "en": "he, boyfriend",
+    "furigana": "かれ"
+  },
+  {
+    "jp": "彼ら",
+    "en": "they",
+    "furigana": "かれら"
+  },
+  {
+    "jp": "乾く",
+    "en": "to get dry",
+    "furigana": "かわく"
+  },
+  {
+    "jp": "代わり",
+    "en": "substitute, alternate",
+    "furigana": "かわり"
+  },
+  {
+    "jp": "変わる",
+    "en": "to change",
+    "furigana": "かわる"
+  },
+  {
+    "jp": "考える",
+    "en": "to consider",
+    "furigana": "かんがえる"
+  },
+  {
+    "jp": "関係",
+    "en": "relationship",
+    "furigana": "かんけい"
+  },
+  {
+    "jp": "看護婦",
+    "en": "female nurse",
+    "furigana": "かんごふ"
+  },
+  {
+    "jp": "簡単",
+    "en": "simple",
+    "furigana": "かんたん"
+  },
+  {
+    "jp": "気",
+    "en": "spirit, mood",
+    "furigana": "き"
+  },
+  {
+    "jp": "機会",
+    "en": "opportunity",
+    "furigana": "きかい"
+  },
+  {
+    "jp": "危険",
+    "en": "danger",
+    "furigana": "きけん"
+  },
+  {
+    "jp": "聞こえる",
+    "en": "to be heard",
+    "furigana": "きこえる"
+  },
+  {
+    "jp": "汽車",
+    "en": "steam train",
+    "furigana": "きしゃ"
+  },
+  {
+    "jp": "技術",
+    "en": "art, technology, skill",
+    "furigana": "ぎじゅつ"
+  },
+  {
+    "jp": "季節",
+    "en": "season",
+    "furigana": "きせつ"
+  },
+  {
+    "jp": "規則",
+    "en": "regulations",
+    "furigana": "きそく"
+  },
+  {
+    "jp": "きっと",
+    "en": "surely"
+  },
+  {
+    "jp": "絹",
+    "en": "silk",
+    "furigana": "きぬ"
+  },
+  {
+    "jp": "厳しい",
+    "en": "strict",
+    "furigana": "きびしい"
+  },
+  {
+    "jp": "気分",
+    "en": "mood",
+    "furigana": "きぶん"
+  },
+  {
+    "jp": "決る",
+    "en": "to be decided",
+    "furigana": "きまる"
+  },
+  {
+    "jp": "君",
+    "en": "(informal) You (used by men towards women)",
+    "furigana": "きみ"
+  },
+  {
+    "jp": "決める",
+    "en": "to decide",
+    "furigana": "きめる"
+  },
+  {
+    "jp": "気持ち",
+    "en": "feeling, mood",
+    "furigana": "きもち"
+  },
+  {
+    "jp": "着物",
+    "en": "kimono",
+    "furigana": "きもの"
+  },
+  {
+    "jp": "客",
+    "en": "guest, customer",
+    "furigana": "きゃく"
+  },
+  {
+    "jp": "急",
+    "en": "urgent, steep",
+    "furigana": "きゅう"
+  },
+  {
+    "jp": "急行",
+    "en": "speedy, express",
+    "furigana": "きゅうこう"
+  },
+  {
+    "jp": "教育",
+    "en": "education",
+    "furigana": "きょういく"
+  },
+  {
+    "jp": "教会",
+    "en": "church",
+    "furigana": "きょうかい"
+  },
+  {
+    "jp": "競争",
+    "en": "competition",
+    "furigana": "きょうそう"
+  },
+  {
+    "jp": "興味",
+    "en": "an interest",
+    "furigana": "きょうみ"
+  },
+  {
+    "jp": "近所",
+    "en": "neighbourhood",
+    "furigana": "きんじょ"
+  },
+  {
+    "jp": "具合",
+    "en": "condition, health",
+    "furigana": "ぐあい"
+  },
+  {
+    "jp": "空気",
+    "en": "air, atmosphere",
+    "furigana": "くうき"
+  },
+  {
+    "jp": "空港",
+    "en": "airport",
+    "furigana": "くうこう"
+  },
+  {
+    "jp": "草",
+    "en": "grass",
+    "furigana": "くさ"
+  },
+  {
+    "jp": "くださる",
+    "en": "(respectful) to give"
+  },
+  {
+    "jp": "首",
+    "en": "neck",
+    "furigana": "くび"
+  },
+  {
+    "jp": "雲",
+    "en": "cloud",
+    "furigana": "くも"
+  },
+  {
+    "jp": "比べる",
+    "en": "to compare",
+    "furigana": "くらべる"
+  },
+  {
+    "jp": "くれる",
+    "en": "to give"
+  },
+  {
+    "jp": "暮れる",
+    "en": "to get dark, to come to an end",
+    "furigana": "くれる"
+  },
+  {
+    "jp": "君",
+    "en": "suffix for familiar young male",
+    "furigana": "くん"
+  },
+  {
+    "jp": "毛",
+    "en": "hair or fur",
+    "furigana": "け"
+  },
+  {
+    "jp": "計画",
+    "en": "けいかく・する to plan"
+  },
+  {
+    "jp": "経験",
+    "en": "けいけん・する to experience"
+  },
+  {
+    "jp": "経済",
+    "en": "finance, economy",
+    "furigana": "けいざい"
+  },
+  {
+    "jp": "警察",
+    "en": "police",
+    "furigana": "けいさつ"
+  },
+  {
+    "jp": "ケーキ",
+    "en": "cake"
+  },
+  {
+    "jp": "けが・する",
+    "en": "to injure"
+  },
+  {
+    "jp": "景色",
+    "en": "scene, landscape",
+    "furigana": "けしき"
+  },
+  {
+    "jp": "消しゴム",
+    "en": "eraser",
+    "furigana": "けしゴム"
+  },
+  {
+    "jp": "下宿",
+    "en": "lodging",
+    "furigana": "げしゅく"
+  },
+  {
+    "jp": "決して",
+    "en": "never",
+    "furigana": "けっして"
+  },
+  {
+    "jp": "けれど/けれども",
+    "en": "however"
+  },
+  {
+    "jp": "原因",
+    "en": "cause, source",
+    "furigana": "げんいん"
+  },
+  {
+    "jp": "けんか・する",
+    "en": "to quarrel"
+  },
+  {
+    "jp": "研究",
+    "en": "research",
+    "furigana": "けんきゅう"
+  },
+  {
+    "jp": "研究室",
+    "en": "study room, laboratory",
+    "furigana": "けんきゅうしつ"
+  },
+  {
+    "jp": "見物",
+    "en": "sightseeing",
+    "furigana": "けんぶつ"
+  },
+  {
+    "jp": "子",
+    "en": "child",
+    "furigana": "こ"
+  },
+  {
+    "jp": "こう",
+    "en": "this way"
+  },
+  {
+    "jp": "郊外",
+    "en": "outskirts",
+    "furigana": "こうがい"
+  },
+  {
+    "jp": "講義",
+    "en": "lecture",
+    "furigana": "こうぎ"
+  },
+  {
+    "jp": "工業",
+    "en": "the manufacturing industry",
+    "furigana": "こうぎょう"
+  },
+  {
+    "jp": "高校",
+    "en": "high school",
+    "furigana": "こうこう"
+  },
+  {
+    "jp": "高校生",
+    "en": "high school student",
+    "furigana": "こうこうせい"
+  },
+  {
+    "jp": "工場",
+    "en": "factory",
+    "furigana": "こうじょう"
+  },
+  {
+    "jp": "校長",
+    "en": "headmaster",
+    "furigana": "こうちょう"
+  },
+  {
+    "jp": "交通",
+    "en": "traffic, transportation",
+    "furigana": "こうつう"
+  },
+  {
+    "jp": "講堂",
+    "en": "auditorium",
+    "furigana": "こうどう"
+  },
+  {
+    "jp": "高等学校",
+    "en": "high school",
+    "furigana": "こうとうがっこう"
+  },
+  {
+    "jp": "公務員",
+    "en": "government worker",
+    "furigana": "こうむいん"
+  },
+  {
+    "jp": "国際",
+    "en": "international",
+    "furigana": "こくさい"
+  },
+  {
+    "jp": "心",
+    "en": "core, heart",
+    "furigana": "こころ"
+  },
+  {
+    "jp": "御主人",
+    "en": "(honorable) your husband",
+    "furigana": "ごしゅじん"
+  },
+  {
+    "jp": "故障",
+    "en": "こしょう・する to break-down"
+  },
+  {
+    "jp": "ご存じ",
+    "en": "knowing, acquaintance",
+    "furigana": "ごぞんじ"
+  },
+  {
+    "jp": "答",
+    "en": "response",
+    "furigana": "こたえ"
+  },
+  {
+    "jp": "ごちそう",
+    "en": "a feast"
+  },
+  {
+    "jp": "こと",
+    "en": "thing, matter"
+  },
+  {
+    "jp": "小鳥",
+    "en": "small bird",
+    "furigana": "ことり"
+  },
+  {
+    "jp": "このあいだ",
+    "en": "the other day, recently"
+  },
+  {
+    "jp": "このごろ",
+    "en": "these days, nowadays"
+  },
+  {
+    "jp": "細かい",
+    "en": "small, fine",
+    "furigana": "こまかい"
+  },
+  {
+    "jp": "ごみ",
+    "en": "rubbish"
+  },
+  {
+    "jp": "込む",
+    "en": "to be crowded",
+    "furigana": "こむ"
+  },
+  {
+    "jp": "米",
+    "en": "uncooked rice",
+    "furigana": "こめ"
+  },
+  {
+    "jp": "ごらんになる",
+    "en": "(respectful) to see"
+  },
+  {
+    "jp": "これから",
+    "en": "after this"
+  },
+  {
+    "jp": "怖い",
+    "en": "frightening",
+    "furigana": "こわい"
+  },
+  {
+    "jp": "壊す",
+    "en": "to break",
+    "furigana": "こわす"
+  },
+  {
+    "jp": "壊れる",
+    "en": "to be broken",
+    "furigana": "こわれる"
+  },
+  {
+    "jp": "コンサート",
+    "en": "concert"
+  },
+  {
+    "jp": "今度",
+    "en": "now, next time",
+    "furigana": "こんど"
+  },
+  {
+    "jp": "コンピュータ/コンピューター",
+    "en": "computer"
+  },
+  {
+    "jp": "今夜",
+    "en": "tonight",
+    "furigana": "こんや"
+  },
+  {
+    "jp": "最近",
+    "en": "latest, nowadays",
+    "furigana": "さいきん"
+  },
+  {
+    "jp": "最後",
+    "en": "last, end",
+    "furigana": "さいご"
+  },
+  {
+    "jp": "最初",
+    "en": "beginning, first",
+    "furigana": "さいしょ"
+  },
+  {
+    "jp": "坂",
+    "en": "slope, hill",
+    "furigana": "さか"
+  },
+  {
+    "jp": "探す",
+    "en": "to look for",
+    "furigana": "さがす"
+  },
+  {
+    "jp": "下る",
+    "en": "to get down, to descend",
+    "furigana": "さがる"
+  },
+  {
+    "jp": "盛ん",
+    "en": "popularity, prosperous",
+    "furigana": "さかん"
+  },
+  {
+    "jp": "下げる",
+    "en": "to hang, to lower, to move back",
+    "furigana": "さげる"
+  },
+  {
+    "jp": "差し上げる",
+    "en": "(polite) to give",
+    "furigana": "さしあげる"
+  },
+  {
+    "jp": "さっき",
+    "en": "some time ago"
+  },
+  {
+    "jp": "寂しい",
+    "en": "lonely",
+    "furigana": "さびしい"
+  },
+  {
+    "jp": "さ来月",
+    "en": "the month after next",
+    "furigana": "さらいげつ"
+  },
+  {
+    "jp": "さ来週",
+    "en": "the week after next",
+    "furigana": "さらいしゅう"
+  },
+  {
+    "jp": "サラダ",
+    "en": "salad"
+  },
+  {
+    "jp": "騒ぐ",
+    "en": "to make noise, to be excited",
+    "furigana": "さわぐ"
+  },
+  {
+    "jp": "触る",
+    "en": "to touch",
+    "furigana": "さわる"
+  },
+  {
+    "jp": "産業",
+    "en": "industry",
+    "furigana": "さんぎょう"
+  },
+  {
+    "jp": "サンダル",
+    "en": "sandal"
+  },
+  {
+    "jp": "サンドイッチ",
+    "en": "sandwich"
+  },
+  {
+    "jp": "残念",
+    "en": "disappointment",
+    "furigana": "ざんねん"
+  },
+  {
+    "jp": "市",
+    "en": "city",
+    "furigana": "し"
+  },
+  {
+    "jp": "字",
+    "en": "character",
+    "furigana": "じ"
+  },
+  {
+    "jp": "試合",
+    "en": "match, game",
+    "furigana": "しあい"
+  },
+  {
+    "jp": "仕方",
+    "en": "method",
+    "furigana": "しかた"
+  },
+  {
+    "jp": "しかる",
+    "en": "a particular"
+  },
+  {
+    "jp": "試験",
+    "en": "examination",
+    "furigana": "しけん"
+  },
+  {
+    "jp": "事故",
+    "en": "accident",
+    "furigana": "じこ"
+  },
+  {
+    "jp": "地震",
+    "en": "earthquake",
+    "furigana": "じしん"
+  },
+  {
+    "jp": "時代",
+    "en": "era",
+    "furigana": "じだい"
+  },
+  {
+    "jp": "下着",
+    "en": "underwear",
+    "furigana": "したぎ"
+  },
+  {
+    "jp": "支度",
+    "en": "したく・する to prepare"
+  },
+  {
+    "jp": "しっかり",
+    "en": "firmly, steadily"
+  },
+  {
+    "jp": "失敗",
+    "en": "failure, mistake",
+    "furigana": "しっぱい"
+  },
+  {
+    "jp": "辞典",
+    "en": "dictionary",
+    "furigana": "じてん"
+  },
+  {
+    "jp": "品物",
+    "en": "goods",
+    "furigana": "しなもの"
+  },
+  {
+    "jp": "しばらく",
+    "en": "little while"
+  },
+  {
+    "jp": "島",
+    "en": "island",
+    "furigana": "しま"
+  },
+  {
+    "jp": "市民",
+    "en": "citizen",
+    "furigana": "しみん"
+  },
+  {
+    "jp": "事務所",
+    "en": "office",
+    "furigana": "じむしょ"
+  },
+  {
+    "jp": "社会",
+    "en": "society, public",
+    "furigana": "しゃかい"
+  },
+  {
+    "jp": "社長",
+    "en": "company president",
+    "furigana": "しゃちょう"
+  },
+  {
+    "jp": "じゃま",
+    "en": "hindrance, intrusion"
+  },
+  {
+    "jp": "ジャム",
+    "en": "jam"
+  },
+  {
+    "jp": "自由",
+    "en": "freedom",
+    "furigana": "じゆう"
+  },
+  {
+    "jp": "習慣",
+    "en": "custom, manners",
+    "furigana": "しゅうかん"
+  },
+  {
+    "jp": "住所",
+    "en": "an address, a residence",
+    "furigana": "じゅうしょ"
+  },
+  {
+    "jp": "柔道",
+    "en": "judo",
+    "furigana": "じゅうどう"
+  },
+  {
+    "jp": "十分",
+    "en": "enough",
+    "furigana": "じゅうぶん"
+  },
+  {
+    "jp": "出席",
+    "en": "しゅっせき・する to attend"
+  },
+  {
+    "jp": "出発",
+    "en": "しゅっぱつ・する to depart"
+  },
+  {
+    "jp": "趣味",
+    "en": "hobby",
+    "furigana": "しゅみ"
+  },
+  {
+    "jp": "準備",
+    "en": "じゅんび・する to prepare"
+  },
+  {
+    "jp": "紹介",
+    "en": "introduction",
+    "furigana": "しょうかい"
+  },
+  {
+    "jp": "小学校",
+    "en": "elementary school",
+    "furigana": "しょうがっこう"
+  },
+  {
+    "jp": "小説",
+    "en": "novel",
+    "furigana": "しょうせつ"
+  },
+  {
+    "jp": "招待",
+    "en": "しょうたい・する to invite"
+  },
+  {
+    "jp": "承知",
+    "en": "しょうち・する to consent"
+  },
+  {
+    "jp": "将来",
+    "en": "future, prospects",
+    "furigana": "しょうらい"
+  },
+  {
+    "jp": "食事",
+    "en": "しょくじ・する to have a meal"
+  },
+  {
+    "jp": "食料品",
+    "en": "groceries",
+    "furigana": "しょくりょうひん"
+  },
+  {
+    "jp": "女性",
+    "en": "woman",
+    "furigana": "じょせい"
+  },
+  {
+    "jp": "知らせる",
+    "en": "to notify",
+    "furigana": "しらせる"
+  },
+  {
+    "jp": "調べる",
+    "en": "to investigate",
+    "furigana": "しらべる"
+  },
+  {
+    "jp": "人口",
+    "en": "population",
+    "furigana": "じんこう"
+  },
+  {
+    "jp": "神社",
+    "en": "Shinto shrine",
+    "furigana": "じんじゃ"
+  },
+  {
+    "jp": "親切",
+    "en": "kindness",
+    "furigana": "しんせつ"
+  },
+  {
+    "jp": "心配",
+    "en": "しんぱい・する to worry"
+  },
+  {
+    "jp": "新聞社",
+    "en": "newspaper company",
+    "furigana": "しんぶんしゃ"
+  },
+  {
+    "jp": "水泳",
+    "en": "swimming",
+    "furigana": "すいえい"
+  },
+  {
+    "jp": "水道",
+    "en": "water supply",
+    "furigana": "すいどう"
+  },
+  {
+    "jp": "ずいぶん",
+    "en": "extremely"
+  },
+  {
+    "jp": "数学",
+    "en": "mathematics, arithmetic",
+    "furigana": "すうがく"
+  },
+  {
+    "jp": "スーツ",
+    "en": "suit"
+  },
+  {
+    "jp": "スーツケース",
+    "en": "suitcase"
+  },
+  {
+    "jp": "過ぎる",
+    "en": "to exceed",
+    "furigana": "すぎる"
+  },
+  {
+    "jp": "すく",
+    "en": "to become empty"
+  },
+  {
+    "jp": "スクリーン",
+    "en": "screen"
+  },
+  {
+    "jp": "凄い",
+    "en": "terrific",
+    "furigana": "すごい"
+  },
+  {
+    "jp": "進む",
+    "en": "to make progress",
+    "furigana": "すすむ"
+  },
+  {
+    "jp": "すっかり",
+    "en": "completely"
+  },
+  {
+    "jp": "すっと",
+    "en": "straight, all of a sudden"
+  },
+  {
+    "jp": "ステーキ",
+    "en": "steak"
+  },
+  {
+    "jp": "捨てる",
+    "en": "to throw away",
+    "furigana": "すてる"
+  },
+  {
+    "jp": "ステレオ",
+    "en": "stereo"
+  },
+  {
+    "jp": "砂",
+    "en": "sand",
+    "furigana": "すな"
+  },
+  {
+    "jp": "すばらしい",
+    "en": "wonderful"
+  },
+  {
+    "jp": "滑る",
+    "en": "to slide, to slip",
+    "furigana": "すべる"
+  },
+  {
+    "jp": "隅",
+    "en": "corner, nook",
+    "furigana": "すみ"
+  },
+  {
+    "jp": "済む",
+    "en": "to finish",
+    "furigana": "すむ"
+  },
+  {
+    "jp": "すり",
+    "en": "pickpocket"
+  },
+  {
+    "jp": "すると",
+    "en": "then"
+  },
+  {
+    "jp": "生活",
+    "en": "せいかつ・する to live"
+  },
+  {
+    "jp": "生産",
+    "en": "せいさん・する to produce"
+  },
+  {
+    "jp": "政治",
+    "en": "politics, government",
+    "furigana": "せいじ"
+  },
+  {
+    "jp": "西洋",
+    "en": "western countries",
+    "furigana": "せいよう"
+  },
+  {
+    "jp": "世界",
+    "en": "the world",
+    "furigana": "せかい"
+  },
+  {
+    "jp": "席",
+    "en": "seat",
+    "furigana": "せき"
+  },
+  {
+    "jp": "説明",
+    "en": "explanation",
+    "furigana": "せつめい"
+  },
+  {
+    "jp": "背中",
+    "en": "back of the body",
+    "furigana": "せなか"
+  },
+  {
+    "jp": "ぜひ",
+    "en": "without fail"
+  },
+  {
+    "jp": "世話",
+    "en": "せわ・する to look after"
+  },
+  {
+    "jp": "線",
+    "en": "line",
+    "furigana": "せん"
+  },
+  {
+    "jp": "ぜんぜん",
+    "en": "not entirely (used in a negative sentence)"
+  },
+  {
+    "jp": "戦争",
+    "en": "war",
+    "furigana": "せんそう"
+  },
+  {
+    "jp": "先輩",
+    "en": "senior",
+    "furigana": "せんぱい"
+  },
+  {
+    "jp": "そう",
+    "en": "really"
+  },
+  {
+    "jp": "相談",
+    "en": "そうだん・する to discuss"
+  },
+  {
+    "jp": "育てる",
+    "en": "to rear, to bring up",
+    "furigana": "そだてる"
+  },
+  {
+    "jp": "卒業",
+    "en": "graduation",
+    "furigana": "そつぎょう"
+  },
+  {
+    "jp": "祖父",
+    "en": "grandfather",
+    "furigana": "そふ"
+  },
+  {
+    "jp": "ソフト",
+    "en": "soft"
+  },
+  {
+    "jp": "祖母",
+    "en": "grandmother",
+    "furigana": "そぼ"
+  },
+  {
+    "jp": "それで",
+    "en": "because of that"
+  },
+  {
+    "jp": "それに",
+    "en": "moreover"
+  },
+  {
+    "jp": "それほど",
+    "en": "to that extent"
+  },
+  {
+    "jp": "そろそろ",
+    "en": "gradually, soon"
+  },
+  {
+    "jp": "そんな",
+    "en": "that sort of"
+  },
+  {
+    "jp": "そんなに",
+    "en": "so much, like that"
+  },
+  {
+    "jp": "退院",
+    "en": "たいいん・する to leave hospital"
+  },
+  {
+    "jp": "大学生",
+    "en": "university student",
+    "furigana": "だいがくせい"
+  },
+  {
+    "jp": "大事",
+    "en": "important, valuable, serious matter",
+    "furigana": "だいじ"
+  },
+  {
+    "jp": "大体",
+    "en": "generally",
+    "furigana": "だいたい"
+  },
+  {
+    "jp": "たいてい",
+    "en": "usually"
+  },
+  {
+    "jp": "タイプ",
+    "en": "type, style"
+  },
+  {
+    "jp": "大分",
+    "en": "greatly",
+    "furigana": "だいぶ"
+  },
+  {
+    "jp": "台風",
+    "en": "typhoon",
+    "furigana": "たいふう"
+  },
+  {
+    "jp": "倒れる",
+    "en": "to break down",
+    "furigana": "たおれる"
+  },
+  {
+    "jp": "だから",
+    "en": "so, therefore"
+  },
+  {
+    "jp": "確か",
+    "en": "definite",
+    "furigana": "たしか"
+  },
+  {
+    "jp": "足す",
+    "en": "to add a number",
+    "furigana": "たす"
+  },
+  {
+    "jp": "訪ねる",
+    "en": "to visit",
+    "furigana": "たずねる"
+  },
+  {
+    "jp": "尋ねる",
+    "en": "to ask",
+    "furigana": "たずねる"
+  },
+  {
+    "jp": "正しい",
+    "en": "correct",
+    "furigana": "ただしい"
+  },
+  {
+    "jp": "畳",
+    "en": "Japanese straw mat",
+    "furigana": "たたみ"
+  },
+  {
+    "jp": "立てる",
+    "en": "to stand something up",
+    "furigana": "たてる"
+  },
+  {
+    "jp": "建てる",
+    "en": "to build",
+    "furigana": "たてる"
+  },
+  {
+    "jp": "例えば",
+    "en": "for example",
+    "furigana": "たとえば"
+  },
+  {
+    "jp": "棚",
+    "en": "shelves",
+    "furigana": "たな"
+  },
+  {
+    "jp": "楽しみ",
+    "en": "joy",
+    "furigana": "たのしみ"
+  },
+  {
+    "jp": "楽む",
+    "en": "to enjoy oneself",
+    "furigana": "たのしむ"
+  },
+  {
+    "jp": "たまに",
+    "en": "occasionally"
+  },
+  {
+    "jp": "為",
+    "en": "in order to",
+    "furigana": "ため"
+  },
+  {
+    "jp": "だめ",
+    "en": "no good"
+  },
+  {
+    "jp": "足りる",
+    "en": "to be enough",
+    "furigana": "たりる"
+  },
+  {
+    "jp": "男性",
+    "en": "male",
+    "furigana": "だんせい"
+  },
+  {
+    "jp": "暖房",
+    "en": "heating",
+    "furigana": "だんぼう"
+  },
+  {
+    "jp": "血",
+    "en": "blood",
+    "furigana": "ち"
+  },
+  {
+    "jp": "チェック・する",
+    "en": "to check"
+  },
+  {
+    "jp": "力",
+    "en": "strength, power",
+    "furigana": "ちから"
+  },
+  {
+    "jp": "ちっとも",
+    "en": "not at all (used with a negative verb)"
+  },
+  {
+    "jp": "ちゃん",
+    "en": "suffix for familiar female person"
+  },
+  {
+    "jp": "注意",
+    "en": "caution",
+    "furigana": "ちゅうい"
+  },
+  {
+    "jp": "中学校",
+    "en": "junior high school, middle school",
+    "furigana": "ちゅうがっこう"
+  },
+  {
+    "jp": "注射",
+    "en": "injection",
+    "furigana": "ちゅうしゃ"
+  },
+  {
+    "jp": "駐車場",
+    "en": "parking lot",
+    "furigana": "ちゅうしゃじょう"
+  },
+  {
+    "jp": "地理",
+    "en": "geography",
+    "furigana": "ちり"
+  },
+  {
+    "jp": "捕まえる",
+    "en": "to seize",
+    "furigana": "つかまえる"
+  },
+  {
+    "jp": "つき",
+    "en": "moon"
+  },
+  {
+    "jp": "付く",
+    "en": "to be attached",
+    "furigana": "つく"
+  },
+  {
+    "jp": "漬ける",
+    "en": "to soak, to pickle",
+    "furigana": "つける"
+  },
+  {
+    "jp": "都合",
+    "en": "circumstances, convenience",
+    "furigana": "つごう"
+  },
+  {
+    "jp": "伝える",
+    "en": "to report",
+    "furigana": "つたえる"
+  },
+  {
+    "jp": "続く",
+    "en": "to be continued",
+    "furigana": "つづく"
+  },
+  {
+    "jp": "続ける",
+    "en": "to continue",
+    "furigana": "つづける"
+  },
+  {
+    "jp": "包む",
+    "en": "to wrap",
+    "furigana": "つつむ"
+  },
+  {
+    "jp": "妻",
+    "en": "(humble) wife",
+    "furigana": "つま"
+  },
+  {
+    "jp": "つもり",
+    "en": "intention"
+  },
+  {
+    "jp": "釣る",
+    "en": "to fish",
+    "furigana": "つる"
+  },
+  {
+    "jp": "連れる",
+    "en": "to lead",
+    "furigana": "つれる"
+  },
+  {
+    "jp": "丁寧",
+    "en": "polite",
+    "furigana": "ていねい"
+  },
+  {
+    "jp": "テキスト",
+    "en": "text, text book"
+  },
+  {
+    "jp": "適当",
+    "en": "suitability",
+    "furigana": "てきとう"
+  },
+  {
+    "jp": "できるだけ",
+    "en": "as much as possible"
+  },
+  {
+    "jp": "手伝う",
+    "en": "to assist",
+    "furigana": "てつだう"
+  },
+  {
+    "jp": "テニス",
+    "en": "tennis"
+  },
+  {
+    "jp": "手袋",
+    "en": "glove",
+    "furigana": "てぶくろ"
+  },
+  {
+    "jp": "寺",
+    "en": "temple",
+    "furigana": "てら"
+  },
+  {
+    "jp": "点",
+    "en": "point, dot",
+    "furigana": "てん"
+  },
+  {
+    "jp": "店員",
+    "en": "shop assistant",
+    "furigana": "てんいん"
+  },
+  {
+    "jp": "天気予報",
+    "en": "weather forecast",
+    "furigana": "てんきよほう"
+  },
+  {
+    "jp": "電灯",
+    "en": "electric light",
+    "furigana": "でんとう"
+  },
+  {
+    "jp": "電報",
+    "en": "telegram",
+    "furigana": "でんぽう"
+  },
+  {
+    "jp": "展覧会",
+    "en": "exhibition",
+    "furigana": "てんらんかい"
+  },
+  {
+    "jp": "都",
+    "en": "metropolitan",
+    "furigana": "と"
+  },
+  {
+    "jp": "道具",
+    "en": "tool, means",
+    "furigana": "どうぐ"
+  },
+  {
+    "jp": "とうとう",
+    "en": "finally, after all"
+  },
+  {
+    "jp": "動物園",
+    "en": "zoo",
+    "furigana": "どうぶつえん"
+  },
+  {
+    "jp": "遠く",
+    "en": "distant",
+    "furigana": "とおく"
+  },
+  {
+    "jp": "通る",
+    "en": "to go through",
+    "furigana": "とおる"
+  },
+  {
+    "jp": "特に",
+    "en": "particularly, especially",
+    "furigana": "とくに"
+  },
+  {
+    "jp": "特別",
+    "en": "special",
+    "furigana": "とくべつ"
+  },
+  {
+    "jp": "とこや",
+    "en": "barber"
+  },
+  {
+    "jp": "途中",
+    "en": "on the way",
+    "furigana": "とちゅう"
+  },
+  {
+    "jp": "特急",
+    "en": "limited express train (faster than an express train)",
+    "furigana": "とっきゅう"
+  },
+  {
+    "jp": "届ける",
+    "en": "to reach",
+    "furigana": "とどける"
+  },
+  {
+    "jp": "泊まる",
+    "en": "to lodge at",
+    "furigana": "とまる"
+  },
+  {
+    "jp": "止める",
+    "en": "to stop something",
+    "furigana": "とめる"
+  },
+  {
+    "jp": "取り替える",
+    "en": "to exchange",
+    "furigana": "とりかえる"
+  },
+  {
+    "jp": "泥棒",
+    "en": "thief",
+    "furigana": "どろぼう"
+  },
+  {
+    "jp": "どんどん",
+    "en": "more and more"
+  },
+  {
+    "jp": "直す",
+    "en": "to fix, to repair",
+    "furigana": "なおす"
+  },
+  {
+    "jp": "直る",
+    "en": "to be fixed, to be repaired",
+    "furigana": "なおる"
+  },
+  {
+    "jp": "治る",
+    "en": "to be cured, to heal",
+    "furigana": "なおる"
+  },
+  {
+    "jp": "中々",
+    "en": "considerably",
+    "furigana": "なかなか"
+  },
+  {
+    "jp": "泣く",
+    "en": "to weep",
+    "furigana": "なく"
+  },
+  {
+    "jp": "無くなる",
+    "en": "to disappear, to get lost",
+    "furigana": "なくなる"
+  },
+  {
+    "jp": "亡くなる",
+    "en": "to die",
+    "furigana": "なくなる"
+  },
+  {
+    "jp": "投げる",
+    "en": "to throw or cast away",
+    "furigana": "なげる"
+  },
+  {
+    "jp": "なさる",
+    "en": "(respectful) to do"
+  },
+  {
+    "jp": "鳴る",
+    "en": "to sound",
+    "furigana": "なる"
+  },
+  {
+    "jp": "なるべく",
+    "en": "as much as possible"
+  },
+  {
+    "jp": "なるほど",
+    "en": "now I understand"
+  },
+  {
+    "jp": "慣れる",
+    "en": "to grow accustomed to",
+    "furigana": "なれる"
+  },
+  {
+    "jp": "におい",
+    "en": "a smell"
+  },
+  {
+    "jp": "苦い",
+    "en": "bitter",
+    "furigana": "にがい"
+  },
+  {
+    "jp": "二階建て",
+    "en": "two storied",
+    "furigana": "にかいだて"
+  },
+  {
+    "jp": "逃げる",
+    "en": "to escape",
+    "furigana": "にげる"
+  },
+  {
+    "jp": "日記",
+    "en": "journal",
+    "furigana": "にっき"
+  },
+  {
+    "jp": "入院",
+    "en": "にゅういん・する to hospitalise"
+  },
+  {
+    "jp": "入学",
+    "en": "にゅうがく・する to enter school or university"
+  },
+  {
+    "jp": "似る",
+    "en": "to be similar",
+    "furigana": "にる"
+  },
+  {
+    "jp": "人形",
+    "en": "doll, figure",
+    "furigana": "にんぎょう"
+  },
+  {
+    "jp": "盗む",
+    "en": "to steal",
+    "furigana": "ぬすむ"
+  },
+  {
+    "jp": "塗る",
+    "en": "to paint, to plaster",
+    "furigana": "ぬる"
+  },
+  {
+    "jp": "ぬれる",
+    "en": "to get wet"
+  },
+  {
+    "jp": "ねだん",
+    "en": "price"
+  },
+  {
+    "jp": "熱",
+    "en": "fever",
+    "furigana": "ねつ"
+  },
+  {
+    "jp": "ねっしん",
+    "en": "enthusiasm"
+  },
+  {
+    "jp": "寝坊",
+    "en": "sleeping in late",
+    "furigana": "ねぼう"
+  },
+  {
+    "jp": "眠い",
+    "en": "sleepy",
+    "furigana": "ねむい"
+  },
+  {
+    "jp": "眠る",
+    "en": "to sleep",
+    "furigana": "ねむる"
+  },
+  {
+    "jp": "残る",
+    "en": "to remain",
+    "furigana": "のこる"
+  },
+  {
+    "jp": "のど",
+    "en": "throat"
+  },
+  {
+    "jp": "乗り換える",
+    "en": "to change between buses or trains",
+    "furigana": "のりかえる"
+  },
+  {
+    "jp": "乗り物",
+    "en": "vehicle",
+    "furigana": "のりもの"
+  },
+  {
+    "jp": "葉",
+    "en": "leaf",
+    "furigana": "は"
+  },
+  {
+    "jp": "場合",
+    "en": "situation",
+    "furigana": "ばあい"
+  },
+  {
+    "jp": "パート",
+    "en": "part time"
+  },
+  {
+    "jp": "倍",
+    "en": "double",
+    "furigana": "ばい"
+  },
+  {
+    "jp": "拝見",
+    "en": "はいけん・する (humble) to look at"
+  },
+  {
+    "jp": "歯医者",
+    "en": "dentist",
+    "furigana": "はいしゃ"
+  },
+  {
+    "jp": "運ぶ",
+    "en": "to transport",
+    "furigana": "はこぶ"
+  },
+  {
+    "jp": "始める",
+    "en": "to begin",
+    "furigana": "はじめる"
+  },
+  {
+    "jp": "場所",
+    "en": "location",
+    "furigana": "ばしょ"
+  },
+  {
+    "jp": "はず",
+    "en": "it should be so"
+  },
+  {
+    "jp": "恥ずかしい",
+    "en": "embarrassed",
+    "furigana": "はずかしい"
+  },
+  {
+    "jp": "パソコン",
+    "en": "personal computer"
+  },
+  {
+    "jp": "発音",
+    "en": "pronunciation",
+    "furigana": "はつおん"
+  },
+  {
+    "jp": "はっきり",
+    "en": "clearly"
+  },
+  {
+    "jp": "花見",
+    "en": "cherry-blossom viewing",
+    "furigana": "はなみ"
+  },
+  {
+    "jp": "林",
+    "en": "woods, forester",
+    "furigana": "はやし"
+  },
+  {
+    "jp": "払う",
+    "en": "to pay",
+    "furigana": "はらう"
+  },
+  {
+    "jp": "番組",
+    "en": "television or radio program",
+    "furigana": "ばんぐみ"
+  },
+  {
+    "jp": "反対",
+    "en": "opposition",
+    "furigana": "はんたい"
+  },
+  {
+    "jp": "ハンドバッグ",
+    "en": "handbag"
+  },
+  {
+    "jp": "日",
+    "en": "day, sun",
+    "furigana": "ひ"
+  },
+  {
+    "jp": "火",
+    "en": "fire",
+    "furigana": "ひ"
+  },
+  {
+    "jp": "ピアノ",
+    "en": "piano"
+  },
+  {
+    "jp": "冷える",
+    "en": "to grow cold",
+    "furigana": "ひえる"
+  },
+  {
+    "jp": "光",
+    "en": "light",
+    "furigana": "ひかり"
+  },
+  {
+    "jp": "光る",
+    "en": "to shine, to glitter",
+    "furigana": "ひかる"
+  },
+  {
+    "jp": "引き出し",
+    "en": "drawer, drawing out",
+    "furigana": "ひきだし"
+  },
+  {
+    "jp": "引き出す",
+    "en": "to withdraw",
+    "furigana": "ひきだす"
+  },
+  {
+    "jp": "ひげ",
+    "en": "beard"
+  },
+  {
+    "jp": "飛行場",
+    "en": "airport",
+    "furigana": "ひこうじょう"
+  },
+  {
+    "jp": "久しぶり",
+    "en": "after a long time",
+    "furigana": "ひさしぶり"
+  },
+  {
+    "jp": "美術館",
+    "en": "art gallery",
+    "furigana": "びじゅつかん"
+  },
+  {
+    "jp": "非常に",
+    "en": "extremely",
+    "furigana": "ひじょうに"
+  },
+  {
+    "jp": "びっくり・する",
+    "en": "to be surprised"
+  },
+  {
+    "jp": "引っ越す",
+    "en": "to move house",
+    "furigana": "ひっこす"
+  },
+  {
+    "jp": "必要",
+    "en": "necessary",
+    "furigana": "ひつよう"
+  },
+  {
+    "jp": "ひどい",
+    "en": "awful"
+  },
+  {
+    "jp": "開く",
+    "en": "to open an event",
+    "furigana": "ひらく"
+  },
+  {
+    "jp": "ビル",
+    "en": "building or bill"
+  },
+  {
+    "jp": "昼間",
+    "en": "daytime, during the day",
+    "furigana": "ひるま"
+  },
+  {
+    "jp": "昼休み",
+    "en": "noon break",
+    "furigana": "ひるやすみ"
+  },
+  {
+    "jp": "拾う",
+    "en": "to pick up, to gather",
+    "furigana": "ひろう"
+  },
+  {
+    "jp": "ファックス",
+    "en": "fax"
+  },
+  {
+    "jp": "増える",
+    "en": "to increase",
+    "furigana": "ふえる"
+  },
+  {
+    "jp": "深い",
+    "en": "deep",
+    "furigana": "ふかい"
+  },
+  {
+    "jp": "複雑",
+    "en": "complexity, complication",
+    "furigana": "ふくざつ"
+  },
+  {
+    "jp": "復習",
+    "en": "revision",
+    "furigana": "ふくしゅう"
+  },
+  {
+    "jp": "部長",
+    "en": "head of a section",
+    "furigana": "ぶちょう"
+  },
+  {
+    "jp": "普通",
+    "en": "usually, or a train that stops at every station",
+    "furigana": "ふつう"
+  },
+  {
+    "jp": "ぶどう",
+    "en": "grapes"
+  },
+  {
+    "jp": "太る",
+    "en": "to become fat",
+    "furigana": "ふとる"
+  },
+  {
+    "jp": "布団",
+    "en": "Japanese bedding, futon",
+    "furigana": "ふとん"
+  },
+  {
+    "jp": "舟",
+    "en": "ship",
+    "furigana": "ふね"
+  },
+  {
+    "jp": "不便",
+    "en": "inconvenience",
+    "furigana": "ふべん"
+  },
+  {
+    "jp": "踏む",
+    "en": "to step on",
+    "furigana": "ふむ"
+  },
+  {
+    "jp": "降り出す",
+    "en": "to start to rain",
+    "furigana": "ふりだす"
+  },
+  {
+    "jp": "プレゼント",
+    "en": "present"
+  },
+  {
+    "jp": "文化",
+    "en": "culture",
+    "furigana": "ぶんか"
+  },
+  {
+    "jp": "文学",
+    "en": "literature",
+    "furigana": "ぶんがく"
+  },
+  {
+    "jp": "文法",
+    "en": "grammar",
+    "furigana": "ぶんぽう"
+  },
+  {
+    "jp": "別",
+    "en": "different",
+    "furigana": "べつ"
+  },
+  {
+    "jp": "ベル",
+    "en": "bell"
+  },
+  {
+    "jp": "変",
+    "en": "strange",
+    "furigana": "へん"
+  },
+  {
+    "jp": "返事",
+    "en": "reply",
+    "furigana": "へんじ"
+  },
+  {
+    "jp": "貿易",
+    "en": "trade",
+    "furigana": "ぼうえき"
+  },
+  {
+    "jp": "放送",
+    "en": "ほうそう・する to broadcast"
+  },
+  {
+    "jp": "法律",
+    "en": "law",
+    "furigana": "ほうりつ"
+  },
+  {
+    "jp": "僕",
+    "en": "I (used by males)",
+    "furigana": "ぼく"
+  },
+  {
+    "jp": "星",
+    "en": "star",
+    "furigana": "ほし"
+  },
+  {
+    "jp": "ほど",
+    "en": "extent"
+  },
+  {
+    "jp": "ほとんど",
+    "en": "mostly"
+  },
+  {
+    "jp": "ほめる",
+    "en": "to praise"
+  },
+  {
+    "jp": "翻訳",
+    "en": "translation",
+    "furigana": "ほんやく"
+  },
+  {
+    "jp": "参る",
+    "en": "(humble) to go, to come",
+    "furigana": "まいる"
+  },
+  {
+    "jp": "負ける",
+    "en": "to lose",
+    "furigana": "まける"
+  },
+  {
+    "jp": "まじめ",
+    "en": "serious"
+  },
+  {
+    "jp": "まず",
+    "en": "first of all"
+  },
+  {
+    "jp": "または",
+    "en": "or, otherwise"
+  },
+  {
+    "jp": "間違える",
+    "en": "to make a mistake",
+    "furigana": "まちがえる"
+  },
+  {
+    "jp": "間に合う",
+    "en": "to be in time for",
+    "furigana": "まにあう"
+  },
+  {
+    "jp": "周り",
+    "en": "surroundings",
+    "furigana": "まわり"
+  },
+  {
+    "jp": "回る",
+    "en": "to go around",
+    "furigana": "まわる"
+  },
+  {
+    "jp": "漫画",
+    "en": "comic",
+    "furigana": "まんが"
+  },
+  {
+    "jp": "真中",
+    "en": "middle",
+    "furigana": "まんなか"
+  },
+  {
+    "jp": "見える",
+    "en": "to be in sight",
+    "furigana": "みえる"
+  },
+  {
+    "jp": "湖",
+    "en": "lake",
+    "furigana": "みずうみ"
+  },
+  {
+    "jp": "味噌",
+    "en": "bean paste",
+    "furigana": "みそ"
+  },
+  {
+    "jp": "見つかる",
+    "en": "to be discovered",
+    "furigana": "みつかる"
+  },
+  {
+    "jp": "見つける",
+    "en": "to discover",
+    "furigana": "みつける"
+  },
+  {
+    "jp": "皆",
+    "en": "everybody",
+    "furigana": "みな"
+  },
+  {
+    "jp": "港",
+    "en": "harbour",
+    "furigana": "みなと"
+  },
+  {
+    "jp": "向かう",
+    "en": "to face",
+    "furigana": "むかう"
+  },
+  {
+    "jp": "迎える",
+    "en": "to go out to meet",
+    "furigana": "むかえる"
+  },
+  {
+    "jp": "昔",
+    "en": "olden days, former",
+    "furigana": "むかし"
+  },
+  {
+    "jp": "虫",
+    "en": "insect",
+    "furigana": "むし"
+  },
+  {
+    "jp": "息子",
+    "en": "(humble) son",
+    "furigana": "むすこ"
+  },
+  {
+    "jp": "娘",
+    "en": "(humble) daughter",
+    "furigana": "むすめ"
+  },
+  {
+    "jp": "無理",
+    "en": "impossible",
+    "furigana": "むり"
+  },
+  {
+    "jp": "召し上がる",
+    "en": "(polite) to eat",
+    "furigana": "めしあがる"
+  },
+  {
+    "jp": "珍しい",
+    "en": "rare",
+    "furigana": "めずらしい"
+  },
+  {
+    "jp": "申し上げる",
+    "en": "(humble) to say, to tell",
+    "furigana": "もうしあげる"
+  },
+  {
+    "jp": "申す",
+    "en": "(humble) to be called, to say",
+    "furigana": "もうす"
+  },
+  {
+    "jp": "もうすぐ",
+    "en": "soon"
+  },
+  {
+    "jp": "もし",
+    "en": "if"
+  },
+  {
+    "jp": "もちろん",
+    "en": "of course"
+  },
+  {
+    "jp": "もっとも",
+    "en": "extremely"
+  },
+  {
+    "jp": "戻る",
+    "en": "to turn back",
+    "furigana": "もどる"
+  },
+  {
+    "jp": "木綿",
+    "en": "cotton",
+    "furigana": "もめん"
+  },
+  {
+    "jp": "もらう",
+    "en": "to receive"
+  },
+  {
+    "jp": "森",
+    "en": "forest",
+    "furigana": "もり"
+  },
+  {
+    "jp": "焼く",
+    "en": "to bake, to grill",
+    "furigana": "やく"
+  },
+  {
+    "jp": "約束",
+    "en": "promise",
+    "furigana": "やくそく"
+  },
+  {
+    "jp": "役に立つ",
+    "en": "to be helpful",
+    "furigana": "やくにたつ"
+  },
+  {
+    "jp": "焼ける",
+    "en": "to burn, to be roasted",
+    "furigana": "やける"
+  },
+  {
+    "jp": "優しい",
+    "en": "kind",
+    "furigana": "やさしい"
+  },
+  {
+    "jp": "痩せる",
+    "en": "to become thin",
+    "furigana": "やせる"
+  },
+  {
+    "jp": "やっと",
+    "en": "at last"
+  },
+  {
+    "jp": "やはり/やっぱり",
+    "en": "as I thought, absolutely"
+  },
+  {
+    "jp": "止む",
+    "en": "to stop",
+    "furigana": "やむ"
+  },
+  {
+    "jp": "止める",
+    "en": "to stop",
+    "furigana": "やめる"
+  },
+  {
+    "jp": "柔らかい",
+    "en": "soft",
+    "furigana": "やわらかい"
+  },
+  {
+    "jp": "湯",
+    "en": "hot water",
+    "furigana": "ゆ"
+  },
+  {
+    "jp": "輸出",
+    "en": "ゆしゅつ・する to export"
+  },
+  {
+    "jp": "輸入",
+    "en": "ゆにゅう・する to import"
+  },
+  {
+    "jp": "指",
+    "en": "finger",
+    "furigana": "ゆび"
+  },
+  {
+    "jp": "指輪",
+    "en": "finger ring",
+    "furigana": "ゆびわ"
+  },
+  {
+    "jp": "夢",
+    "en": "dream",
+    "furigana": "ゆめ"
+  },
+  {
+    "jp": "揺れる",
+    "en": "to shake, to sway",
+    "furigana": "ゆれる"
+  },
+  {
+    "jp": "用",
+    "en": "use",
+    "furigana": "よう"
+  },
+  {
+    "jp": "用意",
+    "en": "preparation",
+    "furigana": "ようい"
+  },
+  {
+    "jp": "用事",
+    "en": "things to do",
+    "furigana": "ようじ"
+  },
+  {
+    "jp": "汚れる",
+    "en": "to get dirty",
+    "furigana": "よごれる"
+  },
+  {
+    "jp": "予習",
+    "en": "preparation for a lesson",
+    "furigana": "よしゅう"
+  },
+  {
+    "jp": "予定",
+    "en": "arrangement",
+    "furigana": "よてい"
+  },
+  {
+    "jp": "予約",
+    "en": "reservation",
+    "furigana": "よやく"
+  },
+  {
+    "jp": "寄る",
+    "en": "to visit",
+    "furigana": "よる"
+  },
+  {
+    "jp": "喜ぶ",
+    "en": "to be delighted",
+    "furigana": "よろこぶ"
+  },
+  {
+    "jp": "よろしい",
+    "en": "(respectful) OK, all right"
+  },
+  {
+    "jp": "理由",
+    "en": "reason",
+    "furigana": "りゆう"
+  },
+  {
+    "jp": "利用",
+    "en": "utilization",
+    "furigana": "りよう"
+  },
+  {
+    "jp": "両方",
+    "en": "both sides",
+    "furigana": "りょうほう"
+  },
+  {
+    "jp": "旅館",
+    "en": "Japanese hotel",
+    "furigana": "りょかん"
+  },
+  {
+    "jp": "留守",
+    "en": "absence",
+    "furigana": "るす"
+  },
+  {
+    "jp": "冷房",
+    "en": "air conditioning",
+    "furigana": "れいぼう"
+  },
+  {
+    "jp": "歴史",
+    "en": "history",
+    "furigana": "れきし"
+  },
+  {
+    "jp": "レジ",
+    "en": "register"
+  },
+  {
+    "jp": "レポート/リポート",
+    "en": "report"
+  },
+  {
+    "jp": "連絡",
+    "en": "contact",
+    "furigana": "れんらく"
+  },
+  {
+    "jp": "ワープロ",
+    "en": "word processor"
+  },
+  {
+    "jp": "沸かす",
+    "en": "to boil, to heat",
+    "furigana": "わかす"
+  },
+  {
+    "jp": "別れる",
+    "en": "to separate",
+    "furigana": "わかれる"
+  },
+  {
+    "jp": "沸く",
+    "en": "to boil, to grow hot, to get excited",
+    "furigana": "わく"
+  },
+  {
+    "jp": "訳",
+    "en": "meaning, reason",
+    "furigana": "わけ"
+  },
+  {
+    "jp": "忘れ物",
+    "en": "lost article",
+    "furigana": "わすれもの"
+  },
+  {
+    "jp": "笑う",
+    "en": "to laugh, to smile",
+    "furigana": "わらう"
+  },
+  {
+    "jp": "割合",
+    "en": "rate, ratio, percentage",
+    "furigana": "わりあい"
+  },
+  {
+    "jp": "割れる",
+    "en": "to break",
+    "furigana": "われる"
+  },
+  {
+    "jp": "泳ぎ方",
+    "en": "way of swimming",
+    "furigana": "およぎかた"
+  }
+]
