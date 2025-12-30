@@ -2,6 +2,14 @@ import seedrandom from 'seedrandom';
 import { isKana, toRomaji } from 'wanakana';
 import type { JlptLevel, JlptWord, Word } from '../types';
 
+const words: Record<JlptLevel, Word[]> = {
+  N1: [],
+  N2: [],
+  N3: [],
+  N4: [],
+  N5: [],
+};
+
 export function getWordsForDate(
   words: Word[],
   count: number,
@@ -27,8 +35,15 @@ export function transformWords(level: JlptLevel, words?: JlptWord[]): Word[] {
 }
 
 export async function loadWordsForLevel(level: JlptLevel): Promise<Word[]> {
+  const cachedWords = words[level];
+  if (cachedWords.length > 0) return cachedWords;
+
   const res = await fetch(`/data/${level}.json`);
   if (!res.ok) throw new Error(`Failed to load ${level} words`);
   const data: JlptWord[] = await res.json();
-  return transformWords(level, data);
+  const formatted: Word[] = transformWords(level, data);
+  // Save words in memory
+  words[level] = formatted;
+
+  return formatted;
 }

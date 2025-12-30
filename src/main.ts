@@ -1,11 +1,14 @@
-import renderFlashcard from './components/flashcard';
 import renderIcon from './components/icon';
 import './style.css';
 import IconSettings from './assets/icons/settings.svg?raw';
 import { getWordsForDate, loadWordsForLevel } from './utils/words';
 import { getSettings } from './utils/settings';
+import type { Word } from './types';
+import renderFlashcards from './components/flashcards';
 
-const settings = getSettings();
+// Global state
+let settings = getSettings();
+let todaysWords: Word[] = [];
 
 const displayDate = () => {
   const el = document.getElementById('todaysDate');
@@ -26,29 +29,14 @@ const configureSettingsButton = () => {
 
 configureSettingsButton();
 
-const displayFlashcards = async () => {
-  const el = document.getElementById('flashcards');
-  if (!el) return;
-
-  const words = await Promise.all(
-    settings.jlptLevels.map((jlpt) => loadWordsForLevel(jlpt))
-  );
-  const todaysWords = getWordsForDate(
-    words.flatMap((wordArr) => wordArr),
-    settings.words
+const refreshWords = async () => {
+  const wordArrays = await Promise.all(
+    settings.jlptLevels.map(loadWordsForLevel)
   );
 
-  for (const word of todaysWords) {
-    el.appendChild(
-      renderFlashcard({
-        jlpt: word.jlpt,
-        vocab: word.jp,
-        furigana: word.furigana,
-        meaning: word.en,
-        romaji: word.romaji,
-      })
-    );
-  }
+  todaysWords = getWordsForDate(wordArrays.flat(), settings.words);
+
+  renderFlashcards({ words: todaysWords, settings });
 };
 
-displayFlashcards();
+refreshWords();
