@@ -1,5 +1,5 @@
 import { IconBook } from '@tabler/icons-preact';
-import type { Word } from '../types';
+import type { Word } from '@/types';
 import { FlashcardLevel } from './FlashcardLevel';
 
 interface FlashcardProps {

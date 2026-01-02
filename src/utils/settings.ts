@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import type { Settings } from '../types';
+import type { Settings } from '@/types';
 
 const LOCAL_SETTINGS_KEY = 'settings';
 const DEFAULT_SETTINGS: Settings = {

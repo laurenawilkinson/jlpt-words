@@ -1,5 +1,5 @@
-import type { JlptLevel } from '../types';
-import clsx from 'clsx';
+import type { JlptLevel } from '@/types';
+import { cn } from '@/utils/cn';
 
 interface FlashcardLevelProps {
   className?: string;
@@ -9,7 +9,7 @@ interface FlashcardLevelProps {
 export const FlashcardLevel = ({ className, level }: FlashcardLevelProps) => {
   return (
     <span
-      className={clsx(
+      className={cn(
         'rounded-xl px-3 py-1 font-semibold tracking-wide',
         {
           'bg-red-400': level === 'N1',

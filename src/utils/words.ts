@@ -1,6 +1,6 @@
 import seedrandom from 'seedrandom';
 import { isKana, toRomaji } from 'wanakana';
-import type { JlptLevel, JlptWord, Word } from '../types';
+import type { JlptLevel, JlptWord, Word } from '@/types';
 
 const words: Record<JlptLevel, Word[]> = {
   N1: [],
