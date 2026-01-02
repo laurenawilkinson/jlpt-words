@@ -15,7 +15,7 @@ const settingsSchema = z.object({
   jlptLevels: z.array(z.enum(['N5', 'N4', 'N3', 'N2', 'N1'])),
 });
 
-export const getSettings = (): Settings => {
+export const getAppSettings = (): Settings => {
   const localSettings = localStorage.getItem(LOCAL_SETTINGS_KEY);
 
   if (!localSettings) return DEFAULT_SETTINGS;
@@ -35,7 +35,8 @@ export const getSettings = (): Settings => {
   }
 };
 
-export const setSettings = (newSettings: Settings) => {
+export const setAppSettings = (newSettings: Settings): Settings => {
   const settings = settingsSchema.parse(newSettings);
   localStorage.setItem(LOCAL_SETTINGS_KEY, JSON.stringify(settings));
+  return settings;
 };

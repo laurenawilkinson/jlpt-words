@@ -13,10 +13,9 @@ const words: Record<JlptLevel, Word[]> = {
 export function getWordsForDate(
   words: Word[],
   count: number,
-  date = new Date()
+  dateKey: string
 ): Word[] {
-  const seed = date.toISOString().slice(0, 10);
-  const rng = seedrandom(seed);
+  const rng = seedrandom(dateKey);
 
   const shuffled = [...words].sort(() => rng() - 0.5);
   return shuffled.slice(0, count);
