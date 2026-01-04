@@ -1,6 +1,7 @@
 import { IconBook } from '@tabler/icons-preact';
 import type { Word } from '@/types';
 import { FlashcardLevel } from './FlashcardLevel';
+import IconButton from './UI/IconButton';
 
 interface FlashcardProps {
   word: Word;
@@ -28,14 +29,16 @@ export const Flashcard = ({
       )}
       <h2 className="text-6xl font-bold">{word.jp}</h2>
       {showRomaji && <span>{word.romaji}</span>}
-      <a
-        className="absolute bottom-5 flex items-center gap-1.5 font-semibold opacity-50"
-        href={`https://jisho.org/search/${encodeURIComponent(word.jp)}`}
-        target="_blank"
-      >
-        <IconBook />
-        Dictionary
-      </a>
+      <div className="absolute bottom-0 flex w-full justify-center p-6">
+        <IconButton
+          as="a"
+          aria-label="Dictionary"
+          href={`https://jisho.org/search/${encodeURIComponent(word.jp)}`}
+          target="_blank"
+        >
+          <IconBook />
+        </IconButton>
+      </div>
     </div>
   );
 };

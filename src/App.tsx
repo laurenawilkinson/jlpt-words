@@ -49,7 +49,7 @@ export const App = () => {
           </IconButton>
           <SettingsMenu
             className={cn('absolute top-full right-0 z-10 transition-opacity', {
-              'opacity-0': !showSettingsMenu,
+              'invisible opacity-0': !showSettingsMenu,
             })}
             settings={settings}
             updateSettings={updateSettings}
