@@ -1,5 +1,6 @@
 import type { JlptLevel } from '@/types';
 import { cn } from '@/utils/cn';
+import { JLPT_LEVEL_VAR } from '@/utils/jlptLevel';
 
 interface FlashcardLevelProps {
   className?: string;
@@ -10,16 +11,10 @@ export const FlashcardLevel = ({ className, level }: FlashcardLevelProps) => {
   return (
     <span
       className={cn(
-        'rounded-xl px-3 py-1 font-semibold tracking-wide',
-        {
-          'bg-red-400': level === 'N1',
-          'bg-orange-400': level === 'N2',
-          'bg-yellow-400': level === 'N3',
-          'bg-lime-400': level === 'N4',
-          'bg-green-400': level === 'N5',
-        },
+        'bg-jlpt text-jlpt rounded-xl px-3 py-1 font-semibold tracking-wide',
         className
       )}
+      style={{ '--jlpt-color': JLPT_LEVEL_VAR[level] }}
     >
       {level}
     </span>

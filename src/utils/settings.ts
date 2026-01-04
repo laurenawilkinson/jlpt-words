@@ -1,5 +1,6 @@
 import { z } from 'zod';
 import type { Settings } from '@/types';
+import { JLPT_LEVELS } from './jlptLevel';
 
 const LOCAL_SETTINGS_KEY = 'settings';
 const DEFAULT_SETTINGS: Settings = {
@@ -8,11 +9,13 @@ const DEFAULT_SETTINGS: Settings = {
   showRomaji: false,
   jlptLevels: ['N5'],
 };
+export const MIN_WORDS = 1;
+export const MAX_WORDS = 10;
 const settingsSchema = z.object({
-  words: z.number().min(1).max(10),
+  words: z.number().min(MIN_WORDS).max(MAX_WORDS),
   showFurigana: z.boolean(),
   showRomaji: z.boolean(),
-  jlptLevels: z.array(z.enum(['N5', 'N4', 'N3', 'N2', 'N1'])),
+  jlptLevels: z.array(z.enum(JLPT_LEVELS)),
 });
 
 export const getAppSettings = (): Settings => {
@@ -37,6 +40,10 @@ export const getAppSettings = (): Settings => {
 
 export const setAppSettings = (newSettings: Settings): Settings => {
   const settings = settingsSchema.parse(newSettings);
-  localStorage.setItem(LOCAL_SETTINGS_KEY, JSON.stringify(settings));
+  const sortedSettings: Settings = {
+    ...settings,
+    jlptLevels: settings.jlptLevels.sort((a, b) => a.localeCompare(b)),
+  };
+  localStorage.setItem(LOCAL_SETTINGS_KEY, JSON.stringify(sortedSettings));
   return settings;
 };

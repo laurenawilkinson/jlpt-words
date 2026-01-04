@@ -14,7 +14,7 @@ export const Flashcard = ({
   showRomaji,
 }: FlashcardProps) => {
   return (
-    <div className="relative flex h-96 w-full max-w-sm flex-col items-center justify-center rounded-4xl border border-gray-300 sm:min-w-80 sm:flex-1">
+    <div className="border-soft bg-surface relative flex h-96 w-full max-w-sm flex-col items-center justify-center rounded-3xl sm:min-w-80 sm:flex-1">
       <FlashcardLevel className="absolute top-5" level={word.jlpt} />
       {word.furigana && showFurigana && (
         <span className="text-xl font-bold">{word.furigana}</span>

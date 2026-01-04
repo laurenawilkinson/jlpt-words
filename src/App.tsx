@@ -6,13 +6,18 @@ import { Flashcard } from './components/Flashcard';
 import { IconSettings } from '@tabler/icons-preact';
 import { useDailyDateKey } from './hooks/useDailyDateKey';
 import { format } from 'date-fns';
+import { SettingsMenu } from './components/SettingsMenu/SettingsMenu';
+import { cn } from './utils/cn';
+import IconButton from './components/UI/IconButton';
 
 export const App = () => {
   const [settings, setSettings] = useState(getAppSettings());
   const [todaysWords, setTodaysWords] = useState<Word[]>([]);
+  const [showSettingsMenu, setShowSettingsMenu] = useState(false);
   const dateKey = useDailyDateKey();
 
   useEffect(() => {
+    console.log('fetching...');
     const fetchWordArrays = async () => {
       const wordArrays = await Promise.all(
         settings.jlptLevels.map(loadWordsForLevel)
@@ -31,13 +36,21 @@ export const App = () => {
   return (
     <>
       <header className="absolute top-4 right-4">
-        <button
-          id="settingsBtn"
-          aria-label="Settings"
-          className="cursor-pointer opacity-50 transition-opacity hover:opacity-70"
-        >
-          <IconSettings />
-        </button>
+        <div className="relative">
+          <IconButton
+            aria-label="Settings"
+            onClick={() => setShowSettingsMenu((prev) => !prev)}
+          >
+            <IconSettings />
+          </IconButton>
+          <SettingsMenu
+            className={cn('absolute top-full right-0 z-10 transition-opacity', {
+              'opacity-0': !showSettingsMenu,
+            })}
+            settings={settings}
+            updateSettings={updateSettings}
+          />
+        </div>
       </header>
       <div className="flex flex-col items-center">
         <img
