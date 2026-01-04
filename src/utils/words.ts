@@ -39,10 +39,15 @@ export async function loadWordsForLevel(level: JlptLevel): Promise<Word[]> {
 
   const res = await fetch(`/data/${level}.json`);
   if (!res.ok) throw new Error(`Failed to load ${level} words`);
-  const data: JlptWord[] = await res.json();
-  const formatted: Word[] = transformWords(level, data);
-  // Save words in memory
-  words[level] = formatted;
+  try {
+    const data: JlptWord[] = await res.json();
+    const formatted: Word[] = transformWords(level, data);
+    // Save words in memory
+    words[level] = formatted;
 
-  return formatted;
+    return formatted;
+  } catch {
+    console.error(`Error parsing ${level} words`);
+    return [];
+  }
 }
