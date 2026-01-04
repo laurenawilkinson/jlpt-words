@@ -3,9 +3,9 @@
 @layer base {
   :root {
     --jlpt-n5: 34 197 94; /* emerald-500 */
-    --jlpt-n4: 163 230 53; /* lime-400 */
-    --jlpt-n3: 250 204 21; /* yellow-400 */
-    --jlpt-n2: 251 191 36; /* amber-400 */
+    --jlpt-n4: 132 204 22; /* lime-500 */
+    --jlpt-n3: 234 179 8; /* yellow-500 */
+    --jlpt-n2: 251 159 36; /* orange-400 */
     --jlpt-n1: 251 113 133; /* rose-400 */
   }
 }
@@ -37,9 +37,6 @@
     color: rgb(var(--jlpt-color));
   }
   .bg-jlpt {
-    background-color: rgb(var(--jlpt-color) / var(--jlpt-bg-opacity, 0.12));
-  }
-  .border-jlpt {
-    border-color: rgb(var(--jlpt-color) / var(--jlpt-border-opacity, 0.3));
+    background-color: rgb(var(--jlpt-color) / var(--jlpt-bg-opacity, 0.1));
   }
 }
