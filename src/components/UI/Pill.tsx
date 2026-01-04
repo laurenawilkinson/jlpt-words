@@ -11,11 +11,16 @@ type IconButtonProps = JSX.IntrinsicElements['button'] & {
 
 const Pill = forwardRef<HTMLButtonElement, IconButtonProps>(
   ({ children, className = '', isSelected, ...rest }, ref) => {
-    const base =
-      'inline-flex items-center font-semibold p-1 justify-center rounded-md text-muted cursor-pointer disabled:cursor-not-allowed disabled:opacity-50 hover:bg-stone-100 transition-colors duration-150 ease-in-out focus:outline-none focus-visible:ring-2 focus-visible:ring-stone-300';
-
     return (
-      <button ref={ref} className={cn(base, className)} {...rest}>
+      <button
+        ref={ref}
+        className={cn(
+          'text-muted inline-flex cursor-pointer items-center justify-center rounded-md p-1 font-semibold transition-colors duration-150 ease-in-out',
+          'hover:bg-zinc-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-zinc-300 disabled:cursor-not-allowed disabled:opacity-50',
+          className
+        )}
+        {...rest}
+      >
         {children}
       </button>
     );

@@ -11,36 +11,24 @@
 }
 
 @layer components {
-  .bg-main {
-    @apply bg-stone-50;
+  .bg-app {
+    @apply bg-rose-50/40;
   }
 
   .bg-surface {
-    @apply bg-stone-100;
+    @apply bg-white;
   }
 
-  .border-soft {
-    @apply border border-stone-200;
-  }
-
-  .text-main {
-    @apply text-stone-900;
+  .text-default {
+    @apply text-zinc-900;
   }
 
   .text-muted {
-    @apply text-stone-500;
+    @apply text-zinc-500;
   }
 
-  .accent {
-    @apply text-rose-700;
-  }
-
-  .accent-bg {
-    @apply bg-rose-100;
-  }
-
-  .accent-ring {
-    @apply ring-rose-300;
+  .ring-soft {
+    @apply ring-rose-200;
   }
 }
 

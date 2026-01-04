@@ -14,7 +14,14 @@ export const Flashcard = ({
   showRomaji,
 }: FlashcardProps) => {
   return (
-    <div className="border-soft bg-surface relative flex h-96 w-full max-w-sm flex-col items-center justify-center rounded-3xl sm:min-w-80 sm:flex-1">
+    <div
+      className="bg-surface relative flex h-96 w-full max-w-sm flex-col items-center justify-center rounded-3xl shadow sm:min-w-80 sm:flex-1"
+      style={{
+        '--tw-shadow':
+          '0 10px 30px var(--tw-shadow-color, rgba(180,160,170,0.08))',
+        '--tw-shadow-color': 'rgba(236,72,153,0.08)',
+      }}
+    >
       <FlashcardLevel className="absolute top-5" level={word.jlpt} />
       {word.furigana && showFurigana && (
         <span className="text-xl font-bold">{word.furigana}</span>

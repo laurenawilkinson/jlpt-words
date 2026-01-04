@@ -11,7 +11,7 @@ export const Toggle = ({ checked, onChange, disabled }: ToggleProps) => {
     <label class="relative inline-flex cursor-pointer items-center select-none">
       <input
         type="checkbox"
-        class="sr-only"
+        class="peer sr-only"
         checked={checked}
         disabled={disabled}
         onChange={(e) => onChange((e.target as HTMLInputElement).checked)}
@@ -20,13 +20,14 @@ export const Toggle = ({ checked, onChange, disabled }: ToggleProps) => {
       <span
         class={cn(
           'relative inline-flex h-6 w-10 items-center rounded-full transition-colors duration-150 ease-out',
-          checked ? 'bg-rose-200' : 'bg-stone-200',
-          disabled && 'cursor-not-allowed opacity-50'
+          checked ? 'bg-rose-200' : 'bg-zinc-200',
+          disabled && 'cursor-not-allowed opacity-50',
+          'peer-focus-visible:ring-2 peer-focus-visible:ring-zinc-300 peer-focus-visible:ring-offset-2 peer-focus-visible:outline-none'
         )}
       >
         <span
           class={cn(
-            'absolute left-1 h-4 w-4 rounded-full bg-stone-50 shadow-sm transition-transform duration-150 ease-out',
+            'absolute left-1 h-4 w-4 rounded-full bg-zinc-50 shadow-sm transition-transform duration-150 ease-out',
             checked ? 'translate-x-4' : 'translate-x-0'
           )}
         />

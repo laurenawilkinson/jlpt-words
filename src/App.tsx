@@ -59,8 +59,8 @@ export const App = () => {
       <div className="flex min-h-screen flex-col">
         <div className="flex flex-1 flex-col items-center px-4 py-12 text-center sm:py-24">
           <img
-            src="/images/japan.png"
-            alt="Japanese Flag"
+            src="/images/torii.png"
+            alt="Torii Gate"
             width="68"
             height="68"
             className="mb-2"
