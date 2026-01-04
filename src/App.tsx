@@ -3,7 +3,11 @@ import { getAppSettings, setAppSettings } from './utils/settings';
 import type { Settings, Word } from './types';
 import { getWordsForDate, loadWordsForLevel } from './utils/words';
 import { Flashcard } from './components/Flashcard';
-import { IconSettings } from '@tabler/icons-preact';
+import {
+  IconBrandGithub,
+  IconHelpCircle,
+  IconSettings,
+} from '@tabler/icons-preact';
 import { useDailyDateKey } from './hooks/useDailyDateKey';
 import { format } from 'date-fns';
 import { SettingsMenu } from './components/SettingsMenu/SettingsMenu';
@@ -14,10 +18,10 @@ export const App = () => {
   const [settings, setSettings] = useState(getAppSettings());
   const [todaysWords, setTodaysWords] = useState<Word[]>([]);
   const [showSettingsMenu, setShowSettingsMenu] = useState(false);
+  const [showCredits, setShowCredits] = useState(false);
   const dateKey = useDailyDateKey();
 
   useEffect(() => {
-    console.log('fetching...');
     const fetchWordArrays = async () => {
       const wordArrays = await Promise.all(
         settings.jlptLevels.map(loadWordsForLevel)
@@ -52,28 +56,57 @@ export const App = () => {
           />
         </div>
       </header>
-      <div className="flex flex-col items-center">
-        <img
-          src="/images/japan.png"
-          alt="Japanese Flag"
-          width="68"
-          height="68"
-          className="mb-2"
-        />
-        <h1 className="mb-4 text-5xl font-bold">JLPT Words</h1>
-        <p id="todaysDate" className="font-semibold opacity-50">
-          {format(dateKey, 'EEEE dd MMMM')}
-        </p>
-      </div>
-      <div className="mt-10 flex w-full flex-col items-center gap-6 sm:mt-14 sm:flex-row sm:flex-wrap sm:justify-center">
-        {todaysWords.map((word) => (
-          <Flashcard
-            key={`${word.jp}-${word.en}`}
-            word={word}
-            showFurigana={settings.showFurigana}
-            showRomaji={settings.showRomaji}
+      <div className="flex min-h-screen flex-col">
+        <div className="flex flex-1 flex-col items-center px-4 py-12 text-center sm:py-24">
+          <img
+            src="/images/japan.png"
+            alt="Japanese Flag"
+            width="68"
+            height="68"
+            className="mb-2"
           />
-        ))}
+          <h1 className="mb-4 text-5xl font-bold">JLPT Words</h1>
+          <p id="todaysDate" className="font-semibold opacity-50">
+            {format(dateKey, 'EEEE dd MMMM')}
+          </p>
+          <div className="mt-10 flex w-full flex-col items-center gap-6 sm:mt-14 sm:flex-row sm:flex-wrap sm:justify-center">
+            {todaysWords.map((word) => (
+              <Flashcard
+                key={`${word.jp}-${word.en}`}
+                word={word}
+                showFurigana={settings.showFurigana}
+                showRomaji={settings.showRomaji}
+              />
+            ))}
+          </div>
+        </div>
+        <footer className="text-muted flex flex-row-reverse items-center justify-center gap-2 p-4 text-center text-xs sm:justify-start">
+          <IconButton
+            aria-label="About"
+            className="hidden sm:inline-flex"
+            onClick={() => setShowCredits(!showCredits)}
+          >
+            <IconHelpCircle />
+          </IconButton>
+          <div
+            className={cn(
+              'flex items-center gap-2 transition-all',
+              showCredits ? 'sm:-translate-x-2' : 'sm:invisible sm:opacity-0'
+            )}
+          >
+            <a href="https://www.flaticon.com/free-icons/japan" target="_blank">
+              Images by Freepik
+            </a>
+            &bull;
+            <a
+              className="inline-flex items-center gap-1"
+              href="https://github.com/laurenawilkinson/jlpt-words"
+              target="_blank"
+            >
+              <IconBrandGithub size={16} /> Source on Github
+            </a>
+          </div>
+        </footer>
       </div>
     </>
   );

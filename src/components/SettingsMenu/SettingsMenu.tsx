@@ -21,7 +21,7 @@ export const SettingsMenu = ({
   return (
     <div
       className={cn(
-        'border-soft flex w-60 flex-col rounded-xl px-6 py-4 text-left shadow-sm',
+        'border-soft bg-main flex w-60 flex-col rounded-xl px-6 py-4 text-left shadow-sm',
         className
       )}
     >
