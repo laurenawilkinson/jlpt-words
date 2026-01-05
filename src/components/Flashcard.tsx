@@ -1,5 +1,5 @@
 import { IconBook } from '@tabler/icons-preact';
-import type { Word } from '@/types';
+import type { Settings, Word } from '@/types';
 import { FlashcardLevel } from './FlashcardLevel';
 import IconButton from './UI/IconButton';
 import { useState } from 'preact/hooks';
@@ -10,6 +10,7 @@ interface FlashcardProps {
   showFurigana: boolean;
   showRomaji: boolean;
   showMeaning: boolean;
+  jpFont: Settings['jpFont'];
 }
 
 export const Flashcard = ({
@@ -17,8 +18,13 @@ export const Flashcard = ({
   showFurigana,
   showRomaji,
   showMeaning: alwaysShowMeaning,
+  jpFont,
 }: FlashcardProps) => {
   const [showMeaning, setShowMeaning] = useState(false);
+  const jpFontClass = {
+    'font-jp-sans': jpFont === 'sans',
+    'font-jp-serif': jpFont === 'serif',
+  };
 
   return (
     <div
@@ -42,9 +48,13 @@ export const Flashcard = ({
       )}
       <FlashcardLevel className="absolute top-5" level={word.jlpt} />
       {word.furigana && showFurigana && (
-        <p className="text-xl font-bold">{word.furigana}</p>
+        <p className={cn('text-xl font-bold', jpFontClass)}>{word.furigana}</p>
       )}
-      <h2 className="text-3xl font-bold break-keep sm:text-5xl">{word.jp}</h2>
+      <h2
+        className={cn('text-3xl font-bold break-keep sm:text-5xl', jpFontClass)}
+      >
+        {word.jp}
+      </h2>
       {showRomaji && <p>{word.romaji}</p>}
       <p
         className={cn(

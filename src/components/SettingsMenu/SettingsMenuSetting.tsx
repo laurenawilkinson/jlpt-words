@@ -15,11 +15,11 @@ export const SettingsMenuSetting = ({
   return (
     <div
       class={cn(
-        'flex w-full justify-between gap-1 py-1.5 text-sm',
+        'flex w-full justify-between gap-x-1 gap-y-2 py-1.5 text-sm',
         isVertical ? 'flex-col' : 'items-center'
       )}
     >
-      <strong class="mb-1 font-medium">{label}</strong>
+      <strong class="font-medium">{label}</strong>
       <div>{children}</div>
     </div>
   );

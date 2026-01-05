@@ -20,4 +20,5 @@ export type Settings = {
   showRomaji: boolean;
   showMeaning: boolean;
   jlptLevels: JlptLevel[];
+  jpFont: 'sans' | 'serif';
 };

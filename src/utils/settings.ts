@@ -3,12 +3,18 @@ import type { Settings } from '@/types';
 import { JLPT_LEVELS } from './jlptLevel';
 
 const LOCAL_SETTINGS_KEY = 'settings';
+export const JP_FONTS: Settings['jpFont'][] = ['sans', 'serif'];
+export const JP_FONT_LABELS: Record<Settings['jpFont'], string> = {
+  sans: 'Sans (ゴシック)',
+  serif: 'Serif (明朝)',
+};
 const DEFAULT_SETTINGS: Settings = {
   words: 3,
   showFurigana: true,
   showRomaji: false,
   showMeaning: false,
   jlptLevels: ['N5'],
+  jpFont: 'sans',
 };
 export const MIN_WORDS = 1;
 export const MAX_WORDS = 10;
@@ -18,6 +24,7 @@ const settingsSchema = z.object({
   showRomaji: z.boolean(),
   showMeaning: z.boolean(),
   jlptLevels: z.array(z.enum(JLPT_LEVELS)),
+  jpFont: z.enum(JP_FONTS),
 });
 
 export const getAppSettings = (): Settings => {

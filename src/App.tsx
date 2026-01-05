@@ -77,6 +77,7 @@ export const App = () => {
                 showFurigana={settings.showFurigana}
                 showRomaji={settings.showRomaji}
                 showMeaning={settings.showMeaning}
+                jpFont={settings.jpFont}
               />
             ))}
           </div>

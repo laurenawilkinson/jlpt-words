@@ -2,10 +2,16 @@ import { cn } from '@/utils/cn';
 import type { Settings } from '@/types';
 import { SettingsMenuSetting } from './SettingsMenuSetting';
 import { SteppedNumberInput } from '../UI/SteppedNumberInput';
-import { MAX_WORDS, MIN_WORDS } from '@/utils/settings';
+import {
+  JP_FONT_LABELS,
+  JP_FONTS,
+  MAX_WORDS,
+  MIN_WORDS,
+} from '@/utils/settings';
 import { Toggle } from '../UI/Toggle';
 import Pill from '../UI/Pill';
 import { JLPT_LEVEL_VAR, JLPT_LEVELS } from '@/utils/jlptLevel';
+import { Select } from '../UI/Select';
 
 interface SettingsMenuProps {
   className?: string;
@@ -21,7 +27,7 @@ export const SettingsMenu = ({
   return (
     <div
       className={cn(
-        'bg-surface flex w-60 flex-col rounded-xl px-6 py-4 text-left shadow-lg shadow-rose-200/30',
+        'bg-surface flex w-60 flex-col rounded-xl px-6 py-4 text-left shadow-lg shadow-zinc-400/10',
         className
       )}
     >
@@ -73,6 +79,17 @@ export const SettingsMenu = ({
             </Pill>
           ))}
         </div>
+      </SettingsMenuSetting>
+      <SettingsMenuSetting label="JP Font">
+        <Select
+          className="-mr-2 min-w-36"
+          value={settings.jpFont}
+          onChange={(font) => updateSettings({ jpFont: font })}
+          options={JP_FONTS.map((font) => ({
+            label: JP_FONT_LABELS[font],
+            value: font,
+          }))}
+        />
       </SettingsMenuSetting>
     </div>
   );
