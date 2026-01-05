@@ -5,12 +5,10 @@ import { cn } from '@/utils/cn';
 
 type IconButtonProps = JSX.IntrinsicElements['button'] & {
   children: ComponentChildren;
-  className?: string;
-  isSelected?: boolean;
 };
 
 const Pill = forwardRef<HTMLButtonElement, IconButtonProps>(
-  ({ children, className = '', isSelected, ...rest }, ref) => {
+  ({ children, className, ...rest }, ref) => {
     return (
       <button
         ref={ref}

@@ -63,7 +63,8 @@ export const SettingsMenu = forwardRef<HTMLDivElement, SettingsMenuProps>(
                 key={level}
                 className={cn(
                   'hover:bg-jlpt flex-1',
-                  settings.jlptLevels.includes(level) && 'bg-jlpt text-jlpt'
+                  settings.jlptLevels.includes(level) &&
+                    'bg-jlpt text-jlpt hover:[--jlpt-bg-opacity:0.15]'
                 )}
                 style={{ '--jlpt-color': JLPT_LEVEL_VAR[level] }}
                 onClick={() => {
