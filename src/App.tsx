@@ -76,6 +76,7 @@ export const App = () => {
                 word={word}
                 showFurigana={settings.showFurigana}
                 showRomaji={settings.showRomaji}
+                showMeaning={settings.showMeaning}
               />
             ))}
           </div>

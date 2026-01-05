@@ -45,6 +45,12 @@ export const SettingsMenu = ({
           onChange={(value) => updateSettings({ showRomaji: value })}
         />
       </SettingsMenuSetting>
+      <SettingsMenuSetting label="Meaning">
+        <Toggle
+          checked={settings.showMeaning}
+          onChange={(value) => updateSettings({ showMeaning: value })}
+        />
+      </SettingsMenuSetting>
       <SettingsMenuSetting label="JLPT Level" isVertical>
         <div className="flex gap-1">
           {JLPT_LEVELS.map((level) => (

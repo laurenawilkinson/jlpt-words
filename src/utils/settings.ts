@@ -7,6 +7,7 @@ const DEFAULT_SETTINGS: Settings = {
   words: 3,
   showFurigana: true,
   showRomaji: false,
+  showMeaning: false,
   jlptLevels: ['N5'],
 };
 export const MIN_WORDS = 1;
@@ -15,6 +16,7 @@ const settingsSchema = z.object({
   words: z.number().min(MIN_WORDS).max(MAX_WORDS),
   showFurigana: z.boolean(),
   showRomaji: z.boolean(),
+  showMeaning: z.boolean(),
   jlptLevels: z.array(z.enum(JLPT_LEVELS)),
 });
 

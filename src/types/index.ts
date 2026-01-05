@@ -18,5 +18,6 @@ export type Settings = {
   words: number;
   showFurigana: boolean;
   showRomaji: boolean;
+  showMeaning: boolean;
   jlptLevels: JlptLevel[];
 };
