@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'preact/hooks';
+import { useEffect, useRef, useState } from 'preact/hooks';
 import { getAppSettings, setAppSettings } from './utils/settings';
 import type { Settings, Word } from './types';
 import { getWordsForDate, loadWordsForLevel } from './utils/words';
@@ -13,6 +13,7 @@ import { format } from 'date-fns';
 import { SettingsMenu } from './components/SettingsMenu/SettingsMenu';
 import { cn } from './utils/cn';
 import IconButton from './components/UI/IconButton';
+import { useClickOutside } from './hooks/useClickOutside';
 
 export const App = () => {
   const [settings, setSettings] = useState(getAppSettings());
@@ -20,6 +21,9 @@ export const App = () => {
   const [showSettingsMenu, setShowSettingsMenu] = useState(false);
   const [showCredits, setShowCredits] = useState(false);
   const dateKey = useDailyDateKey();
+  const settingsMenuRef = useRef<HTMLDivElement>(null);
+
+  useClickOutside(settingsMenuRef, () => setShowSettingsMenu(false));
 
   useEffect(() => {
     const fetchWordArrays = async () => {
@@ -51,6 +55,7 @@ export const App = () => {
             className={cn('absolute top-full right-0 z-10 transition-opacity', {
               'invisible opacity-0': !showSettingsMenu,
             })}
+            ref={settingsMenuRef}
             settings={settings}
             updateSettings={updateSettings}
           />

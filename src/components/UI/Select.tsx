@@ -17,13 +17,13 @@ type SelectProps<T extends string> = {
   placeholder?: string;
 };
 
-export function Select<T extends string>({
+export const Select = <T extends string>({
   className,
   value,
   options,
   onChange,
   placeholder,
-}: SelectProps<T>) {
+}: SelectProps<T>) => {
   const [isOpen, setIsOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
@@ -81,4 +81,4 @@ export function Select<T extends string>({
       )}
     </div>
   );
-}
+};

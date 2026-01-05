@@ -12,6 +12,7 @@ import { Toggle } from '../UI/Toggle';
 import Pill from '../UI/Pill';
 import { JLPT_LEVEL_VAR, JLPT_LEVELS } from '@/utils/jlptLevel';
 import { Select } from '../UI/Select';
+import { forwardRef } from 'preact/compat';
 
 interface SettingsMenuProps {
   className?: string;
@@ -19,78 +20,77 @@ interface SettingsMenuProps {
   updateSettings: (settings: Partial<Settings>) => void;
 }
 
-export const SettingsMenu = ({
-  className,
-  settings,
-  updateSettings,
-}: SettingsMenuProps) => {
-  return (
-    <div
-      className={cn(
-        'bg-surface flex w-60 flex-col rounded-xl px-6 py-4 text-left shadow-lg shadow-zinc-400/10',
-        className
-      )}
-    >
-      <SettingsMenuSetting label="Words">
-        <SteppedNumberInput
-          value={settings.words}
-          setValue={(value) => updateSettings({ words: value })}
-          min={MIN_WORDS}
-          max={MAX_WORDS}
-        />
-      </SettingsMenuSetting>
-      <SettingsMenuSetting label="Furigana">
-        <Toggle
-          checked={settings.showFurigana}
-          onChange={(value) => updateSettings({ showFurigana: value })}
-        />
-      </SettingsMenuSetting>
-      <SettingsMenuSetting label="Romaji">
-        <Toggle
-          checked={settings.showRomaji}
-          onChange={(value) => updateSettings({ showRomaji: value })}
-        />
-      </SettingsMenuSetting>
-      <SettingsMenuSetting label="Meaning">
-        <Toggle
-          checked={settings.showMeaning}
-          onChange={(value) => updateSettings({ showMeaning: value })}
-        />
-      </SettingsMenuSetting>
-      <SettingsMenuSetting label="JLPT Level" isVertical>
-        <div className="flex gap-1">
-          {JLPT_LEVELS.map((level) => (
-            <Pill
-              key={level}
-              className={cn(
-                'hover:bg-jlpt flex-1',
-                settings.jlptLevels.includes(level) && 'bg-jlpt text-jlpt'
-              )}
-              style={{ '--jlpt-color': JLPT_LEVEL_VAR[level] }}
-              onClick={() => {
-                const next = settings.jlptLevels.includes(level)
-                  ? settings.jlptLevels.filter((l) => l !== level)
-                  : [...settings.jlptLevels, level];
+export const SettingsMenu = forwardRef<HTMLDivElement, SettingsMenuProps>(
+  ({ className, settings, updateSettings }, ref) => {
+    return (
+      <div
+        className={cn(
+          'bg-surface flex w-60 flex-col rounded-xl px-6 py-4 text-left shadow-lg shadow-zinc-400/10',
+          className
+        )}
+        ref={ref}
+      >
+        <SettingsMenuSetting label="Words">
+          <SteppedNumberInput
+            value={settings.words}
+            setValue={(value) => updateSettings({ words: value })}
+            min={MIN_WORDS}
+            max={MAX_WORDS}
+          />
+        </SettingsMenuSetting>
+        <SettingsMenuSetting label="Furigana">
+          <Toggle
+            checked={settings.showFurigana}
+            onChange={(value) => updateSettings({ showFurigana: value })}
+          />
+        </SettingsMenuSetting>
+        <SettingsMenuSetting label="Romaji">
+          <Toggle
+            checked={settings.showRomaji}
+            onChange={(value) => updateSettings({ showRomaji: value })}
+          />
+        </SettingsMenuSetting>
+        <SettingsMenuSetting label="Meaning">
+          <Toggle
+            checked={settings.showMeaning}
+            onChange={(value) => updateSettings({ showMeaning: value })}
+          />
+        </SettingsMenuSetting>
+        <SettingsMenuSetting label="JLPT Level" isVertical>
+          <div className="flex gap-1">
+            {JLPT_LEVELS.map((level) => (
+              <Pill
+                key={level}
+                className={cn(
+                  'hover:bg-jlpt flex-1',
+                  settings.jlptLevels.includes(level) && 'bg-jlpt text-jlpt'
+                )}
+                style={{ '--jlpt-color': JLPT_LEVEL_VAR[level] }}
+                onClick={() => {
+                  const next = settings.jlptLevels.includes(level)
+                    ? settings.jlptLevels.filter((l) => l !== level)
+                    : [...settings.jlptLevels, level];
 
-                updateSettings({ jlptLevels: next });
-              }}
-            >
-              {level}
-            </Pill>
-          ))}
-        </div>
-      </SettingsMenuSetting>
-      <SettingsMenuSetting label="JP Font">
-        <Select
-          className="-mr-2 min-w-36"
-          value={settings.jpFont}
-          onChange={(font) => updateSettings({ jpFont: font })}
-          options={JP_FONTS.map((font) => ({
-            label: JP_FONT_LABELS[font],
-            value: font,
-          }))}
-        />
-      </SettingsMenuSetting>
-    </div>
-  );
-};
+                  updateSettings({ jlptLevels: next });
+                }}
+              >
+                {level}
+              </Pill>
+            ))}
+          </div>
+        </SettingsMenuSetting>
+        <SettingsMenuSetting label="JP Font">
+          <Select
+            className="-mr-2 min-w-36"
+            value={settings.jpFont}
+            onChange={(font) => updateSettings({ jpFont: font })}
+            options={JP_FONTS.map((font) => ({
+              label: JP_FONT_LABELS[font],
+              value: font,
+            }))}
+          />
+        </SettingsMenuSetting>
+      </div>
+    );
+  }
+);
