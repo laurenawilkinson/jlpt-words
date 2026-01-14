@@ -23,7 +23,9 @@ export const App = () => {
   const dateKey = useDailyDateKey();
   const settingsMenuRef = useRef<HTMLDivElement>(null);
 
-  useClickOutside(settingsMenuRef, () => setShowSettingsMenu(false));
+  useClickOutside(settingsMenuRef, () => setShowSettingsMenu(false), {
+    ignoreSelectors: ['#settingsToggle'],
+  });
 
   useEffect(() => {
     const fetchWordArrays = async () => {
@@ -46,6 +48,7 @@ export const App = () => {
       <header className="absolute top-4 right-4">
         <div className="relative">
           <IconButton
+            id="settingsToggle"
             aria-label="Settings"
             onClick={() => setShowSettingsMenu((prev) => !prev)}
           >
@@ -74,7 +77,7 @@ export const App = () => {
           <p id="todaysDate" className="font-semibold opacity-50">
             {format(dateKey, 'EEEE dd MMMM')}
           </p>
-          <div className="mt-10 flex w-full flex-col items-center gap-6 sm:mt-14 sm:flex-row sm:flex-wrap sm:justify-center">
+          <div className="mt-10 flex w-full flex-col items-center gap-6 px-8 sm:mt-14 sm:flex-row sm:flex-wrap sm:justify-center">
             {todaysWords.map((word) => (
               <Flashcard
                 key={`${word.jp}-${word.en}`}
