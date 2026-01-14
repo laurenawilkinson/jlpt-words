@@ -6,6 +6,10 @@
     'Meiryo', 'Noto Sans JP', 'sans-serif';
   --font-jp-serif:
     'Hiragino Mincho ProN', 'Yu Mincho', 'MS Mincho', 'Noto Serif JP', 'serif';
+
+  --shadow-flashcard: 0 10px 30px rgba(236, 72, 153, 0.08);
+  --shadow-flashcard-lg:
+    0 6px 18px rgba(236, 72, 153, 0.1), 0 20px 45px rgba(236, 72, 153, 0.12);
 }
 
 @layer base {
@@ -37,6 +41,17 @@
 
   .ring-soft {
     @apply ring-rose-200;
+  }
+
+  .flashcard-shadow {
+    --tw-shadow-color: rgba(236, 72, 153, 0.08);
+    box-shadow: 0 10px 30px var(--tw-shadow-color);
+  }
+
+  .flashcard-shadow-lg {
+    box-shadow:
+      0 6px 18px rgba(236, 72, 153, 0.1),
+      0 20px 45px rgba(236, 72, 153, 0.12);
   }
 }
 

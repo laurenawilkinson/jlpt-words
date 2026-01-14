@@ -29,13 +29,12 @@ export const Flashcard = ({
   return (
     <div
       className={cn(
-        'bg-surface relative flex h-64 w-full max-w-sm flex-col items-center justify-center rounded-3xl p-4 shadow sm:h-96 sm:min-w-80 sm:flex-1'
+        'bg-surface shadow-flashcard relative flex h-64 w-full max-w-sm flex-col items-center justify-center rounded-3xl p-4 sm:h-96 sm:min-w-80 sm:flex-1',
+        {
+          'hover:shadow-flashcard-lg transition-all hover:-translate-y-0.5':
+            !alwaysShowMeaning,
+        }
       )}
-      style={{
-        '--tw-shadow':
-          '0 10px 30px var(--tw-shadow-color, rgba(180,160,170,0.08))',
-        '--tw-shadow-color': 'rgba(236,72,153,0.08)',
-      }}
     >
       {!alwaysShowMeaning && (
         <button
