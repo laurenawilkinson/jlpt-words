@@ -1,6 +1,5 @@
 {
-  "name": "Daily JLPT Words",
-  "short_name": "JLPT Words",
+  "name": "今日の単語",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
