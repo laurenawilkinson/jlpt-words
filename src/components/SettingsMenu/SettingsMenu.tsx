@@ -62,9 +62,9 @@ export const SettingsMenu = forwardRef<HTMLDivElement, SettingsMenuProps>(
               <Pill
                 key={level}
                 className={cn(
-                  'hover:bg-jlpt flex-1',
+                  'bg-jlpt flex-1 [--jlpt-bg-opacity:0]',
                   settings.jlptLevels.includes(level) &&
-                    'bg-jlpt text-jlpt hover:[--jlpt-bg-opacity:0.15]'
+                    'text-jlpt hover:bg-jlpt [--jlpt-bg-opacity:0.1] hover:[--jlpt-bg-opacity:0.15]'
                 )}
                 style={{ '--jlpt-color': JLPT_LEVEL_VAR[level] }}
                 onClick={() => {

@@ -69,9 +69,7 @@
   .text-jlpt {
     color: rgb(var(--jlpt-color));
   }
-  @variant hover {
-    .bg-jlpt {
-      background-color: rgb(var(--jlpt-color) / var(--jlpt-bg-opacity, 0.1));
-    }
+  .bg-jlpt {
+    background-color: rgb(var(--jlpt-color) / var(--jlpt-bg-opacity, 0.1));
   }
 }
