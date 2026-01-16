@@ -1,4 +1,5 @@
 import { format } from 'date-fns';
+import { ja } from 'date-fns/locale';
 import { Flashcard } from './Flashcard';
 import { useSettings } from '@/providers/SettingsProvider';
 import { useEffect, useState } from 'preact/hooks';
@@ -31,9 +32,11 @@ export const AppContent = () => {
         height="68"
         className="mb-2"
       />
-      <h1 className="mb-4 text-5xl font-bold">JLPT Words</h1>
-      <p id="todaysDate" className="font-semibold opacity-50">
-        {format(dateKey, 'EEEE dd MMMM')}
+      <p
+        id="todaysDate"
+        className="mt-2 font-medium tracking-wide text-rose-800 opacity-70"
+      >
+        🌸 {format(dateKey, 'M月d日（EEE）', { locale: ja })}
       </p>
       <div className="mt-10 flex w-full flex-col items-center gap-6 px-8 sm:mt-14 sm:flex-row sm:flex-wrap sm:justify-center">
         {todaysWords.map((word) => (

@@ -80,9 +80,9 @@ export const SettingsMenu = forwardRef<HTMLDivElement, SettingsMenuProps>(
             ))}
           </div>
         </SettingsMenuSetting>
-        <SettingsMenuSetting label="JP Font">
+        <SettingsMenuSetting label="Japanese Font" isVertical>
           <Select
-            className="-mr-2 min-w-36"
+            className="-mx-3 min-w-36"
             value={settings.jpFont}
             onChange={(font) => updateSettings({ jpFont: font })}
             options={JP_FONTS.map((font) => ({

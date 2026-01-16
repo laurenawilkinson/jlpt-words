@@ -15,7 +15,7 @@ export const SteppedNumberInput = ({
   max,
 }: SteppedNumberInputProps) => {
   return (
-    <div className="flex items-center font-semibold">
+    <div className="flex items-center font-medium">
       <IconButton
         size="sm"
         disabled={value === min}

@@ -11,7 +11,7 @@ export const FlashcardLevel = ({ className, level }: FlashcardLevelProps) => {
   return (
     <span
       className={cn(
-        'bg-jlpt text-jlpt rounded-xl px-3 py-1 font-semibold tracking-wide',
+        'bg-jlpt text-jlpt rounded-xl px-3 py-1 font-medium tracking-wide',
         className
       )}
       style={{ '--jlpt-color': JLPT_LEVEL_VAR[level] }}

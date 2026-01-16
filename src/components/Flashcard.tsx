@@ -24,6 +24,7 @@ export const Flashcard = ({
   const jpFontClass = {
     'font-jp-sans': jpFont === 'sans',
     'font-jp-serif': jpFont === 'serif',
+    'font-jp-kawaii': jpFont === 'kawaii',
   };
 
   return (
@@ -57,7 +58,7 @@ export const Flashcard = ({
       {showRomaji && <p>{word.romaji}</p>}
       <p
         className={cn(
-          'mt-2 text-xl font-bold text-rose-400 transition-opacity',
+          'mt-2 text-xl font-medium text-rose-400 transition-opacity',
           !alwaysShowMeaning && !showMeaning && 'opacity-0'
         )}
       >

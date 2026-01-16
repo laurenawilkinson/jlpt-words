@@ -3,10 +3,11 @@ import type { Settings } from '@/types';
 import { JLPT_LEVELS } from './jlptLevel';
 
 const LOCAL_SETTINGS_KEY = 'settings';
-export const JP_FONTS: Settings['jpFont'][] = ['sans', 'serif'];
+export const JP_FONTS: Settings['jpFont'][] = ['sans', 'serif', 'kawaii'];
 export const JP_FONT_LABELS: Record<Settings['jpFont'], string> = {
-  sans: 'Sans (ゴシック)',
+  sans: 'Sans-serif (ゴシック)',
   serif: 'Serif (明朝)',
+  kawaii: 'Cute (かわいい)',
 };
 const DEFAULT_SETTINGS: Settings = {
   words: 3,
@@ -54,5 +55,5 @@ export const setAppSettings = (newSettings: Settings): Settings => {
     jlptLevels: settings.jlptLevels.sort((a, b) => a.localeCompare(b)),
   };
   localStorage.setItem(LOCAL_SETTINGS_KEY, JSON.stringify(sortedSettings));
-  return settings;
+  return sortedSettings;
 };

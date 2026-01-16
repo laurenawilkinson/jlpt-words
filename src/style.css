@@ -6,6 +6,8 @@
     'Meiryo', 'Noto Sans JP', 'sans-serif';
   --font-jp-serif:
     'Hiragino Mincho ProN', 'Yu Mincho', 'MS Mincho', 'Noto Serif JP', 'serif';
+  --font-jp-kawaii: 'Kosugi Maru', 'Noto Sans JP', 'sans-serif';
+  --default-font-family: 'Fredoka', sans-serif;
 
   --shadow-flashcard: 0 10px 30px rgba(236, 72, 153, 0.08);
   --shadow-flashcard-lg:

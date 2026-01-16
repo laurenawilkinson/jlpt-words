@@ -39,7 +39,7 @@ export const Select = <T extends string>({
         aria-expanded={isOpen}
         onClick={() => setIsOpen((v) => !v)}
         class={cn(
-          'flex w-full cursor-pointer items-center justify-between gap-2 rounded-full px-3 py-2 text-zinc-700 transition hover:bg-zinc-50/60 focus-visible:ring-2 focus-visible:ring-zinc-300 focus-visible:outline-none',
+          'flex w-full cursor-pointer items-center justify-between gap-2 rounded-full bg-zinc-50/70 px-3 py-2 text-zinc-700 transition hover:bg-zinc-50 focus-visible:ring-2 focus-visible:ring-zinc-300 focus-visible:outline-none',
           isOpen && 'bg-zinc-50'
         )}
       >

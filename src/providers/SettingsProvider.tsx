@@ -1,5 +1,5 @@
 import { createContext } from 'preact';
-import { useContext, useMemo, useState } from 'preact/hooks';
+import { useCallback, useContext, useMemo, useState } from 'preact/hooks';
 import { getAppSettings, setAppSettings } from '@/utils/settings';
 import type { Settings } from '@/types';
 
@@ -13,12 +13,14 @@ const SettingsContext = createContext<SettingsContextValue | null>(null);
 export const SettingsProvider: preact.FunctionComponent = ({ children }) => {
   const [settings, setSettings] = useState<Settings>(getAppSettings());
 
-  const updateSettings = (updatedSettings: Partial<Settings>) => {
-    const newSettings = setAppSettings({ ...settings, ...updatedSettings });
-    setSettings(newSettings);
-  };
+  const updateSettings = useCallback((updatedSettings: Partial<Settings>) => {
+    setSettings((prev) => setAppSettings({ ...prev, ...updatedSettings }));
+  }, []);
 
-  const value = useMemo(() => ({ settings, updateSettings }), [settings]);
+  const value = useMemo(
+    () => ({ settings, updateSettings }),
+    [settings, updateSettings]
+  );
 
   return (
     <SettingsContext.Provider value={value}>

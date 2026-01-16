@@ -19,7 +19,7 @@ export const SettingsMenuSetting = ({
         isVertical ? 'flex-col' : 'items-center'
       )}
     >
-      <strong class="font-medium">{label}</strong>
+      <span>{label}</span>
       <div>{children}</div>
     </div>
   );
