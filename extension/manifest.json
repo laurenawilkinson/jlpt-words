@@ -1,6 +1,6 @@
 {
   "name": "Tango Tab: Daily Japanese Words",
-  "description": "A new tab with a daily Japanese flashcards, based on your JLPT level.",
+  "description": "A new tab with daily Japanese flashcards, based on your JLPT level.",
   "version": "1.0.0",
   "manifest_version": 3,
   "icons": {
@@ -11,5 +11,13 @@
   },
   "chrome_url_overrides": {
     "newtab": "index.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "tangotab@astralux.dev",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
   }
 }
