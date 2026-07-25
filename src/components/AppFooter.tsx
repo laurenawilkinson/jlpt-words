@@ -21,8 +21,12 @@ export const AppFooter = () => {
           showCredits ? 'sm:-translate-x-2' : 'sm:invisible sm:opacity-0'
         )}
       >
+        <a href="https://www.tanos.co.uk/jlpt/" target="_blank">
+          Vocabulary lists
+        </a>
+        &bull;
         <a href="https://www.flaticon.com/free-icons/japan" target="_blank">
-          Images by Freepik
+          Images by Magnific
         </a>
         &bull;
         <a
@@ -30,7 +34,7 @@ export const AppFooter = () => {
           href="https://github.com/laurenawilkinson/jlpt-words"
           target="_blank"
         >
-          <IconBrandGithub size={16} /> Source on Github
+          <IconBrandGithub size={16} /> Github
         </a>
       </div>
     </footer>
