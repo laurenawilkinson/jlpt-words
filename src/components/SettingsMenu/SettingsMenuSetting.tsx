@@ -19,7 +19,7 @@ export const SettingsMenuSetting = ({
         isVertical ? 'flex-col' : 'items-center'
       )}
     >
-      <span>{label}</span>
+      <span id={`settingLabel-${label}`}>{label}</span>
       <div>{children}</div>
     </div>
   );

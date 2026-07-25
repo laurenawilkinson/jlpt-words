@@ -17,6 +17,7 @@ export const SteppedNumberInput = ({
   return (
     <div className="flex items-center font-medium">
       <IconButton
+        aria-label="Decrease"
         size="sm"
         disabled={value === min}
         onClick={() => setValue(value > min ? value - 1 : value)}
@@ -25,6 +26,7 @@ export const SteppedNumberInput = ({
       </IconButton>
       <span className="w-4 text-center">{value}</span>
       <IconButton
+        aria-label="Increase"
         size="sm"
         disabled={value === max}
         onClick={() =>

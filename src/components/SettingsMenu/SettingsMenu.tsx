@@ -44,18 +44,21 @@ export const SettingsMenu = forwardRef<HTMLDivElement, SettingsMenuProps>(
         </SettingsMenuSetting>
         <SettingsMenuSetting label="Furigana">
           <Toggle
+            labelId="settingLabel-Furigana"
             checked={settings.showFurigana}
             onChange={(value) => updateSettings({ showFurigana: value })}
           />
         </SettingsMenuSetting>
         <SettingsMenuSetting label="Romaji">
           <Toggle
+            labelId="settingLabel-Romaji"
             checked={settings.showRomaji}
             onChange={(value) => updateSettings({ showRomaji: value })}
           />
         </SettingsMenuSetting>
         <SettingsMenuSetting label="Meaning">
           <Toggle
+            labelId="settingLabel-Meaning"
             checked={settings.showMeaning}
             onChange={(value) => updateSettings({ showMeaning: value })}
           />

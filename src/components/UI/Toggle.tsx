@@ -1,15 +1,29 @@
 import { cn } from '@/utils/cn';
+import { useId } from 'preact/hooks';
 
 interface ToggleProps {
+  labelId?: string;
   checked: boolean;
   onChange: (checked: boolean) => void;
   disabled?: boolean;
 }
 
-export const Toggle = ({ checked, onChange, disabled }: ToggleProps) => {
+export const Toggle = ({
+  labelId,
+  checked,
+  onChange,
+  disabled,
+}: ToggleProps) => {
+  const id = useId();
+
   return (
-    <label class="relative inline-flex cursor-pointer items-center select-none">
+    <label
+      htmlFor={id}
+      class="relative inline-flex cursor-pointer items-center select-none"
+    >
       <input
+        id={id}
+        aria-labelledby={labelId}
         type="checkbox"
         class="peer sr-only"
         checked={checked}
