@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "typecheck": "tsc -b",
+    "build": "bun typecheck && vite build",
+    "build:extension": "bun typecheck && vite build --mode extension && node scripts/build-extension.mjs",
     "preview": "vite preview"
   },
   "devDependencies": {
