@@ -14,7 +14,7 @@ const Pill = forwardRef<HTMLButtonElement, IconButtonProps>(
         ref={ref}
         className={cn(
           'text-muted inline-flex cursor-pointer items-center justify-center rounded-md p-1 font-medium transition-colors duration-150 ease-in-out',
-          'hover:bg-zinc-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-zinc-300 disabled:cursor-not-allowed disabled:opacity-50',
+          'hover:bg-zinc-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-zinc-300 disabled:pointer-events-none disabled:opacity-50',
           className
         )}
         {...rest}

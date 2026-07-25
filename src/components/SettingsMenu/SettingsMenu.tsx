@@ -10,7 +10,11 @@ import {
 } from '@/utils/settings';
 import { Toggle } from '../UI/Toggle';
 import Pill from '../UI/Pill';
-import { JLPT_LEVEL_VAR, JLPT_LEVELS } from '@/utils/jlptLevel';
+import {
+  AVAILABLE_JLPT_LEVELS,
+  JLPT_LEVEL_VAR,
+  JLPT_LEVELS,
+} from '@/utils/jlptLevel';
 import { Select } from '../UI/Select';
 import { forwardRef } from 'preact/compat';
 
@@ -67,7 +71,10 @@ export const SettingsMenu = forwardRef<HTMLDivElement, SettingsMenuProps>(
                     'text-jlpt hover:bg-jlpt [--jlpt-bg-opacity:0.1] hover:[--jlpt-bg-opacity:0.15]'
                 )}
                 style={{ '--jlpt-color': JLPT_LEVEL_VAR[level] }}
+                disabled={!AVAILABLE_JLPT_LEVELS.includes(level)}
                 onClick={() => {
+                  if (!AVAILABLE_JLPT_LEVELS.includes(level)) return;
+
                   const next = settings.jlptLevels.includes(level)
                     ? settings.jlptLevels.filter((l) => l !== level)
                     : [...settings.jlptLevels, level];
