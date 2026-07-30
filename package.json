@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "@tabler/icons-preact": "^3.36.1",
+    "class-variance-authority": "^0.7.1",
     "preact": "^10.28.1",
     "seedrandom": "^3.0.5",
     "wanakana": "^5.3.1",

@@ -31,7 +31,7 @@ export const IconButton = <T extends ElementType = 'button'>({
     <Component
       className={cn(
         'text-muted inline-flex cursor-pointer items-center justify-center rounded-full transition-colors duration-150 ease-in-out',
-        'focus-visible:ring-ring hover:bg-neutral-200 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50',
+        'focus-visible:ring-ring hover:bg-neutral-300/40 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50',
         sizeClass,
         className
       )}

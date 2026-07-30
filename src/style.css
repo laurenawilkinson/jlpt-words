@@ -17,6 +17,7 @@
   --color-primary-300: #f39db3;
   --color-primary-400: #ec819a;
   --color-primary-500: #e16683;
+  --color-primary-600: #c84b68;
 
   /* Matcha */
   --color-matcha-50: #f2f8f1;
@@ -72,7 +73,7 @@
   --color-ring: var(--color-neutral-500);
 
   /* Aliases */
-  --color-primary: var(--color-primary-400);
+  --color-primary: var(--color-primary-300);
   --color-primary-hover: var(--color-primary-500);
   --color-matcha: var(--color-matcha-500);
   --color-wisteria: var(--color-wisteria-500);

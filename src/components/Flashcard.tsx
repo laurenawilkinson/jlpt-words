@@ -30,7 +30,7 @@ export const Flashcard = ({
   return (
     <div
       className={cn(
-        'bg-surface border-border relative flex h-64 w-full max-w-sm flex-col items-center justify-center rounded-2xl border p-4 shadow-md sm:h-96 sm:min-w-80 sm:flex-1',
+        'bg-surface border-border relative flex h-64 w-full max-w-sm flex-col items-center justify-center rounded-4xl border p-4 shadow-md sm:h-96 sm:min-w-80 sm:flex-1',
         {
           'transition-all hover:-translate-y-0.5 hover:shadow-lg':
             !alwaysShowMeaning,
