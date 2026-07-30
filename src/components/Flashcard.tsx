@@ -30,9 +30,9 @@ export const Flashcard = ({
   return (
     <div
       className={cn(
-        'bg-surface shadow-flashcard relative flex h-64 w-full max-w-sm flex-col items-center justify-center rounded-3xl p-4 sm:h-96 sm:min-w-80 sm:flex-1',
+        'bg-surface border-border relative flex h-64 w-full max-w-sm flex-col items-center justify-center rounded-2xl border p-4 shadow-md sm:h-96 sm:min-w-80 sm:flex-1',
         {
-          'hover:shadow-flashcard-lg transition-all hover:-translate-y-0.5':
+          'transition-all hover:-translate-y-0.5 hover:shadow-lg':
             !alwaysShowMeaning,
         }
       )}
@@ -40,7 +40,7 @@ export const Flashcard = ({
       {!alwaysShowMeaning && (
         <button
           aria-label="Show Meaning"
-          className="absolute h-full w-full cursor-pointer rounded-3xl focus-visible:ring-2 focus-visible:ring-rose-500 focus-visible:outline-0"
+          className="focus-visible:ring-ring absolute h-full w-full cursor-pointer rounded-[inherit] focus-visible:outline-0"
           onClick={() => {
             setShowMeaning(!showMeaning);
           }}
@@ -58,7 +58,7 @@ export const Flashcard = ({
       {showRomaji && <p>{word.romaji}</p>}
       <p
         className={cn(
-          'mt-2 text-xl font-medium text-rose-400 transition-opacity',
+          'text-foreground-secondary mt-2 text-xl font-medium transition-opacity',
           !alwaysShowMeaning && !showMeaning && 'opacity-0'
         )}
       >

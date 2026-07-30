@@ -10,11 +10,7 @@ import {
 } from '@/utils/settings';
 import { Toggle } from '../UI/Toggle';
 import Pill from '../UI/Pill';
-import {
-  AVAILABLE_JLPT_LEVELS,
-  JLPT_LEVEL_VAR,
-  JLPT_LEVELS,
-} from '@/utils/jlptLevel';
+import { AVAILABLE_JLPT_LEVELS, JLPT_LEVELS } from '@/utils/jlptLevel';
 import { Select } from '../UI/Select';
 import { forwardRef } from 'preact/compat';
 
@@ -29,7 +25,7 @@ export const SettingsMenu = forwardRef<HTMLDivElement, SettingsMenuProps>(
     return (
       <div
         className={cn(
-          'bg-surface flex w-60 flex-col rounded-xl px-6 py-4 text-left shadow-lg shadow-zinc-400/10',
+          'bg-surface border-border flex w-60 flex-col rounded-xl border px-6 py-4 text-left shadow-lg',
           className
         )}
         ref={ref}
@@ -68,12 +64,8 @@ export const SettingsMenu = forwardRef<HTMLDivElement, SettingsMenuProps>(
             {JLPT_LEVELS.map((level) => (
               <Pill
                 key={level}
-                className={cn(
-                  'bg-jlpt flex-1 [--jlpt-bg-opacity:0]',
-                  settings.jlptLevels.includes(level) &&
-                    'text-jlpt hover:bg-jlpt [--jlpt-bg-opacity:0.1] hover:[--jlpt-bg-opacity:0.15]'
-                )}
-                style={{ '--jlpt-color': JLPT_LEVEL_VAR[level] }}
+                className="flex-1"
+                active={settings.jlptLevels.includes(level)}
                 disabled={!AVAILABLE_JLPT_LEVELS.includes(level)}
                 onClick={() => {
                   if (!AVAILABLE_JLPT_LEVELS.includes(level)) return;

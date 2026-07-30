@@ -34,7 +34,7 @@ export const AppContent = () => {
       />
       <p
         id="todaysDate"
-        className="mt-2 font-medium tracking-wide text-rose-800 opacity-70"
+        className="text-foreground-secondary mt-2 font-medium tracking-wide"
       >
         🌸 {format(dateKey, 'M月d日（EEE）', { locale: ja })}
       </p>
