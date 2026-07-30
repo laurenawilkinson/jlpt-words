@@ -92,5 +92,5 @@
 }
 
 @utility focus-ring {
-  @apply ring-ring ring-2 ring-offset-1 outline-0;
+  @apply ring-ring ring-2 ring-offset-2 outline-0;
 }

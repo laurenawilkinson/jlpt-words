@@ -36,7 +36,7 @@ export const Toggle = ({
           'relative inline-flex h-6 w-10 items-center rounded-full transition-colors duration-150 ease-out',
           checked ? 'bg-primary' : 'bg-neutral-300',
           disabled && 'cursor-not-allowed opacity-50',
-          'peer-focus-visible:focus-ring peer-focus-visible:ring-offset-2'
+          'peer-focus-visible:focus-ring'
         )}
       >
         <span
