@@ -47,18 +47,30 @@ export const Flashcard = ({
         ></button>
       )}
       <FlashcardLevel className="absolute top-5" level={word.jlpt} />
-      {word.furigana && showFurigana && (
-        <p className={cn('text-xl font-bold', jpFontClass)}>{word.furigana}</p>
-      )}
       <h2
-        className={cn('text-3xl font-bold break-keep sm:text-5xl', jpFontClass)}
+        className={cn(
+          'relative text-3xl font-bold break-keep sm:text-5xl',
+          jpFontClass
+        )}
       >
+        {word.furigana && showFurigana && (
+          <span
+            className={cn(
+              'text-foreground-secondary absolute right-0 bottom-full left-0 pb-1.5 text-xl font-bold',
+              jpFontClass
+            )}
+          >
+            {word.furigana}
+          </span>
+        )}
         {word.jp}
       </h2>
-      {showRomaji && <p>{word.romaji}</p>}
+      {showRomaji && (
+        <p className="text-foreground-tertiary mt-2">{word.romaji}</p>
+      )}
       <p
         className={cn(
-          'text-foreground-secondary mt-2 text-xl font-medium transition-all duration-300 ease-out',
+          'text-foreground-secondary mt-5 text-xl font-medium transition-all duration-300 ease-out',
           !alwaysShowMeaning && !showMeaning
             ? 'pointer-events-none translate-y-2 opacity-0'
             : 'translate-y-0 opacity-100'
