@@ -1,5 +1,5 @@
 import { SettingsProvider } from './providers/SettingsProvider';
-import { AppHeader } from './components/AppHeader';
+import { AppHeader } from './components/AppHeader/AppHeader';
 import { AppContent } from './components/AppContent';
 import { AppFooter } from './components/AppFooter';
 
