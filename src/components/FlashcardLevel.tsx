@@ -10,7 +10,7 @@ export const FlashcardLevel = ({ className, level }: FlashcardLevelProps) => {
   return (
     <span
       className={cn(
-        'bg-primary-50 text-primary rounded-lg px-3 py-1 font-medium tracking-wide',
+        'bg-primary-50 text-primary rounded-lg px-3 py-1 font-medium tracking-wide select-none',
         className
       )}
     >
