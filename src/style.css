@@ -89,6 +89,29 @@
     font-size: 100% !important;
     color: var(--color-foreground);
   }
+
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-neutral-400) var(--color-neutral-100);
+  }
+
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--color-neutral-100);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--color-neutral-400);
+    border-radius: 10px;
+    border: 3px solid var(--color-neutral-100);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-neutral-500);
+  }
 }
 
 @utility focus-ring {
