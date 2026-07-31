@@ -1,6 +1,6 @@
 import { createContext } from 'preact';
 import { useCallback, useContext, useMemo, useState } from 'preact/hooks';
-import { getAppSettings, setAppSettings } from '@/utils/settings';
+import { getLocalSettings, setLocalSettings } from '@/utils/settings';
 import type { Settings } from '@/types';
 
 type SettingsContextValue = {
@@ -11,10 +11,10 @@ type SettingsContextValue = {
 const SettingsContext = createContext<SettingsContextValue | null>(null);
 
 export const SettingsProvider: preact.FunctionComponent = ({ children }) => {
-  const [settings, setSettings] = useState<Settings>(getAppSettings());
+  const [settings, setSettings] = useState<Settings>(getLocalSettings());
 
   const updateSettings = useCallback((updatedSettings: Partial<Settings>) => {
-    setSettings((prev) => setAppSettings({ ...prev, ...updatedSettings }));
+    setSettings((prev) => setLocalSettings({ ...prev, ...updatedSettings }));
   }, []);
 
   const value = useMemo(

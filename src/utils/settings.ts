@@ -28,7 +28,7 @@ const settingsSchema = z.object({
   jpFont: z.enum(JP_FONTS),
 });
 
-export const getAppSettings = (): Settings => {
+export const getLocalSettings = (): Settings => {
   const localSettings = localStorage.getItem(LOCAL_SETTINGS_KEY);
 
   if (!localSettings) return DEFAULT_SETTINGS;
@@ -48,7 +48,7 @@ export const getAppSettings = (): Settings => {
   }
 };
 
-export const setAppSettings = (newSettings: Settings): Settings => {
+export const setLocalSettings = (newSettings: Settings): Settings => {
   const settings = settingsSchema.parse(newSettings);
   const sortedSettings: Settings = {
     ...settings,
