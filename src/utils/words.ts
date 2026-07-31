@@ -1,6 +1,9 @@
 import seedrandom from 'seedrandom';
 import { isKana, toRomaji } from 'wanakana';
 import type { JlptLevel, JsonWord, Word } from '@/types';
+import z from 'zod';
+
+const LOCAL_KNOWN_KEY = 'known-words';
 
 const words: Record<JlptLevel, Word[]> = {
   N1: [],
@@ -52,3 +55,28 @@ export async function loadWordsForLevel(level: JlptLevel): Promise<Word[]> {
     return [];
   }
 }
+
+const knownWordsSchema = z.array(z.string()).default([]);
+
+export type KnownWordIds = string[];
+
+export const getLocalKnownWordIds = (): KnownWordIds => {
+  const localKnown = localStorage.getItem(LOCAL_KNOWN_KEY);
+
+  if (!localKnown) return [];
+
+  try {
+    const parsed = JSON.parse(localKnown);
+    const validated = knownWordsSchema.parse(parsed);
+
+    return validated;
+  } catch {
+    localStorage.removeItem(LOCAL_KNOWN_KEY);
+    return [];
+  }
+};
+
+export const setLocalKnownWordIds = (newIds: KnownWordIds) => {
+  const validated = knownWordsSchema.parse(newIds);
+  localStorage.setItem(LOCAL_KNOWN_KEY, JSON.stringify(validated));
+};

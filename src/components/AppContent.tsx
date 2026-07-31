@@ -1,47 +1,27 @@
 import { format } from 'date-fns';
 import { ja } from 'date-fns/locale';
 import { Flashcard } from './Flashcard';
-import { useSettings } from '@/providers/SettingsProvider';
-import { useEffect, useState } from 'preact/hooks';
+import { useWords } from '@/providers/WordsProvider';
 import { useDailyDateKey } from '@/hooks/useDailyDateKey';
-import type { Word } from '@/types';
-import { loadWordsForLevel, getWordsForDate } from '@/utils/words';
+import { useSettings } from '@/providers/SettingsProvider';
 
 export const AppContent = () => {
   const { settings } = useSettings();
-  const [todaysWords, setTodaysWords] = useState<Word[]>([]);
+  const { dailyWords } = useWords();
   const dateKey = useDailyDateKey();
 
-  useEffect(() => {
-    const fetchWordArrays = async () => {
-      const wordArrays = await Promise.all(
-        settings.jlptLevels.map(loadWordsForLevel)
-      );
-      const words = getWordsForDate(wordArrays.flat(), settings.words, dateKey);
-      setTodaysWords(words);
-    };
-    fetchWordArrays();
-  }, [settings.jlptLevels, settings.words]);
-
   return (
-    <div className="flex flex-1 flex-col items-center px-4 py-12 text-center sm:py-24">
-      <img
-        src="/images/torii.png"
-        alt="Torii Gate"
-        width="68"
-        height="68"
-        className="mb-2"
-      />
+    <div className="flex flex-1 flex-col items-center px-4 py-6 text-center sm:py-12">
       <p
         id="todaysDate"
         className="text-foreground-secondary mt-2 font-medium tracking-wide"
       >
         🌸 {format(dateKey, 'M月d日（EEE）', { locale: ja })}
       </p>
-      <div className="mt-10 flex w-full flex-col items-center gap-6 px-8 sm:mt-14 sm:flex-row sm:flex-wrap sm:justify-center">
-        {todaysWords.map((word) => (
+      <div className="mt-10 flex w-full flex-col items-center gap-6 sm:mt-14 sm:flex-row sm:flex-wrap sm:justify-center sm:px-8">
+        {dailyWords.map((word) => (
           <Flashcard
-            key={`${word.jp}-${word.en}`}
+            key={word.id}
             word={word}
             showFurigana={settings.showFurigana}
             showRomaji={settings.showRomaji}
