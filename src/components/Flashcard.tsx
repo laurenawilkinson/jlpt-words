@@ -58,22 +58,21 @@ export const Flashcard = ({
       {showRomaji && <p>{word.romaji}</p>}
       <p
         className={cn(
-          'text-foreground-secondary mt-2 text-xl font-medium transition-opacity',
-          !alwaysShowMeaning && !showMeaning && 'opacity-0'
+          'text-foreground-secondary mt-2 text-xl font-medium transition-all duration-300 ease-out',
+          !alwaysShowMeaning && !showMeaning
+            ? 'pointer-events-none translate-y-2 opacity-0'
+            : 'translate-y-0 opacity-100'
         )}
       >
-        {word.en}
-      </p>
-      <div className="absolute bottom-0 flex w-full justify-center p-4 sm:p-6">
-        <IconButton
-          as="a"
-          aria-label="Dictionary"
+        <a
+          className="focus-visible:focus-ring flex items-center gap-2 rounded-full px-4 py-1 transition-colors hover:bg-neutral-50"
           href={`https://jisho.org/search/${encodeURIComponent(word.jp)}`}
           target="_blank"
         >
-          <IconBook />
-        </IconButton>
-      </div>
+          {word.en}
+          <IconBook size={20} className="text-foreground-tertiary" />
+        </a>
+      </p>
     </div>
   );
 };
