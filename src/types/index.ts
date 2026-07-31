@@ -1,12 +1,9 @@
 export type JlptLevel = 'N5' | 'N4' | 'N3' | 'N2' | 'N1';
 
-export type JlptWord = {
-  jp: string;
-  en: string;
-  furigana?: string;
-};
+export type JsonWord = Pick<Word, 'id' | 'jp' | 'en' | 'furigana'>;
 
 export type Word = {
+  id: string;
   jp: string;
   furigana?: string;
   romaji: string;

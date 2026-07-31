@@ -1,6 +1,6 @@
 import seedrandom from 'seedrandom';
 import { isKana, toRomaji } from 'wanakana';
-import type { JlptLevel, JlptWord, Word } from '@/types';
+import type { JlptLevel, JsonWord, Word } from '@/types';
 
 const words: Record<JlptLevel, Word[]> = {
   N1: [],
@@ -21,10 +21,11 @@ export function getWordsForDate(
   return shuffled.slice(0, count);
 }
 
-export function transformWords(level: JlptLevel, words?: JlptWord[]): Word[] {
+export function transformWords(level: JlptLevel, words?: JsonWord[]): Word[] {
   if (!words || !Array.isArray(words)) return [];
 
   return words.map((word) => ({
+    id: word.id,
     jp: word.jp,
     en: word.en,
     furigana: word.furigana,
@@ -40,7 +41,7 @@ export async function loadWordsForLevel(level: JlptLevel): Promise<Word[]> {
   const res = await fetch(`/data/${level}.json`);
   if (!res.ok) throw new Error(`Failed to load ${level} words`);
   try {
-    const data: JlptWord[] = await res.json();
+    const data: JsonWord[] = await res.json();
     const formatted: Word[] = transformWords(level, data);
     // Save words in memory
     words[level] = formatted;

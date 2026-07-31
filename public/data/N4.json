@@ -1,3002 +1,3636 @@
 [
   {
+    "id": "15af318c-d428-49f2-af04-52e879ab7461",
     "jp": "あ",
     "en": "Ah"
   },
   {
+    "id": "d0bfc497-434a-4466-8b78-3f345876f076",
     "jp": "ああ",
     "en": "like that"
   },
   {
+    "id": "ab12c2eb-2292-47e0-a35b-f12e8394f6de",
     "jp": "あいさつ・する",
     "en": "to greet"
   },
   {
+    "id": "74199c11-7e16-4a70-9226-ac0fd6fa5f05",
     "jp": "間",
     "en": "a space",
     "furigana": "あいだ"
   },
   {
+    "id": "04af020d-d381-4d12-a1c9-77f6321571a4",
     "jp": "合う",
     "en": "to match",
     "furigana": "あう"
   },
   {
+    "id": "efcfd0ca-415d-4486-a736-51579825f524",
     "jp": "あかちゃん",
     "en": "infant"
   },
   {
+    "id": "d977fcaf-03a9-4fb7-9046-4b8ca066c036",
     "jp": "上る",
     "en": "to rise",
     "furigana": "あがる"
   },
   {
+    "id": "2b5444c8-3fc9-4687-a4ab-882c561faa1b",
     "jp": "赤ん坊",
     "en": "baby",
     "furigana": "あかんぼう"
   },
   {
+    "id": "75d62023-81e4-4f48-8fa1-85d61f1186e5",
     "jp": "空く",
     "en": "to open, to become empty",
     "furigana": "あく"
   },
   {
+    "id": "0ccd4956-4b6c-485d-93a5-ba8b8c5be268",
     "jp": "アクセサリー",
     "en": "accessory"
   },
   {
+    "id": "752bef36-0493-410f-927c-f7c9ec6695b9",
     "jp": "あげる",
     "en": "to give"
   },
   {
+    "id": "8af63aca-4075-4189-8657-4e1933a87f8b",
     "jp": "浅い",
     "en": "shallow, superficial",
     "furigana": "あさい"
   },
   {
+    "id": "e86545d9-5b79-4823-8faf-0f8450ca610b",
     "jp": "味",
     "en": "flavour",
     "furigana": "あじ"
   },
   {
+    "id": "abfdf80a-b5d3-4f3b-aa7e-44a936daea15",
     "jp": "アジア",
     "en": "Asia"
   },
   {
+    "id": "99736af8-c184-4e12-bf54-167a35ac9dc0",
     "jp": "明日",
     "en": "tomorrow",
     "furigana": "あす"
   },
   {
+    "id": "c44be8c5-b6a2-4d71-8500-b2334f8a5ccd",
     "jp": "遊び",
     "en": "play",
     "furigana": "あそび"
   },
   {
+    "id": "b477851d-1327-4783-b751-2085d637db5c",
     "jp": "集る",
     "en": "to gather",
     "furigana": "あつまる"
   },
   {
+    "id": "7be9c5c8-ecd1-4464-bd91-3c58533a6336",
     "jp": "集める",
     "en": "to collect something",
     "furigana": "あつめる"
   },
   {
+    "id": "938aef71-9ba5-47f6-a300-95099d866750",
     "jp": "アナウンサー",
     "en": "announcer"
   },
   {
+    "id": "505abc6e-836d-4761-ac71-31fb63707385",
     "jp": "アフリカ",
     "en": "Africa"
   },
   {
+    "id": "b41de3aa-df25-457e-b2fa-34e28db761e3",
     "jp": "アメリカ",
     "en": "America"
   },
   {
+    "id": "2b999c6c-4d93-48f4-b48f-3ed6f50524ee",
     "jp": "謝る",
     "en": "to apologize",
     "furigana": "あやまる"
   },
   {
+    "id": "8ef1e137-5ddd-4386-9bb6-aa446a689950",
     "jp": "アルコール",
     "en": "alcohol"
   },
   {
+    "id": "87c902bc-c5f3-4fc0-bda3-d55a449aa305",
     "jp": "アルバイト",
     "en": "part-time job"
   },
   {
+    "id": "a4dfd2f1-9bf2-49b6-8350-fe0117e692bc",
     "jp": "安心",
     "en": "relief",
     "furigana": "あんしん"
   },
   {
+    "id": "3e3c0401-02af-4ad5-a3df-070638600320",
     "jp": "安全",
     "en": "safety",
     "furigana": "あんぜん"
   },
   {
+    "id": "a172ecad-f05a-4c51-934e-01b9cdafd038",
     "jp": "あんな",
     "en": "such"
   },
   {
+    "id": "06f6c924-8173-4af9-b841-6290ddab471a",
     "jp": "案内",
     "en": "あんない・する to guide"
   },
   {
+    "id": "cb348a66-9101-4608-b210-d9fc99737f75",
     "jp": "以下",
     "en": "less than",
     "furigana": "いか"
   },
   {
+    "id": "1a77e588-b210-42eb-b829-9587296c4953",
     "jp": "以外",
     "en": "with the exception of",
     "furigana": "いがい"
   },
   {
+    "id": "65d14d27-99c9-412a-a136-2872afea8356",
     "jp": "医学",
     "en": "medical science",
     "furigana": "いがく"
   },
   {
+    "id": "96815141-ab6c-4706-af3e-d17f5cae24fc",
     "jp": "生きる",
     "en": "to live",
     "furigana": "いきる"
   },
   {
+    "id": "6621ddf8-ac6c-4bbd-93e3-2c06fd570944",
     "jp": "意見",
     "en": "opinion",
     "furigana": "いけん"
   },
   {
+    "id": "5629e8f6-7f83-4a6c-b913-dc6578226703",
     "jp": "石",
     "en": "stone",
     "furigana": "いし"
   },
   {
+    "id": "21ba7a84-a8d4-4a3d-bf6e-fb0081a28436",
     "jp": "いじめる",
     "en": "to tease"
   },
   {
+    "id": "150f5ddf-e044-4c1d-96c5-b4920adc8ef4",
     "jp": "以上",
     "en": "more than, this is all",
     "furigana": "いじょう"
   },
   {
+    "id": "e837ba57-970c-4fe8-9bf2-b5cec716a01d",
     "jp": "急ぐ",
     "en": "to hurry",
     "furigana": "いそぐ"
   },
   {
+    "id": "41bfde74-b674-48b6-a4f8-731a2d9e3f91",
     "jp": "致す",
     "en": "(humble) to do",
     "furigana": "いたす"
   },
   {
+    "id": "16ee8e10-1d9d-4e38-8bac-4703d86deba4",
     "jp": "いただく",
     "en": "(humble) to receive"
   },
   {
+    "id": "a44ef290-1cd0-4769-9bc2-3b9f171cc530",
     "jp": "一度",
     "en": "once",
     "furigana": "いちど"
   },
   {
+    "id": "487c9db8-fb5b-41b3-a71f-f5b86aca90a7",
     "jp": "一生懸命",
     "en": "with utmost effort",
     "furigana": "いっしょうけんめい"
   },
   {
+    "id": "7eefb1a3-4eb1-4c84-a7a8-b736a4b437b1",
     "jp": "いっぱい",
     "en": "full"
   },
   {
+    "id": "700fda49-7921-4780-9cc6-0561188ceba3",
     "jp": "糸",
     "en": "thread",
     "furigana": "いと"
   },
   {
+    "id": "b6997346-4ee9-4c87-9068-9421d6f4ed5f",
     "jp": "以内",
     "en": "within",
     "furigana": "いない"
   },
   {
+    "id": "448fb490-cd84-4932-8eea-330208687afc",
     "jp": "田舎",
     "en": "countryside",
     "furigana": "いなか"
   },
   {
+    "id": "9c33778b-d6d2-4bc8-88c1-4c3f20fcfd3c",
     "jp": "祈る",
     "en": "to pray",
     "furigana": "いのる"
   },
   {
+    "id": "f69d90ff-43f4-44df-b23b-34b34f88df4f",
     "jp": "いらっしゃる",
     "en": "(respectful) to be, to come or to go"
   },
   {
+    "id": "8e14000c-d817-4e28-8c97-4d0a821a6244",
     "jp": "植える",
     "en": "to plant, to grow",
     "furigana": "うえる"
   },
   {
+    "id": "443bbe37-74b3-4e81-b023-6d3792992ead",
     "jp": "うかがう",
     "en": "to visit"
   },
   {
+    "id": "e853934b-7f96-4042-b965-0b54ae6949ff",
     "jp": "受付",
     "en": "receipt",
     "furigana": "うけつけ"
   },
   {
+    "id": "c87e1ed2-94d9-4af2-bf31-c564cdc672c5",
     "jp": "受ける",
     "en": "to take a lesson or test",
     "furigana": "うける"
   },
   {
+    "id": "bd644a9c-32ec-4ba1-89bd-916d9c0a273a",
     "jp": "動く",
     "en": "to move",
     "furigana": "うごく"
   },
   {
+    "id": "6a7a8446-e4f7-4946-ba10-ad36651a92d4",
     "jp": "うそ",
     "en": "a lie"
   },
   {
+    "id": "64482484-d0e1-4a08-94a9-533cb1b0a087",
     "jp": "うち",
     "en": "within"
   },
   {
+    "id": "72e7b8ff-a80e-4649-9519-336764cf0bae",
     "jp": "打つ",
     "en": "to hit",
     "furigana": "うつ"
   },
   {
+    "id": "acc1a98a-e4af-4501-9afc-d1896c13d7ee",
     "jp": "美しい",
     "en": "beautiful",
     "furigana": "うつくしい"
   },
   {
+    "id": "e9d3e997-2071-4515-b76a-b3c6d4f0fe33",
     "jp": "写す",
     "en": "to copy or photograph",
     "furigana": "うつす"
   },
   {
+    "id": "c02c45fd-a562-4bc4-9915-8f6438b9e406",
     "jp": "移る",
     "en": "to move house or transfer",
     "furigana": "うつる"
   },
   {
+    "id": "a0a66b3f-9aad-4021-b202-9dc43a2e57a9",
     "jp": "腕",
     "en": "arm",
     "furigana": "うで"
   },
   {
+    "id": "e0504640-9061-4788-a3cc-c505f5318cbf",
     "jp": "うまい",
     "en": "delicious"
   },
   {
+    "id": "940898a2-6255-4318-8211-b65577b8e353",
     "jp": "裏",
     "en": "reverse side",
     "furigana": "うら"
   },
   {
+    "id": "501b67f0-8e88-4f77-8e16-faa55b65ab75",
     "jp": "売り場",
     "en": "place where things are sold",
     "furigana": "うりば"
   },
   {
+    "id": "32046ffe-032a-4560-bded-2c07ddc63c32",
     "jp": "うれしい",
     "en": "glad"
   },
   {
+    "id": "90c5ddc1-c459-4a6f-b6c5-7af0bc060c53",
     "jp": "うん",
     "en": "(informal) yes"
   },
   {
+    "id": "365724f1-8d53-4824-b501-cb67148d9ebb",
     "jp": "運転",
     "en": "うんてん・する to drive"
   },
   {
+    "id": "23c8d1c8-5eb9-4adf-9387-dedb0a39eb9a",
     "jp": "運転手",
     "en": "driver",
     "furigana": "うんてんしゅ"
   },
   {
+    "id": "4d0bd152-db9e-40b1-961f-836108bf797d",
     "jp": "運動",
     "en": "うんどう・する to exercise"
   },
   {
+    "id": "a35d2a0a-27a8-4eb4-9507-fd3d42bb27da",
     "jp": "エスカレーター",
     "en": "escalator"
   },
   {
+    "id": "2d04866c-5825-4e80-a01c-d38c17b3b6f4",
     "jp": "枝",
     "en": "branch, twig",
     "furigana": "えだ"
   },
   {
+    "id": "fe2ce097-f98b-4762-a568-d53adc2a9418",
     "jp": "選ぶ",
     "en": "to choose",
     "furigana": "えらぶ"
   },
   {
+    "id": "712966cc-776d-49e9-bebe-691f40a8a556",
     "jp": "遠慮",
     "en": "えんりょ・する to be reserved, to be restrained"
   },
   {
+    "id": "3a3267db-30b4-4037-a75f-fa5796a6e44f",
     "jp": "おいでになる",
     "en": "(respectful) to be"
   },
   {
+    "id": "7480f8c0-79db-4225-8114-da0ab9c81f70",
     "jp": "お祝い",
     "en": "congratulation",
     "furigana": "おいわい"
   },
   {
+    "id": "b40683d3-d460-4f77-85a8-93a9b50e2c41",
     "jp": "オートバイ",
     "en": "motorcycle"
   },
   {
+    "id": "8246d4e5-8a91-4fb7-ac8f-3ffa4a3301c1",
     "jp": "おかげ",
     "en": "owing to"
   },
   {
+    "id": "b9317800-b162-42ba-9364-f2acc353965c",
     "jp": "おかしい",
     "en": "strange or funny"
   },
   {
+    "id": "8de1e8de-21d4-4e03-9330-e64e3bbe710c",
     "jp": "億",
     "en": "one hundred million",
     "furigana": "おく"
   },
   {
+    "id": "fe5e2ea6-7c82-411d-a768-fe95f7bb1a56",
     "jp": "屋上",
     "en": "rooftop",
     "furigana": "おくじょう"
   },
   {
+    "id": "8c678f9a-8c97-489e-b0b6-a4323ac52d4d",
     "jp": "贈り物",
     "en": "gift",
     "furigana": "おくりもの"
   },
   {
+    "id": "4e76327f-66a5-4297-9654-a4333d67c0c7",
     "jp": "送る",
     "en": "to send",
     "furigana": "おくる"
   },
   {
+    "id": "66b7f6af-9ef2-4b78-ae4c-1a68c65e93a5",
     "jp": "遅れる",
     "en": "to be late",
     "furigana": "おくれる"
   },
   {
+    "id": "307a418b-442a-4d42-b1aa-4be7011c84ba",
     "jp": "起す",
     "en": "to wake",
     "furigana": "おこす"
   },
   {
+    "id": "d2f4fcaa-5689-4398-9af3-9d6d0e83558b",
     "jp": "行う",
     "en": "to do",
     "furigana": "おこなう"
   },
   {
+    "id": "4256da59-0107-477b-84b3-4078fef4f6cb",
     "jp": "怒る",
     "en": "to get angry, to be angry",
     "furigana": "おこる"
   },
   {
+    "id": "f25b0be1-550e-4e09-9f99-ecfebd232a4b",
     "jp": "押し入れ",
     "en": "closet",
     "furigana": "おしいれ"
   },
   {
+    "id": "bcfb2f62-7a0b-4947-9a36-ff8ec4168ac1",
     "jp": "お嬢さん",
     "en": "young lady",
     "furigana": "おじょうさん"
   },
   {
+    "id": "bbbaff3d-b89a-4962-8183-c7d57ef9f108",
     "jp": "お宅",
     "en": "(polite) your house",
     "furigana": "おたく"
   },
   {
+    "id": "ac23c1c3-ce09-435b-a183-595b2ab0919e",
     "jp": "落る",
     "en": "to fall or drop",
     "furigana": "おちる"
   },
   {
+    "id": "e6d9b728-8fcb-46d6-b022-0539e0eb6910",
     "jp": "おっしゃる",
     "en": "(respectful) to say"
   },
   {
+    "id": "b061a995-41d5-4631-a6a4-0f96e8f5b7ed",
     "jp": "夫",
     "en": "husband",
     "furigana": "おっと"
   },
   {
+    "id": "e9df9030-d3c4-43dd-8517-85817bc9c464",
     "jp": "おつり",
     "en": "change from purchase, balance"
   },
   {
+    "id": "2c32a094-3c0e-442a-a8f5-d7ebd8211ce4",
     "jp": "音",
     "en": "sound, note",
     "furigana": "おと"
   },
   {
+    "id": "366f0c4a-83f3-457b-ba32-68634bc38b9f",
     "jp": "落す",
     "en": "to drop",
     "furigana": "おとす"
   },
   {
+    "id": "d9503ff9-2afe-415a-9f59-c52b16b647a1",
     "jp": "踊り",
     "en": "a dance",
     "furigana": "おどり"
   },
   {
+    "id": "65ea3f5d-276b-484a-bfae-426eb96e15fa",
     "jp": "踊る",
     "en": "to dance",
     "furigana": "おどる"
   },
   {
+    "id": "c702c785-e05d-4b41-a568-e1497dae5c03",
     "jp": "驚く",
     "en": "to be surprised",
     "furigana": "おどろく"
   },
   {
+    "id": "f62c1786-20ae-46fb-abdb-6fb572b1455f",
     "jp": "お祭り",
     "en": "festival",
     "furigana": "おまつり"
   },
   {
+    "id": "b664ddd7-2154-4616-95ff-63b43b995564",
     "jp": "お見舞い",
     "en": "calling on someone who is ill, enquiry",
     "furigana": "おみまい"
   },
   {
+    "id": "ccec490f-2866-4bf5-9de9-a5eda326f50d",
     "jp": "お土産",
     "en": "souvenir",
     "furigana": "おみやげ"
   },
   {
+    "id": "d38b6cd2-4894-45b3-8510-59c7b5947a5b",
     "jp": "思い出す",
     "en": "to remember",
     "furigana": "おもいだす"
   },
   {
+    "id": "9d51763d-f87e-4e0f-ba0a-1a228b3ee42d",
     "jp": "思う",
     "en": "to think, to feel",
     "furigana": "おもう"
   },
   {
+    "id": "0b4cf7ae-dad9-4e32-bcc2-f8b069f2c45e",
     "jp": "おもちゃ",
     "en": "toy"
   },
   {
+    "id": "c4804b7e-5c13-4115-988e-1b9957c7e46e",
     "jp": "表",
     "en": "the front",
     "furigana": "おもて"
   },
   {
+    "id": "87edd11f-d113-4bd2-b378-be2ece0e9ae0",
     "jp": "親",
     "en": "parents",
     "furigana": "おや"
   },
   {
+    "id": "b8d3c7c4-3d35-4101-a17b-b4641d599b59",
     "jp": "下りる",
     "en": "to get off",
     "furigana": "おりる"
   },
   {
+    "id": "26d4d817-9df8-4d62-82ae-1dea0f2ca0c7",
     "jp": "折る",
     "en": "to break or to fold",
     "furigana": "おる"
   },
   {
+    "id": "fb307826-8d01-4e09-8d5b-f4e0f5de7db4",
     "jp": "お礼",
     "en": "expression of gratitude",
     "furigana": "おれい"
   },
   {
+    "id": "93841c05-d655-4c05-bb0b-4175921bc4cb",
     "jp": "折れる",
     "en": "to break or be folded",
     "furigana": "おれる"
   },
   {
+    "id": "a4b5c207-6113-4a15-b84d-73fb53830615",
     "jp": "終わり",
     "en": "the end",
     "furigana": "おわり"
   },
   {
+    "id": "91d08dd8-9b0c-47dd-ab24-c4e8f5a3a457",
     "jp": "カーテン",
     "en": "curtain"
   },
   {
+    "id": "1292030b-132c-4eea-b5a1-6cb159b35a32",
     "jp": "海岸",
     "en": "coast",
     "furigana": "かいがん"
   },
   {
+    "id": "73a5548b-a0e9-475f-ba76-80ddbfff7c29",
     "jp": "会議",
     "en": "meeting",
     "furigana": "かいぎ"
   },
   {
+    "id": "bafec862-07f7-4f1f-afde-0db44b216cef",
     "jp": "会議室",
     "en": "meeting room",
     "furigana": "かいぎしつ"
   },
   {
+    "id": "1a357628-9ca8-435f-ba9f-156756636140",
     "jp": "会場",
     "en": "assembly hall or meeting place",
     "furigana": "かいじょう"
   },
   {
+    "id": "8aa068f4-dfef-4d14-9fc3-28001cdbadc0",
     "jp": "会話",
     "en": "conversation",
     "furigana": "かいわ"
   },
   {
+    "id": "5625f1f9-6aea-4f18-8e0f-6569b261b8bf",
     "jp": "帰り",
     "en": "return",
     "furigana": "かえり"
   },
   {
+    "id": "493350d0-bf03-4532-b43b-89b70e0ab67f",
     "jp": "変える",
     "en": "to change",
     "furigana": "かえる"
   },
   {
+    "id": "d17f6264-e5f0-4b76-8a4a-e3c66a0cef35",
     "jp": "科学",
     "en": "science",
     "furigana": "かがく"
   },
   {
+    "id": "f89542fc-722b-4584-ac47-a421ef4b78c3",
     "jp": "鏡",
     "en": "mirror",
     "furigana": "かがみ"
   },
   {
+    "id": "ed0576f6-b28d-4484-b6ab-cc3f46dd000c",
     "jp": "掛ける",
     "en": "to hang something",
     "furigana": "かける"
   },
   {
+    "id": "a0ae8c89-c8e2-48cc-87ea-eb5b6cf8e431",
     "jp": "飾る",
     "en": "to decorate",
     "furigana": "かざる"
   },
   {
+    "id": "aed722ca-d27d-4e47-9c85-203cfbf047b1",
     "jp": "火事",
     "en": "fire",
     "furigana": "かじ"
   },
   {
+    "id": "2ccb58c9-1dd8-4b48-b8d0-6e3b8cde5261",
     "jp": "ガス",
     "en": "petrol"
   },
   {
+    "id": "3193f428-85f3-464c-bd82-2419ed846b96",
     "jp": "ガソリン",
     "en": "petrol"
   },
   {
+    "id": "fb969619-d934-458a-94f6-ae13390395f2",
     "jp": "ガソリンスタンド",
     "en": "petrol station"
   },
   {
+    "id": "d4a3806f-9d55-4e78-8b98-a11a2408e1be",
     "jp": "堅/硬/固い",
     "en": "hard",
     "furigana": "かたい"
   },
   {
+    "id": "46211a1e-bde1-4867-8882-e13cedd0cc4d",
     "jp": "形",
     "en": "shape",
     "furigana": "かたち"
   },
   {
+    "id": "c3cbccb0-17ce-4031-8d53-a5a11f5fee67",
     "jp": "片付ける",
     "en": "to tidy up",
     "furigana": "かたづける"
   },
   {
+    "id": "8dbe6b2f-4f0d-45c4-aa59-4e4804ad0eb8",
     "jp": "課長",
     "en": "section manager",
     "furigana": "かちょう"
   },
   {
+    "id": "eed1fa65-6bf3-463c-8618-7e87ec315ab9",
     "jp": "勝つ",
     "en": "to win",
     "furigana": "かつ"
   },
   {
+    "id": "929c6e73-93be-4213-a963-7cc698aba845",
     "jp": "かっこう",
     "en": "appearance"
   },
   {
+    "id": "af3d0ffd-7e23-40cb-ab1e-6e5565ab2a62",
     "jp": "家内",
     "en": "housewife",
     "furigana": "かない"
   },
   {
+    "id": "28e1fcf1-3c41-44db-8954-98384a17012f",
     "jp": "悲しい",
     "en": "sad",
     "furigana": "かなしい"
   },
   {
+    "id": "b1d30512-ef31-433a-96d6-6c5cf1b04e8a",
     "jp": "必ず",
     "en": "certainly, necessarily",
     "furigana": "かならず"
   },
   {
+    "id": "ab260ec4-f5d5-4ea2-83d1-d8ed515e2612",
     "jp": "お・金持ち",
     "en": "かねもち/おかねもち rich man"
   },
   {
+    "id": "5272049a-ca75-41ad-a519-98482405de76",
     "jp": "彼女",
     "en": "she, girlfriend",
     "furigana": "かのじょ"
   },
   {
+    "id": "05f996a0-3cc6-4308-9492-96d5988ae69a",
     "jp": "壁",
     "en": "wall",
     "furigana": "かべ"
   },
   {
+    "id": "174eada9-264b-47b4-a764-f0d6c4648276",
     "jp": "かまう",
     "en": "to mind"
   },
   {
+    "id": "03bd9313-db29-4ec8-9a27-8ba0a1702906",
     "jp": "髪",
     "en": "hair",
     "furigana": "かみ"
   },
   {
+    "id": "c787cfb3-d04b-42d9-927f-ebe0ac726d50",
     "jp": "噛む",
     "en": "to bite, to chew",
     "furigana": "かむ"
   },
   {
+    "id": "d372ca6b-b1c3-490c-a31c-464ab6c4a4af",
     "jp": "通う",
     "en": "to commute",
     "furigana": "かよう"
   },
   {
+    "id": "9e4ec0f4-9350-40e1-8e74-b8416b251e62",
     "jp": "ガラス",
     "en": "a glass pane"
   },
   {
+    "id": "8bb14740-3f3e-4b54-92f5-3b786ac0c261",
     "jp": "彼",
     "en": "he, boyfriend",
     "furigana": "かれ"
   },
   {
+    "id": "139c7f13-c844-44a9-a4fd-2d77d4b359e4",
     "jp": "彼ら",
     "en": "they",
     "furigana": "かれら"
   },
   {
+    "id": "55be1f3c-13be-4cf9-924a-cdf299cdf66b",
     "jp": "乾く",
     "en": "to get dry",
     "furigana": "かわく"
   },
   {
+    "id": "5e6f672c-0971-4a71-9f61-a9c6525aeddd",
     "jp": "代わり",
     "en": "substitute, alternate",
     "furigana": "かわり"
   },
   {
+    "id": "4c907ff1-619c-4d5e-ba2f-b2a390bf4c3b",
     "jp": "変わる",
     "en": "to change",
     "furigana": "かわる"
   },
   {
+    "id": "e24fd181-246f-4aae-98e5-835ebeb28592",
     "jp": "考える",
     "en": "to consider",
     "furigana": "かんがえる"
   },
   {
+    "id": "78a3ef55-5150-4164-a24e-eeff2780dd14",
     "jp": "関係",
     "en": "relationship",
     "furigana": "かんけい"
   },
   {
+    "id": "d8c7ba38-5b72-4418-886d-ff36bf1cc9fc",
     "jp": "看護婦",
     "en": "female nurse",
     "furigana": "かんごふ"
   },
   {
+    "id": "68890363-9ec4-4dd7-a219-4671b6bd5a85",
     "jp": "簡単",
     "en": "simple",
     "furigana": "かんたん"
   },
   {
+    "id": "99812653-ae96-4086-861b-9d78b692da43",
     "jp": "気",
     "en": "spirit, mood",
     "furigana": "き"
   },
   {
+    "id": "c218ddae-18e8-4577-9336-f98e8f4865ca",
     "jp": "機会",
     "en": "opportunity",
     "furigana": "きかい"
   },
   {
+    "id": "5160ea7b-8a86-4b03-9576-3859a74fe8ea",
     "jp": "危険",
     "en": "danger",
     "furigana": "きけん"
   },
   {
+    "id": "3d4f631e-198f-4463-bc67-88927f477f1d",
     "jp": "聞こえる",
     "en": "to be heard",
     "furigana": "きこえる"
   },
   {
+    "id": "950ce66f-a064-4b33-885c-5ddb2933df61",
     "jp": "汽車",
     "en": "steam train",
     "furigana": "きしゃ"
   },
   {
+    "id": "4aa61682-280f-4d68-8586-fd08684ab7e1",
     "jp": "技術",
     "en": "art, technology, skill",
     "furigana": "ぎじゅつ"
   },
   {
+    "id": "93163a1d-e662-4d76-8bf3-c9d093af051f",
     "jp": "季節",
     "en": "season",
     "furigana": "きせつ"
   },
   {
+    "id": "4acca2c1-8f9e-4b47-8209-5c174f7f1e3b",
     "jp": "規則",
     "en": "regulations",
     "furigana": "きそく"
   },
   {
+    "id": "6b1ae262-d50e-447f-ac3e-5cf0ca54945d",
     "jp": "きっと",
     "en": "surely"
   },
   {
+    "id": "1409d94a-120f-43cd-8d92-f8023dd960cd",
     "jp": "絹",
     "en": "silk",
     "furigana": "きぬ"
   },
   {
+    "id": "72024512-318c-4490-be98-89ae4b1b0dd2",
     "jp": "厳しい",
     "en": "strict",
     "furigana": "きびしい"
   },
   {
+    "id": "428fafd6-3ce4-46c3-a20f-80f7972ebbdd",
     "jp": "気分",
     "en": "mood",
     "furigana": "きぶん"
   },
   {
+    "id": "4513fe99-e647-43cc-b570-b472ae385f28",
     "jp": "決る",
     "en": "to be decided",
     "furigana": "きまる"
   },
   {
+    "id": "b41669e8-deaf-4303-87c2-b56ea48aa8ef",
     "jp": "君",
     "en": "(informal) You (used by men towards women)",
     "furigana": "きみ"
   },
   {
+    "id": "f1dc5c7a-78c3-4899-b538-c78e63ef0dbb",
     "jp": "決める",
     "en": "to decide",
     "furigana": "きめる"
   },
   {
+    "id": "2ca4ffe9-b27d-4bc5-a7fd-c3ba7a9da81a",
     "jp": "気持ち",
     "en": "feeling, mood",
     "furigana": "きもち"
   },
   {
+    "id": "f092a566-594a-4e50-b3a6-58a6331021a2",
     "jp": "着物",
     "en": "kimono",
     "furigana": "きもの"
   },
   {
+    "id": "b5a6bd7c-06f5-4b89-8a5a-a08704234f18",
     "jp": "客",
     "en": "guest, customer",
     "furigana": "きゃく"
   },
   {
+    "id": "71226241-ca00-4f6a-8919-dc1e889e4866",
     "jp": "急",
     "en": "urgent, steep",
     "furigana": "きゅう"
   },
   {
+    "id": "1bc53e6d-2483-492c-be59-de5b2e45ee77",
     "jp": "急行",
     "en": "speedy, express",
     "furigana": "きゅうこう"
   },
   {
+    "id": "f3764290-3779-4b76-8170-540839fbdaf7",
     "jp": "教育",
     "en": "education",
     "furigana": "きょういく"
   },
   {
+    "id": "db41f78d-87ad-43e9-b9b5-a98dd5bd2979",
     "jp": "教会",
     "en": "church",
     "furigana": "きょうかい"
   },
   {
+    "id": "8177eae5-0024-486f-aa2a-4efc38c7eeef",
     "jp": "競争",
     "en": "competition",
     "furigana": "きょうそう"
   },
   {
+    "id": "54a6f9cb-fcb5-449a-9d4a-7e94efbf9672",
     "jp": "興味",
     "en": "an interest",
     "furigana": "きょうみ"
   },
   {
+    "id": "659411c1-6959-4f98-8724-54c930ad451b",
     "jp": "近所",
     "en": "neighbourhood",
     "furigana": "きんじょ"
   },
   {
+    "id": "6e815b53-9e88-4aa9-aac5-b1c97a940858",
     "jp": "具合",
     "en": "condition, health",
     "furigana": "ぐあい"
   },
   {
+    "id": "c39dec40-5008-4b97-b8f1-07383c05584d",
     "jp": "空気",
     "en": "air, atmosphere",
     "furigana": "くうき"
   },
   {
+    "id": "9e10633f-4fd8-43c9-a094-d54945ac9644",
     "jp": "空港",
     "en": "airport",
     "furigana": "くうこう"
   },
   {
+    "id": "d5a5abb2-ce2a-42ef-9cbb-bce76958907c",
     "jp": "草",
     "en": "grass",
     "furigana": "くさ"
   },
   {
+    "id": "a691c5a9-f24d-4dbb-bb62-9aeb58d73a46",
     "jp": "くださる",
     "en": "(respectful) to give"
   },
   {
+    "id": "270caa3b-f3a1-4513-ae67-40f0a2137ee9",
     "jp": "首",
     "en": "neck",
     "furigana": "くび"
   },
   {
+    "id": "9574ad1e-b147-4a52-b8d2-e18c9f6260d0",
     "jp": "雲",
     "en": "cloud",
     "furigana": "くも"
   },
   {
+    "id": "ccc12000-2c27-400c-b739-55ff6e64ed7c",
     "jp": "比べる",
     "en": "to compare",
     "furigana": "くらべる"
   },
   {
+    "id": "e7154b0b-3353-4c23-be47-752a08d359c0",
     "jp": "くれる",
     "en": "to give"
   },
   {
+    "id": "fe36e204-ab0f-4a69-8a49-85a55ef859ce",
     "jp": "暮れる",
     "en": "to get dark, to come to an end",
     "furigana": "くれる"
   },
   {
+    "id": "4f69b5f7-8c02-42f9-ac7e-39d4e5cf0c20",
     "jp": "君",
     "en": "suffix for familiar young male",
     "furigana": "くん"
   },
   {
+    "id": "b2bc6990-272c-4c0a-a5b4-122fa7c134de",
     "jp": "毛",
     "en": "hair or fur",
     "furigana": "け"
   },
   {
+    "id": "6ea2f0f4-c49d-4dd7-86eb-e134827d9334",
     "jp": "計画",
     "en": "けいかく・する to plan"
   },
   {
+    "id": "0d519e3c-8c63-4354-ae0f-308f8fe34db9",
     "jp": "経験",
     "en": "けいけん・する to experience"
   },
   {
+    "id": "fd5c8ef8-c4a6-414f-9789-336b3f359011",
     "jp": "経済",
     "en": "finance, economy",
     "furigana": "けいざい"
   },
   {
+    "id": "37f384c4-2acd-4ff4-95c5-628dda45a883",
     "jp": "警察",
     "en": "police",
     "furigana": "けいさつ"
   },
   {
+    "id": "d65fddaf-8782-46cf-9fb8-aa48e187c71a",
     "jp": "ケーキ",
     "en": "cake"
   },
   {
+    "id": "e9873b9f-4370-4548-a7d3-a11357d3ce76",
     "jp": "けが・する",
     "en": "to injure"
   },
   {
+    "id": "0b30517b-58c4-479d-9310-f1730f9b80b8",
     "jp": "景色",
     "en": "scene, landscape",
     "furigana": "けしき"
   },
   {
+    "id": "d17a0895-702a-44f7-b3d8-680a96d63768",
     "jp": "消しゴム",
     "en": "eraser",
     "furigana": "けしゴム"
   },
   {
+    "id": "8f251ba5-ca7c-43d2-bb61-5ecf971452c1",
     "jp": "下宿",
     "en": "lodging",
     "furigana": "げしゅく"
   },
   {
+    "id": "016f0144-e0b0-4efd-a1d9-67227d20d80b",
     "jp": "決して",
     "en": "never",
     "furigana": "けっして"
   },
   {
+    "id": "f2819ee0-5622-43dd-8fb7-fc20c46df774",
     "jp": "けれど/けれども",
     "en": "however"
   },
   {
+    "id": "40221418-7cc6-456f-a2b6-e734ea11f32f",
     "jp": "原因",
     "en": "cause, source",
     "furigana": "げんいん"
   },
   {
+    "id": "3a68a093-271a-400f-8268-595389a65646",
     "jp": "けんか・する",
     "en": "to quarrel"
   },
   {
+    "id": "c86f4284-d5cf-4b86-808d-3a8c6838770e",
     "jp": "研究",
     "en": "research",
     "furigana": "けんきゅう"
   },
   {
+    "id": "532458c5-8d65-4d98-b41c-41a86a298fbe",
     "jp": "研究室",
     "en": "study room, laboratory",
     "furigana": "けんきゅうしつ"
   },
   {
+    "id": "e6e30eb1-f2cd-41c9-ac1e-3443851402a6",
     "jp": "見物",
     "en": "sightseeing",
     "furigana": "けんぶつ"
   },
   {
+    "id": "1d7aa788-5a6b-4901-aad5-59012c6faa59",
     "jp": "子",
     "en": "child",
     "furigana": "こ"
   },
   {
+    "id": "d96e548e-a9c2-4732-8cbc-1c5cc7eacd1c",
     "jp": "こう",
     "en": "this way"
   },
   {
+    "id": "21f93bed-57fb-479c-ae41-0591001a87b8",
     "jp": "郊外",
     "en": "outskirts",
     "furigana": "こうがい"
   },
   {
+    "id": "f30d7626-c6b9-45ac-a251-ce18218c1e34",
     "jp": "講義",
     "en": "lecture",
     "furigana": "こうぎ"
   },
   {
+    "id": "40d809d7-72b3-46fd-b89f-19d2d7bfda62",
     "jp": "工業",
     "en": "the manufacturing industry",
     "furigana": "こうぎょう"
   },
   {
+    "id": "6baf9556-44cc-46d0-a004-699c45933566",
     "jp": "高校",
     "en": "high school",
     "furigana": "こうこう"
   },
   {
+    "id": "b48a1419-10ac-4be0-a972-31e54f224539",
     "jp": "高校生",
     "en": "high school student",
     "furigana": "こうこうせい"
   },
   {
+    "id": "1bbaa111-a3ca-40ec-a97c-b481a07f8981",
     "jp": "工場",
     "en": "factory",
     "furigana": "こうじょう"
   },
   {
+    "id": "c99c2723-f63d-4ff2-9689-eea5991b3e16",
     "jp": "校長",
     "en": "headmaster",
     "furigana": "こうちょう"
   },
   {
+    "id": "5900dfd2-349c-4993-b088-0a7258bf76ee",
     "jp": "交通",
     "en": "traffic, transportation",
     "furigana": "こうつう"
   },
   {
+    "id": "82ecdc4c-7ff4-4fca-bc31-11d274b51f05",
     "jp": "講堂",
     "en": "auditorium",
     "furigana": "こうどう"
   },
   {
+    "id": "b66c1597-2884-46da-a785-76ebb04616fb",
     "jp": "高等学校",
     "en": "high school",
     "furigana": "こうとうがっこう"
   },
   {
+    "id": "178e5cca-599f-4edb-a017-ddf05ea6846c",
     "jp": "公務員",
     "en": "government worker",
     "furigana": "こうむいん"
   },
   {
+    "id": "48b778e9-85cb-46f7-96e3-6f0f8a6d5e1e",
     "jp": "国際",
     "en": "international",
     "furigana": "こくさい"
   },
   {
+    "id": "7bb06028-82fb-40f5-b3b5-567ac05d0656",
     "jp": "心",
     "en": "core, heart",
     "furigana": "こころ"
   },
   {
+    "id": "a1c6e660-49bb-4b19-b70b-0359d147ecc7",
     "jp": "御主人",
     "en": "(honorable) your husband",
     "furigana": "ごしゅじん"
   },
   {
+    "id": "850f3d00-b6ea-4aea-81e4-3c2490188342",
     "jp": "故障",
     "en": "こしょう・する to break-down"
   },
   {
+    "id": "8e347417-3f1e-4d1b-9f49-90edff69d8d4",
     "jp": "ご存じ",
     "en": "knowing, acquaintance",
     "furigana": "ごぞんじ"
   },
   {
+    "id": "6ea85e5e-a159-4417-80de-326be6de9515",
     "jp": "答",
     "en": "response",
     "furigana": "こたえ"
   },
   {
+    "id": "94cb84d4-0526-434a-a198-9589f929e992",
     "jp": "ごちそう",
     "en": "a feast"
   },
   {
+    "id": "86f530b1-1adf-4a66-a0a0-584347740bf8",
     "jp": "こと",
     "en": "thing, matter"
   },
   {
+    "id": "7c7cc547-732d-4e58-92cd-ecd9f816ce24",
     "jp": "小鳥",
     "en": "small bird",
     "furigana": "ことり"
   },
   {
+    "id": "a47b80cd-7969-4029-a459-674c0337e245",
     "jp": "このあいだ",
     "en": "the other day, recently"
   },
   {
+    "id": "745dbfdc-fb70-4994-b446-de914def734e",
     "jp": "このごろ",
     "en": "these days, nowadays"
   },
   {
+    "id": "8ff10622-8982-4f62-b1bc-73228e510d55",
     "jp": "細かい",
     "en": "small, fine",
     "furigana": "こまかい"
   },
   {
+    "id": "9654330e-bd7b-48ed-86ab-d519c41e6d77",
     "jp": "ごみ",
     "en": "rubbish"
   },
   {
+    "id": "37d94a6c-a6ea-43f9-b9e7-00a8fcd709c8",
     "jp": "込む",
     "en": "to be crowded",
     "furigana": "こむ"
   },
   {
+    "id": "dec31245-0c86-4f83-9705-f379d63ba504",
     "jp": "米",
     "en": "uncooked rice",
     "furigana": "こめ"
   },
   {
+    "id": "656e78a7-358a-421a-838c-c780fe3d557a",
     "jp": "ごらんになる",
     "en": "(respectful) to see"
   },
   {
+    "id": "3e8d852f-51a2-4bf6-a2bf-a08e44d5d55a",
     "jp": "これから",
     "en": "after this"
   },
   {
+    "id": "316e700c-819b-4b9e-945e-b253cb9b5b14",
     "jp": "怖い",
     "en": "frightening",
     "furigana": "こわい"
   },
   {
+    "id": "b6fbd0ef-2f65-4553-8d2e-910dfe55d6f3",
     "jp": "壊す",
     "en": "to break",
     "furigana": "こわす"
   },
   {
+    "id": "e8594a9c-efef-4f39-9ba8-25ffbd537885",
     "jp": "壊れる",
     "en": "to be broken",
     "furigana": "こわれる"
   },
   {
+    "id": "68452386-0bba-4056-9c57-7e218dfd9fc7",
     "jp": "コンサート",
     "en": "concert"
   },
   {
+    "id": "97aa7113-7def-47e7-8f73-9c5b50b4caf7",
     "jp": "今度",
     "en": "now, next time",
     "furigana": "こんど"
   },
   {
+    "id": "dc3145ea-5d5d-4035-8363-c6d5fa5f7a02",
     "jp": "コンピュータ/コンピューター",
     "en": "computer"
   },
   {
+    "id": "53859e28-6c1b-4909-a0e1-19970c6816a3",
     "jp": "今夜",
     "en": "tonight",
     "furigana": "こんや"
   },
   {
+    "id": "d54d37b6-dd01-4b0b-9b93-9a22aec38915",
     "jp": "最近",
     "en": "latest, nowadays",
     "furigana": "さいきん"
   },
   {
+    "id": "9dff0772-c018-49b1-9c5e-94cd6ca4b2f3",
     "jp": "最後",
     "en": "last, end",
     "furigana": "さいご"
   },
   {
+    "id": "ac75e470-92bc-47d9-b6d0-7f6652085003",
     "jp": "最初",
     "en": "beginning, first",
     "furigana": "さいしょ"
   },
   {
+    "id": "03aa638f-5358-4ec7-9b0a-252e81299b40",
     "jp": "坂",
     "en": "slope, hill",
     "furigana": "さか"
   },
   {
+    "id": "7a0c8cae-64a1-4514-bf76-b5d5ad80f140",
     "jp": "探す",
     "en": "to look for",
     "furigana": "さがす"
   },
   {
+    "id": "86b7cd0d-b176-4bfa-8487-e6699ae2af8c",
     "jp": "下る",
     "en": "to get down, to descend",
     "furigana": "さがる"
   },
   {
+    "id": "c74b0b47-cf5a-47da-af82-43ad3bc28491",
     "jp": "盛ん",
     "en": "popularity, prosperous",
     "furigana": "さかん"
   },
   {
+    "id": "82edca6b-632f-4b4f-aac4-a2baf6786818",
     "jp": "下げる",
     "en": "to hang, to lower, to move back",
     "furigana": "さげる"
   },
   {
+    "id": "27aa3305-d782-4a8f-98d7-a8cecc290677",
     "jp": "差し上げる",
     "en": "(polite) to give",
     "furigana": "さしあげる"
   },
   {
+    "id": "37b1cd84-90d7-4a99-9c42-0c2ee1bd19b8",
     "jp": "さっき",
     "en": "some time ago"
   },
   {
+    "id": "51a5dc05-a01d-41f3-9018-02068186aca7",
     "jp": "寂しい",
     "en": "lonely",
     "furigana": "さびしい"
   },
   {
+    "id": "5dfd60eb-4268-430f-8f18-03c07b9ffd13",
     "jp": "さ来月",
     "en": "the month after next",
     "furigana": "さらいげつ"
   },
   {
+    "id": "9e4783bb-09da-4fb9-9f83-5f22b5e8432f",
     "jp": "さ来週",
     "en": "the week after next",
     "furigana": "さらいしゅう"
   },
   {
+    "id": "568717ad-91ca-4a47-b889-175320b1129f",
     "jp": "サラダ",
     "en": "salad"
   },
   {
+    "id": "87365a22-8935-4980-ae5a-d9a47c0ce4a0",
     "jp": "騒ぐ",
     "en": "to make noise, to be excited",
     "furigana": "さわぐ"
   },
   {
+    "id": "0d29bcc6-6926-401d-8002-b9e5487e9899",
     "jp": "触る",
     "en": "to touch",
     "furigana": "さわる"
   },
   {
+    "id": "ed80ac55-a4e9-437f-9736-0fe94865250f",
     "jp": "産業",
     "en": "industry",
     "furigana": "さんぎょう"
   },
   {
+    "id": "f90373f4-1fc4-4b5d-9372-541893ce379e",
     "jp": "サンダル",
     "en": "sandal"
   },
   {
+    "id": "d3b512b4-03c8-4477-8985-9c6bfa67991f",
     "jp": "サンドイッチ",
     "en": "sandwich"
   },
   {
+    "id": "b5fa2ef6-f6bd-4617-89bb-eb782f9a3817",
     "jp": "残念",
     "en": "disappointment",
     "furigana": "ざんねん"
   },
   {
+    "id": "23ad7fe4-c5c6-4559-9a1b-f9809c771107",
     "jp": "市",
     "en": "city",
     "furigana": "し"
   },
   {
+    "id": "0ddb720d-d01b-4983-8055-3dc33adf3330",
     "jp": "字",
     "en": "character",
     "furigana": "じ"
   },
   {
+    "id": "f91741b4-1e0f-4c33-8f63-25b961a2409f",
     "jp": "試合",
     "en": "match, game",
     "furigana": "しあい"
   },
   {
+    "id": "8cee9564-b302-46e1-a8d3-ea070880d45c",
     "jp": "仕方",
     "en": "method",
     "furigana": "しかた"
   },
   {
+    "id": "3c704b42-203f-425a-8a7f-79ddfee1adc1",
     "jp": "しかる",
     "en": "a particular"
   },
   {
+    "id": "c72c39c5-135f-46cd-852c-0994df65949e",
     "jp": "試験",
     "en": "examination",
     "furigana": "しけん"
   },
   {
+    "id": "70acceae-57a7-4b11-af6e-52fdd1a719ed",
     "jp": "事故",
     "en": "accident",
     "furigana": "じこ"
   },
   {
+    "id": "58223821-8a19-453b-a714-0e0b3cafbb59",
     "jp": "地震",
     "en": "earthquake",
     "furigana": "じしん"
   },
   {
+    "id": "4838c65f-2df3-4eb0-87e2-0b519e7e1788",
     "jp": "時代",
     "en": "era",
     "furigana": "じだい"
   },
   {
+    "id": "aa43b795-d035-477f-8b9d-beebf15b1237",
     "jp": "下着",
     "en": "underwear",
     "furigana": "したぎ"
   },
   {
+    "id": "f505970c-e874-417a-9b18-bf19a8cef062",
     "jp": "支度",
     "en": "したく・する to prepare"
   },
   {
+    "id": "4af4d160-53da-4b56-8c30-e466535824e2",
     "jp": "しっかり",
     "en": "firmly, steadily"
   },
   {
+    "id": "d90bad62-ed78-4dae-9e19-27ad0a616319",
     "jp": "失敗",
     "en": "failure, mistake",
     "furigana": "しっぱい"
   },
   {
+    "id": "33f5598c-9175-4d5a-a379-98a9d04ffbab",
     "jp": "辞典",
     "en": "dictionary",
     "furigana": "じてん"
   },
   {
+    "id": "b66e3ea0-36a0-4e02-89ad-7e617a879951",
     "jp": "品物",
     "en": "goods",
     "furigana": "しなもの"
   },
   {
+    "id": "c332c53c-2345-4408-bc22-5f1f4f5b2197",
     "jp": "しばらく",
     "en": "little while"
   },
   {
+    "id": "b010a712-f034-4f2e-80f2-8b3eb28c350c",
     "jp": "島",
     "en": "island",
     "furigana": "しま"
   },
   {
+    "id": "db9cd164-3ead-4e0c-87f9-6bcfc2e32fcc",
     "jp": "市民",
     "en": "citizen",
     "furigana": "しみん"
   },
   {
+    "id": "d074ec44-7136-4d4f-b765-36e7dced8667",
     "jp": "事務所",
     "en": "office",
     "furigana": "じむしょ"
   },
   {
+    "id": "cab1b069-17f0-465f-9e91-9b2a97e6e18f",
     "jp": "社会",
     "en": "society, public",
     "furigana": "しゃかい"
   },
   {
+    "id": "04554df2-613a-42fe-b1b3-8ebfe9eadbfb",
     "jp": "社長",
     "en": "company president",
     "furigana": "しゃちょう"
   },
   {
+    "id": "7062f73a-c828-46dd-9466-39acc0ad4886",
     "jp": "じゃま",
     "en": "hindrance, intrusion"
   },
   {
+    "id": "8973fa48-c321-4833-a8db-d9d957f7361d",
     "jp": "ジャム",
     "en": "jam"
   },
   {
+    "id": "d0aba567-3a90-4f25-8ba1-5d1fdcf3cd39",
     "jp": "自由",
     "en": "freedom",
     "furigana": "じゆう"
   },
   {
+    "id": "c14b9117-e539-4ee5-a2ca-61aceab1f230",
     "jp": "習慣",
     "en": "custom, manners",
     "furigana": "しゅうかん"
   },
   {
+    "id": "583bc247-019e-493d-9b54-efb87bfbd276",
     "jp": "住所",
     "en": "an address, a residence",
     "furigana": "じゅうしょ"
   },
   {
+    "id": "950a351f-93a5-400f-bd69-cad1a0d6cf52",
     "jp": "柔道",
     "en": "judo",
     "furigana": "じゅうどう"
   },
   {
+    "id": "21862122-5692-4bbd-9584-589e4ead7fce",
     "jp": "十分",
     "en": "enough",
     "furigana": "じゅうぶん"
   },
   {
+    "id": "8f611eac-f939-48e2-a982-9133f2ebeeed",
     "jp": "出席",
     "en": "しゅっせき・する to attend"
   },
   {
+    "id": "0de6e93c-3a8a-416d-9d16-9ecc18125a43",
     "jp": "出発",
     "en": "しゅっぱつ・する to depart"
   },
   {
+    "id": "a546f674-7b47-402a-a0dd-dded44c29792",
     "jp": "趣味",
     "en": "hobby",
     "furigana": "しゅみ"
   },
   {
+    "id": "4b06e1be-825d-46ac-a7b4-ea7839ddf46c",
     "jp": "準備",
     "en": "じゅんび・する to prepare"
   },
   {
+    "id": "703824e5-102f-4cdb-bd8c-e1fdf016488e",
     "jp": "紹介",
     "en": "introduction",
     "furigana": "しょうかい"
   },
   {
+    "id": "33b4981c-a924-4c44-a704-7ab003fe1055",
     "jp": "小学校",
     "en": "elementary school",
     "furigana": "しょうがっこう"
   },
   {
+    "id": "6658260c-6ad6-4cd7-9fee-8c43a1d706e4",
     "jp": "小説",
     "en": "novel",
     "furigana": "しょうせつ"
   },
   {
+    "id": "ba31883f-af82-42dc-9426-4fb97602eabd",
     "jp": "招待",
     "en": "しょうたい・する to invite"
   },
   {
+    "id": "59887daf-55ca-47fc-b17e-c13936e060e6",
     "jp": "承知",
     "en": "しょうち・する to consent"
   },
   {
+    "id": "90ed2cb8-78e3-4a2e-b27c-93b358ff44e6",
     "jp": "将来",
     "en": "future, prospects",
     "furigana": "しょうらい"
   },
   {
+    "id": "d446bb26-1629-4eb8-8a7b-9a469b559593",
     "jp": "食事",
     "en": "しょくじ・する to have a meal"
   },
   {
+    "id": "adf9c661-1267-4999-b7a9-ba2da0e83a0f",
     "jp": "食料品",
     "en": "groceries",
     "furigana": "しょくりょうひん"
   },
   {
+    "id": "b459753f-7a5e-4b3e-9858-5e39fdcfd087",
     "jp": "女性",
     "en": "woman",
     "furigana": "じょせい"
   },
   {
+    "id": "7d58988c-181d-4aec-b3fb-aaa64a6ed9d9",
     "jp": "知らせる",
     "en": "to notify",
     "furigana": "しらせる"
   },
   {
+    "id": "55bac2fa-0dd3-411e-87fc-77d752ba6bb2",
     "jp": "調べる",
     "en": "to investigate",
     "furigana": "しらべる"
   },
   {
+    "id": "60aa6fb3-196b-4079-aa13-9852bb8f5ab2",
     "jp": "人口",
     "en": "population",
     "furigana": "じんこう"
   },
   {
+    "id": "80fb9b28-4322-4a70-97de-7178a59ba3bf",
     "jp": "神社",
     "en": "Shinto shrine",
     "furigana": "じんじゃ"
   },
   {
+    "id": "4dbf7843-bee1-460b-b5e6-e22dc56a9754",
     "jp": "親切",
     "en": "kindness",
     "furigana": "しんせつ"
   },
   {
+    "id": "8bc0f29f-401e-469e-9b45-c0ab0dc36d43",
     "jp": "心配",
     "en": "しんぱい・する to worry"
   },
   {
+    "id": "89812ff6-87f0-4ad4-a0cc-ffd39cba7e58",
     "jp": "新聞社",
     "en": "newspaper company",
     "furigana": "しんぶんしゃ"
   },
   {
+    "id": "80b8ef67-d98c-4bdd-8cc6-b12e158d80fb",
     "jp": "水泳",
     "en": "swimming",
     "furigana": "すいえい"
   },
   {
+    "id": "abb2c4dd-382c-44cc-96b6-e0ec04fe48bf",
     "jp": "水道",
     "en": "water supply",
     "furigana": "すいどう"
   },
   {
+    "id": "a7caec94-cae4-4a80-82c9-22bc18b1ecd2",
     "jp": "ずいぶん",
     "en": "extremely"
   },
   {
+    "id": "1632d733-de9c-4e7a-ab91-4d1150578e84",
     "jp": "数学",
     "en": "mathematics, arithmetic",
     "furigana": "すうがく"
   },
   {
+    "id": "27856732-069a-4d11-a308-116bb4672173",
     "jp": "スーツ",
     "en": "suit"
   },
   {
+    "id": "da1655c3-c477-4d08-96d0-40b3b82e03ab",
     "jp": "スーツケース",
     "en": "suitcase"
   },
   {
+    "id": "003710f5-747a-472e-9cc2-0be02dad1d09",
     "jp": "過ぎる",
     "en": "to exceed",
     "furigana": "すぎる"
   },
   {
+    "id": "d16698db-ca79-44b5-a3a3-f58458e2367e",
     "jp": "すく",
     "en": "to become empty"
   },
   {
+    "id": "e64fe7d9-61e1-4c7d-81e0-2aa184d2c056",
     "jp": "スクリーン",
     "en": "screen"
   },
   {
+    "id": "daa5c70c-fd9c-450b-872a-89400bb944f1",
     "jp": "凄い",
     "en": "terrific",
     "furigana": "すごい"
   },
   {
+    "id": "23be49fb-40ce-495d-a2d3-d8c7d9ea5aba",
     "jp": "進む",
     "en": "to make progress",
     "furigana": "すすむ"
   },
   {
+    "id": "2a57f514-1bfe-4f20-ad46-6b4da95b1262",
     "jp": "すっかり",
     "en": "completely"
   },
   {
+    "id": "03a81fd4-05d0-43cc-bb0c-3628b8133538",
     "jp": "すっと",
     "en": "straight, all of a sudden"
   },
   {
+    "id": "d8d389d0-8cc7-41c7-b0e6-6a0bb4a6e55b",
     "jp": "ステーキ",
     "en": "steak"
   },
   {
+    "id": "395babcd-88ce-4f10-964f-7f40348c9278",
     "jp": "捨てる",
     "en": "to throw away",
     "furigana": "すてる"
   },
   {
+    "id": "58ac3b60-62db-4273-a3ef-f5ebe35aa0a6",
     "jp": "ステレオ",
     "en": "stereo"
   },
   {
+    "id": "df2885b4-2e74-4271-97a1-2071ff908085",
     "jp": "砂",
     "en": "sand",
     "furigana": "すな"
   },
   {
+    "id": "db27daac-98ee-464f-8073-46dae45a3009",
     "jp": "すばらしい",
     "en": "wonderful"
   },
   {
+    "id": "4cce845e-0194-4637-9cf2-68b5223f1f89",
     "jp": "滑る",
     "en": "to slide, to slip",
     "furigana": "すべる"
   },
   {
+    "id": "9000055e-e5a2-4516-84bc-38dba6023d34",
     "jp": "隅",
     "en": "corner, nook",
     "furigana": "すみ"
   },
   {
+    "id": "22eb5c90-09a2-4ef4-bdec-b083cc11304f",
     "jp": "済む",
     "en": "to finish",
     "furigana": "すむ"
   },
   {
+    "id": "ab7452ef-f263-48e6-9fe8-36a515cd8731",
     "jp": "すり",
     "en": "pickpocket"
   },
   {
+    "id": "2b0a9a74-e4b7-4f30-9673-6e5b8441bfc7",
     "jp": "すると",
     "en": "then"
   },
   {
+    "id": "7045e311-b5a7-4e66-9b4a-9774bbc22533",
     "jp": "生活",
     "en": "せいかつ・する to live"
   },
   {
+    "id": "e0cf1e75-c79b-48d8-89e0-05388a77fbdb",
     "jp": "生産",
     "en": "せいさん・する to produce"
   },
   {
+    "id": "b0b10f1c-8039-4589-b03c-a240da2e7943",
     "jp": "政治",
     "en": "politics, government",
     "furigana": "せいじ"
   },
   {
+    "id": "f434cc43-04b8-4e4d-bb89-e538c79e15b5",
     "jp": "西洋",
     "en": "western countries",
     "furigana": "せいよう"
   },
   {
+    "id": "f54b81fd-f337-4260-a0c3-5c68135ba640",
     "jp": "世界",
     "en": "the world",
     "furigana": "せかい"
   },
   {
+    "id": "c6cb7c5c-174f-40d7-b838-536929b635a6",
     "jp": "席",
     "en": "seat",
     "furigana": "せき"
   },
   {
+    "id": "de82514d-fc16-43ef-9a5f-61911689ba9b",
     "jp": "説明",
     "en": "explanation",
     "furigana": "せつめい"
   },
   {
+    "id": "ad780eee-253a-432d-af51-4465834af595",
     "jp": "背中",
     "en": "back of the body",
     "furigana": "せなか"
   },
   {
+    "id": "78e89906-f483-43d8-96dc-587a35482195",
     "jp": "ぜひ",
     "en": "without fail"
   },
   {
+    "id": "6db8b2b5-13c4-4235-9da4-1f8f2106addc",
     "jp": "世話",
     "en": "せわ・する to look after"
   },
   {
+    "id": "f41aa0f1-76dd-43be-be7d-eb991955b5e3",
     "jp": "線",
     "en": "line",
     "furigana": "せん"
   },
   {
+    "id": "757cb86e-ba79-4458-84dd-331212e494c1",
     "jp": "ぜんぜん",
     "en": "not entirely (used in a negative sentence)"
   },
   {
+    "id": "42602990-78fc-45e6-a1d1-9f6ff8af9bc4",
     "jp": "戦争",
     "en": "war",
     "furigana": "せんそう"
   },
   {
+    "id": "76d93c27-f0fd-421f-b734-31f8745c8eda",
     "jp": "先輩",
     "en": "senior",
     "furigana": "せんぱい"
   },
   {
+    "id": "ad65ea40-5092-4d4d-98d9-210ac717fb23",
     "jp": "そう",
     "en": "really"
   },
   {
+    "id": "7c954ecb-353b-4b7b-9fdc-bb993907cfbe",
     "jp": "相談",
     "en": "そうだん・する to discuss"
   },
   {
+    "id": "8faf0d1f-bece-460d-b84e-6a6db83b2ce4",
     "jp": "育てる",
     "en": "to rear, to bring up",
     "furigana": "そだてる"
   },
   {
+    "id": "e05ea3f0-116f-47b9-b39d-8c9e6beb9a4f",
     "jp": "卒業",
     "en": "graduation",
     "furigana": "そつぎょう"
   },
   {
+    "id": "c9f68f88-eb15-4a33-ac83-08efee3d3c6a",
     "jp": "祖父",
     "en": "grandfather",
     "furigana": "そふ"
   },
   {
+    "id": "9d8aa858-5fff-4945-b350-367cfce0bfb1",
     "jp": "ソフト",
     "en": "soft"
   },
   {
+    "id": "a4699683-5080-42fa-ba9a-b739b37899cb",
     "jp": "祖母",
     "en": "grandmother",
     "furigana": "そぼ"
   },
   {
+    "id": "cea6efc6-a635-4176-872f-9c959f9da9cd",
     "jp": "それで",
     "en": "because of that"
   },
   {
+    "id": "9e66fdc5-19fc-4f24-985b-2283e4e75ffa",
     "jp": "それに",
     "en": "moreover"
   },
   {
+    "id": "cdd56138-af98-4e02-a48a-e8529f1dd7dd",
     "jp": "それほど",
     "en": "to that extent"
   },
   {
+    "id": "33c77577-bdea-43d3-b257-730d9a37baa4",
     "jp": "そろそろ",
     "en": "gradually, soon"
   },
   {
+    "id": "0c3bd3ae-0c31-408c-a722-078223930880",
     "jp": "そんな",
     "en": "that sort of"
   },
   {
+    "id": "5608331c-4934-4eee-8b45-4ae116cfb3a7",
     "jp": "そんなに",
     "en": "so much, like that"
   },
   {
+    "id": "d8e63ce0-5347-49bd-a11c-a12424e158f5",
     "jp": "退院",
     "en": "たいいん・する to leave hospital"
   },
   {
+    "id": "df9bc641-4573-43da-8591-03ca420f0187",
     "jp": "大学生",
     "en": "university student",
     "furigana": "だいがくせい"
   },
   {
+    "id": "9849de30-ba77-4db8-b9e0-3f1ac67055c9",
     "jp": "大事",
     "en": "important, valuable, serious matter",
     "furigana": "だいじ"
   },
   {
+    "id": "559551c7-fac5-462b-bf82-e1b8912e699f",
     "jp": "大体",
     "en": "generally",
     "furigana": "だいたい"
   },
   {
+    "id": "f8af80eb-8cd6-4f55-89c9-d45dcf43ff07",
     "jp": "たいてい",
     "en": "usually"
   },
   {
+    "id": "1bbb9922-a2b8-481a-9eee-e6fbf75896b7",
     "jp": "タイプ",
     "en": "type, style"
   },
   {
+    "id": "72ce7132-84b2-4160-b0b9-8cfa4884b9b7",
     "jp": "大分",
     "en": "greatly",
     "furigana": "だいぶ"
   },
   {
+    "id": "63db0c63-5740-41da-97af-a390a0c951f8",
     "jp": "台風",
     "en": "typhoon",
     "furigana": "たいふう"
   },
   {
+    "id": "2f443aa0-f4d5-45b8-9134-e0911bc1f9bc",
     "jp": "倒れる",
     "en": "to break down",
     "furigana": "たおれる"
   },
   {
+    "id": "590eb9b4-1b8e-4980-b7b2-11372deb8522",
     "jp": "だから",
     "en": "so, therefore"
   },
   {
+    "id": "244444a5-04c7-4bac-8e58-102a331eaf87",
     "jp": "確か",
     "en": "definite",
     "furigana": "たしか"
   },
   {
+    "id": "9f8ade4f-e75d-486a-be14-64515f0c78c0",
     "jp": "足す",
     "en": "to add a number",
     "furigana": "たす"
   },
   {
+    "id": "07f5f281-10b6-48c2-82be-ccf54d18dd8b",
     "jp": "訪ねる",
     "en": "to visit",
     "furigana": "たずねる"
   },
   {
+    "id": "bfb22792-0f4f-4f4b-bbfb-ead29db20e83",
     "jp": "尋ねる",
     "en": "to ask",
     "furigana": "たずねる"
   },
   {
+    "id": "dd9ce08c-feb2-49c0-aa5b-59f3ae6729c3",
     "jp": "正しい",
     "en": "correct",
     "furigana": "ただしい"
   },
   {
+    "id": "ee304e51-d013-46a1-bccb-e4f591c5e41b",
     "jp": "畳",
     "en": "Japanese straw mat",
     "furigana": "たたみ"
   },
   {
+    "id": "47225a22-bfbe-4ec2-8dad-fe26bd6f1324",
     "jp": "立てる",
     "en": "to stand something up",
     "furigana": "たてる"
   },
   {
+    "id": "7f1d2e8e-fd7b-49c9-8577-2ea767434918",
     "jp": "建てる",
     "en": "to build",
     "furigana": "たてる"
   },
   {
+    "id": "95433a59-08d9-451d-9308-bdbad14511dc",
     "jp": "例えば",
     "en": "for example",
     "furigana": "たとえば"
   },
   {
+    "id": "f242962c-a616-4859-9741-5e779a33b438",
     "jp": "棚",
     "en": "shelves",
     "furigana": "たな"
   },
   {
+    "id": "216d89e4-b525-4fbb-b44a-9183fa86f1c2",
     "jp": "楽しみ",
     "en": "joy",
     "furigana": "たのしみ"
   },
   {
+    "id": "978be690-3683-4fbf-bb5b-a43172afa15c",
     "jp": "楽む",
     "en": "to enjoy oneself",
     "furigana": "たのしむ"
   },
   {
+    "id": "76ee63e1-fd57-4cb4-b490-c6c8213c543b",
     "jp": "たまに",
     "en": "occasionally"
   },
   {
+    "id": "7ed32000-df74-4f3b-87d5-81baf817bb76",
     "jp": "為",
     "en": "in order to",
     "furigana": "ため"
   },
   {
+    "id": "f93ff325-2aa0-424f-90b7-795a51d5b1b7",
     "jp": "だめ",
     "en": "no good"
   },
   {
+    "id": "1017857d-b6f0-456b-9eb7-ca74e6b0f8eb",
     "jp": "足りる",
     "en": "to be enough",
     "furigana": "たりる"
   },
   {
+    "id": "b45ddcc8-e53f-4d9a-a371-aa88bb20bc09",
     "jp": "男性",
     "en": "male",
     "furigana": "だんせい"
   },
   {
+    "id": "0e5705ae-b95c-4dd4-8f0f-97f851803d1b",
     "jp": "暖房",
     "en": "heating",
     "furigana": "だんぼう"
   },
   {
+    "id": "6060a2cf-4aad-49ab-8bff-1075977c95f3",
     "jp": "血",
     "en": "blood",
     "furigana": "ち"
   },
   {
+    "id": "da798422-ad53-4231-bc6a-515ec50c1fad",
     "jp": "チェック・する",
     "en": "to check"
   },
   {
+    "id": "a49af7da-2ac3-4ce9-af4e-81b77890cf6c",
     "jp": "力",
     "en": "strength, power",
     "furigana": "ちから"
   },
   {
+    "id": "d4cdfb27-ed75-49cf-b7ff-0893880c0e43",
     "jp": "ちっとも",
     "en": "not at all (used with a negative verb)"
   },
   {
+    "id": "4818c599-60af-46c6-9a7f-0c64c3627271",
     "jp": "ちゃん",
     "en": "suffix for familiar female person"
   },
   {
+    "id": "3b5b3f34-ed7f-4dcc-9cca-a5ca77663c16",
     "jp": "注意",
     "en": "caution",
     "furigana": "ちゅうい"
   },
   {
+    "id": "a65b0594-833c-4d5d-8ff6-cf29b01cf106",
     "jp": "中学校",
     "en": "junior high school, middle school",
     "furigana": "ちゅうがっこう"
   },
   {
+    "id": "9a14c307-9083-4c42-9422-b5b2eccb5419",
     "jp": "注射",
     "en": "injection",
     "furigana": "ちゅうしゃ"
   },
   {
+    "id": "5eb814e6-0210-43ce-ab9d-6cc2a28ea619",
     "jp": "駐車場",
     "en": "parking lot",
     "furigana": "ちゅうしゃじょう"
   },
   {
+    "id": "d37c2af4-f9de-4545-bcfd-2d4f2c7286c1",
     "jp": "地理",
     "en": "geography",
     "furigana": "ちり"
   },
   {
+    "id": "46d15b17-8298-47a6-afc2-084c618855db",
     "jp": "捕まえる",
     "en": "to seize",
     "furigana": "つかまえる"
   },
   {
+    "id": "c20ced33-980c-4c6e-a46a-094ba02da52c",
     "jp": "つき",
     "en": "moon"
   },
   {
+    "id": "4afd6359-e9b4-40e5-9a68-8a6b2fb217c3",
     "jp": "付く",
     "en": "to be attached",
     "furigana": "つく"
   },
   {
+    "id": "06f30a90-47c5-4757-a2a9-b1f1e90eda6a",
     "jp": "漬ける",
     "en": "to soak, to pickle",
     "furigana": "つける"
   },
   {
+    "id": "0832f135-ce30-491c-abcc-b1a751c110e8",
     "jp": "都合",
     "en": "circumstances, convenience",
     "furigana": "つごう"
   },
   {
+    "id": "9e78ba9b-cc3c-469a-af25-9d559db19db7",
     "jp": "伝える",
     "en": "to report",
     "furigana": "つたえる"
   },
   {
+    "id": "f532bd90-ea58-4fb0-b015-4ed8452f7dfe",
     "jp": "続く",
     "en": "to be continued",
     "furigana": "つづく"
   },
   {
+    "id": "c62ccc95-76ff-4097-b552-dd527e12565c",
     "jp": "続ける",
     "en": "to continue",
     "furigana": "つづける"
   },
   {
+    "id": "fe430a5e-397f-4220-9266-0bb74b6bba44",
     "jp": "包む",
     "en": "to wrap",
     "furigana": "つつむ"
   },
   {
+    "id": "bd52a6ed-9f26-4425-aff5-56c428934a54",
     "jp": "妻",
     "en": "(humble) wife",
     "furigana": "つま"
   },
   {
+    "id": "a8b2db7a-f462-4f4e-afe1-2463c0bfb911",
     "jp": "つもり",
     "en": "intention"
   },
   {
+    "id": "62dd5903-d123-417a-b9c5-c7d4b7c79f6d",
     "jp": "釣る",
     "en": "to fish",
     "furigana": "つる"
   },
   {
+    "id": "4f507abe-887e-46b2-aa77-b27ccc5064cb",
     "jp": "連れる",
     "en": "to lead",
     "furigana": "つれる"
   },
   {
+    "id": "31bafbe0-1fba-486d-8a7d-79e5bb9595c2",
     "jp": "丁寧",
     "en": "polite",
     "furigana": "ていねい"
   },
   {
+    "id": "ec22f6e9-5922-4561-9542-cfa3ceed5705",
     "jp": "テキスト",
     "en": "text, text book"
   },
   {
+    "id": "8a837263-d2f2-4391-a11e-4bb4ec81bfca",
     "jp": "適当",
     "en": "suitability",
     "furigana": "てきとう"
   },
   {
+    "id": "a95dfe3a-397b-4a38-ae59-758e10027f76",
     "jp": "できるだけ",
     "en": "as much as possible"
   },
   {
+    "id": "25c60371-91d1-43ff-af48-b2fa5ffeb6f2",
     "jp": "手伝う",
     "en": "to assist",
     "furigana": "てつだう"
   },
   {
+    "id": "38c0f712-4e25-46a5-a904-9508769ce336",
     "jp": "テニス",
     "en": "tennis"
   },
   {
+    "id": "338e0b66-aaae-48fd-9f9b-4e770a058601",
     "jp": "手袋",
     "en": "glove",
     "furigana": "てぶくろ"
   },
   {
+    "id": "e54a6837-547e-4978-9fa4-63fee46efcef",
     "jp": "寺",
     "en": "temple",
     "furigana": "てら"
   },
   {
+    "id": "84833259-8b17-485c-831e-d2fcdb0ef1cc",
     "jp": "点",
     "en": "point, dot",
     "furigana": "てん"
   },
   {
+    "id": "676db1cd-b15a-4422-a8f2-624c24abbc34",
     "jp": "店員",
     "en": "shop assistant",
     "furigana": "てんいん"
   },
   {
+    "id": "ce8d0fc3-6a16-46cd-a0a1-b500558e77de",
     "jp": "天気予報",
     "en": "weather forecast",
     "furigana": "てんきよほう"
   },
   {
+    "id": "5add7e8c-f54c-456a-b3fd-f147e3f8907d",
     "jp": "電灯",
     "en": "electric light",
     "furigana": "でんとう"
   },
   {
+    "id": "03dd1df3-f0a8-4f5c-b1fd-473efca948b5",
     "jp": "電報",
     "en": "telegram",
     "furigana": "でんぽう"
   },
   {
+    "id": "38f1d363-e8bf-4f8b-bff3-523c637ea4b5",
     "jp": "展覧会",
     "en": "exhibition",
     "furigana": "てんらんかい"
   },
   {
+    "id": "f8a33f36-0c0a-4e55-be13-e52e03d8c6b0",
     "jp": "都",
     "en": "metropolitan",
     "furigana": "と"
   },
   {
+    "id": "814bfb8e-c979-4b4b-ace6-c7b47680311f",
     "jp": "道具",
     "en": "tool, means",
     "furigana": "どうぐ"
   },
   {
+    "id": "240e6398-08bf-4319-8c69-18242d1d5153",
     "jp": "とうとう",
     "en": "finally, after all"
   },
   {
+    "id": "44f127fb-0446-4880-83e5-d629d08a7469",
     "jp": "動物園",
     "en": "zoo",
     "furigana": "どうぶつえん"
   },
   {
+    "id": "e012cb2a-9e4a-4cf9-b1a5-e53c99ed5869",
     "jp": "遠く",
     "en": "distant",
     "furigana": "とおく"
   },
   {
+    "id": "7badff31-d953-43ce-bee2-c1ebc4e4e176",
     "jp": "通る",
     "en": "to go through",
     "furigana": "とおる"
   },
   {
+    "id": "238fe21c-68a8-46bc-b5c0-7fa997ea9f21",
     "jp": "特に",
     "en": "particularly, especially",
     "furigana": "とくに"
   },
   {
+    "id": "30d02bc3-582c-4ae2-933d-528c821b62a2",
     "jp": "特別",
     "en": "special",
     "furigana": "とくべつ"
   },
   {
+    "id": "356b90f5-99e5-4ca1-be86-e198375ce50a",
     "jp": "とこや",
     "en": "barber"
   },
   {
+    "id": "732fff2b-77f9-4e3c-bd81-859c5f43c2ef",
     "jp": "途中",
     "en": "on the way",
     "furigana": "とちゅう"
   },
   {
+    "id": "abdb7dc2-0353-409a-a734-0e3178966e0a",
     "jp": "特急",
     "en": "limited express train (faster than an express train)",
     "furigana": "とっきゅう"
   },
   {
+    "id": "2c847ca0-4372-472e-b2d3-927b2d52f669",
     "jp": "届ける",
     "en": "to reach",
     "furigana": "とどける"
   },
   {
+    "id": "3bca78f6-b557-4488-9440-e41be2c5ad74",
     "jp": "泊まる",
     "en": "to lodge at",
     "furigana": "とまる"
   },
   {
+    "id": "a23c9a14-e808-4a0d-aec2-08eafd7fe428",
     "jp": "止める",
     "en": "to stop something",
     "furigana": "とめる"
   },
   {
+    "id": "d5cb51dc-f933-4a02-bb1a-f8273fb619ca",
     "jp": "取り替える",
     "en": "to exchange",
     "furigana": "とりかえる"
   },
   {
+    "id": "e91f2da7-9693-43cb-ae16-b6641856104a",
     "jp": "泥棒",
     "en": "thief",
     "furigana": "どろぼう"
   },
   {
+    "id": "4dbe97a1-bb7c-45e5-92c1-569049053c22",
     "jp": "どんどん",
     "en": "more and more"
   },
   {
+    "id": "df527e91-6052-492c-a877-eb092b5d894c",
     "jp": "直す",
     "en": "to fix, to repair",
     "furigana": "なおす"
   },
   {
+    "id": "a38a3660-32ce-4799-aa2e-20d38ea361d5",
     "jp": "直る",
     "en": "to be fixed, to be repaired",
     "furigana": "なおる"
   },
   {
+    "id": "f9d6ef2b-3c35-4d9a-b787-7ba9509e55b3",
     "jp": "治る",
     "en": "to be cured, to heal",
     "furigana": "なおる"
   },
   {
+    "id": "2bfe42d2-165f-453f-a6b7-e35469128266",
     "jp": "中々",
     "en": "considerably",
     "furigana": "なかなか"
   },
   {
+    "id": "7b931e32-5935-4825-aa48-41c31d7f5154",
     "jp": "泣く",
     "en": "to weep",
     "furigana": "なく"
   },
   {
+    "id": "17edd274-8fbd-4b5b-990e-ff7f2fd76bce",
     "jp": "無くなる",
     "en": "to disappear, to get lost",
     "furigana": "なくなる"
   },
   {
+    "id": "4b957483-7721-4ff7-9b3b-3a98d0761db9",
     "jp": "亡くなる",
     "en": "to die",
     "furigana": "なくなる"
   },
   {
+    "id": "d78425b1-adb7-42cf-8fd1-35c8b636d949",
     "jp": "投げる",
     "en": "to throw or cast away",
     "furigana": "なげる"
   },
   {
+    "id": "5647ea69-e8da-4d8e-8cd3-58ce490503e8",
     "jp": "なさる",
     "en": "(respectful) to do"
   },
   {
+    "id": "43b6db1a-7a22-4688-83b5-1b8f9330f816",
     "jp": "鳴る",
     "en": "to sound",
     "furigana": "なる"
   },
   {
+    "id": "22dc41e8-c8f1-45ac-8d48-67c91cba2f3d",
     "jp": "なるべく",
     "en": "as much as possible"
   },
   {
+    "id": "9d45041e-62c4-4b64-be12-f5bd283226c1",
     "jp": "なるほど",
     "en": "now I understand"
   },
   {
+    "id": "fd265c45-f1d6-4a5e-85f3-fda8a65b83cc",
     "jp": "慣れる",
     "en": "to grow accustomed to",
     "furigana": "なれる"
   },
   {
+    "id": "ef956301-9a0b-405f-af84-3343a944cd9f",
     "jp": "におい",
     "en": "a smell"
   },
   {
+    "id": "79efbc58-36bd-4445-8720-a2ed2be3cc05",
     "jp": "苦い",
     "en": "bitter",
     "furigana": "にがい"
   },
   {
+    "id": "e35105c2-8165-42ea-ab7e-5b85e5611eec",
     "jp": "二階建て",
     "en": "two storied",
     "furigana": "にかいだて"
   },
   {
+    "id": "b0bdfa20-2cad-40df-a167-a456ea79a284",
     "jp": "逃げる",
     "en": "to escape",
     "furigana": "にげる"
   },
   {
+    "id": "0f8bc5db-739e-4885-a63a-f4b2cef97d24",
     "jp": "日記",
     "en": "journal",
     "furigana": "にっき"
   },
   {
+    "id": "6aed4ff3-ca04-47f1-a224-e6196c3ef5d6",
     "jp": "入院",
     "en": "にゅういん・する to hospitalise"
   },
   {
+    "id": "595868f0-a3de-4bb2-a225-a67883e66c64",
     "jp": "入学",
     "en": "にゅうがく・する to enter school or university"
   },
   {
+    "id": "a01fadde-7339-4e04-8a1b-af8c642dd9ba",
     "jp": "似る",
     "en": "to be similar",
     "furigana": "にる"
   },
   {
+    "id": "1415def5-52bb-4940-9a59-eec2500e9d3a",
     "jp": "人形",
     "en": "doll, figure",
     "furigana": "にんぎょう"
   },
   {
+    "id": "36e5928a-de85-4c4a-b7cc-9b9cef312be5",
     "jp": "盗む",
     "en": "to steal",
     "furigana": "ぬすむ"
   },
   {
+    "id": "a492b0a3-68e0-40a4-87c4-1a2fa3618236",
     "jp": "塗る",
     "en": "to paint, to plaster",
     "furigana": "ぬる"
   },
   {
+    "id": "ff8c7f87-8dc3-4b49-900d-eafe632f78d7",
     "jp": "ぬれる",
     "en": "to get wet"
   },
   {
+    "id": "f7e2c4fa-62dd-4392-884a-4f040547d173",
     "jp": "ねだん",
     "en": "price"
   },
   {
+    "id": "7a3539ea-62c6-4a20-8782-54f492115491",
     "jp": "熱",
     "en": "fever",
     "furigana": "ねつ"
   },
   {
+    "id": "e05d2c09-823f-4f19-a8ce-6423ffcec2c0",
     "jp": "ねっしん",
     "en": "enthusiasm"
   },
   {
+    "id": "4be35a2c-3878-40ba-8698-870604bf1d4c",
     "jp": "寝坊",
     "en": "sleeping in late",
     "furigana": "ねぼう"
   },
   {
+    "id": "51be731d-bad1-45a5-bc86-a9dd59ab7e92",
     "jp": "眠い",
     "en": "sleepy",
     "furigana": "ねむい"
   },
   {
+    "id": "d68bcce8-6bbc-4e2a-9602-efdeac98577b",
     "jp": "眠る",
     "en": "to sleep",
     "furigana": "ねむる"
   },
   {
+    "id": "aa32fe2c-f26a-4cc9-8644-a474e5aa1c53",
     "jp": "残る",
     "en": "to remain",
     "furigana": "のこる"
   },
   {
+    "id": "3516b325-f785-4b3c-83f0-d2ec77b944e1",
     "jp": "のど",
     "en": "throat"
   },
   {
+    "id": "e26273a5-9df4-496f-9141-1c90e4c9845e",
     "jp": "乗り換える",
     "en": "to change between buses or trains",
     "furigana": "のりかえる"
   },
   {
+    "id": "a722b86a-4ed9-483a-922c-2e568b2529b9",
     "jp": "乗り物",
     "en": "vehicle",
     "furigana": "のりもの"
   },
   {
+    "id": "7cd7f72a-b8ef-40c9-b226-a0bbccb63dbe",
     "jp": "葉",
     "en": "leaf",
     "furigana": "は"
   },
   {
+    "id": "d16393a8-a2a4-4afd-9abc-36072b7f69de",
     "jp": "場合",
     "en": "situation",
     "furigana": "ばあい"
   },
   {
+    "id": "7fc6249a-2b9b-4a78-9e49-bc0b9baf83f0",
     "jp": "パート",
     "en": "part time"
   },
   {
+    "id": "6c773fc4-3907-4b36-9ff3-e1e11f0c960e",
     "jp": "倍",
     "en": "double",
     "furigana": "ばい"
   },
   {
+    "id": "c881874b-7b84-4a6a-b363-b686fe44d9cc",
     "jp": "拝見",
     "en": "はいけん・する (humble) to look at"
   },
   {
+    "id": "438e80b7-567b-49a4-a25f-bd8094451d46",
     "jp": "歯医者",
     "en": "dentist",
     "furigana": "はいしゃ"
   },
   {
+    "id": "5e3be9c9-5428-44e7-9e84-d945f8cb68ce",
     "jp": "運ぶ",
     "en": "to transport",
     "furigana": "はこぶ"
   },
   {
+    "id": "b9fa85f7-17d5-4ae0-b9ae-ba2b441073a3",
     "jp": "始める",
     "en": "to begin",
     "furigana": "はじめる"
   },
   {
+    "id": "7491a568-894d-440f-8cc2-4eca50b9bf80",
     "jp": "場所",
     "en": "location",
     "furigana": "ばしょ"
   },
   {
+    "id": "3d1d122b-0e0b-41fe-8d63-14d4b1ebeb3f",
     "jp": "はず",
     "en": "it should be so"
   },
   {
+    "id": "6aa3982c-43f1-4313-9d31-a5b22a1d9886",
     "jp": "恥ずかしい",
     "en": "embarrassed",
     "furigana": "はずかしい"
   },
   {
+    "id": "5a4c90bd-bac7-4b73-a4e4-46bfcc707319",
     "jp": "パソコン",
     "en": "personal computer"
   },
   {
+    "id": "78214e0e-4657-4f1a-ac06-7c786e2cfe0d",
     "jp": "発音",
     "en": "pronunciation",
     "furigana": "はつおん"
   },
   {
+    "id": "53a1d14a-c888-481a-a7fc-6c551b42a678",
     "jp": "はっきり",
     "en": "clearly"
   },
   {
+    "id": "eda56456-f6dd-48e5-a6dc-1a1427ec050f",
     "jp": "花見",
     "en": "cherry-blossom viewing",
     "furigana": "はなみ"
   },
   {
+    "id": "428ffda1-cd98-4c75-bcb8-5145dd0c86e6",
     "jp": "林",
     "en": "woods, forester",
     "furigana": "はやし"
   },
   {
+    "id": "525a49d6-3205-43a2-86e7-4b73cef062c8",
     "jp": "払う",
     "en": "to pay",
     "furigana": "はらう"
   },
   {
+    "id": "b9bf9a0d-d632-479c-ae14-991a9174f37c",
     "jp": "番組",
     "en": "television or radio program",
     "furigana": "ばんぐみ"
   },
   {
+    "id": "eb189839-c19d-49ed-bd7a-caf3f2958053",
     "jp": "反対",
     "en": "opposition",
     "furigana": "はんたい"
   },
   {
+    "id": "ceed603c-cc35-4104-837a-93244490005f",
     "jp": "ハンドバッグ",
     "en": "handbag"
   },
   {
+    "id": "36cfe5e6-deb4-4236-9eef-caafa4c66f00",
     "jp": "日",
     "en": "day, sun",
     "furigana": "ひ"
   },
   {
+    "id": "336466bf-7b9c-45cf-8c67-6121001deed1",
     "jp": "火",
     "en": "fire",
     "furigana": "ひ"
   },
   {
+    "id": "bf8ae432-db7c-44b4-9018-b046e16f0b19",
     "jp": "ピアノ",
     "en": "piano"
   },
   {
+    "id": "e3b94848-e210-4d60-9455-93ab0ffe5e2c",
     "jp": "冷える",
     "en": "to grow cold",
     "furigana": "ひえる"
   },
   {
+    "id": "b156fe71-758f-4c19-b6ef-c1f54673126b",
     "jp": "光",
     "en": "light",
     "furigana": "ひかり"
   },
   {
+    "id": "7e9dd083-5157-459e-b0ff-208f34fbe6be",
     "jp": "光る",
     "en": "to shine, to glitter",
     "furigana": "ひかる"
   },
   {
+    "id": "ae778802-3d93-4edf-8f77-9d4679b6ae8e",
     "jp": "引き出し",
     "en": "drawer, drawing out",
     "furigana": "ひきだし"
   },
   {
+    "id": "f7a6e6cf-a52e-44c5-8e97-15d8dc0d3257",
     "jp": "引き出す",
     "en": "to withdraw",
     "furigana": "ひきだす"
   },
   {
+    "id": "e58bc297-f318-4ec4-915e-0d4cb35157f3",
     "jp": "ひげ",
     "en": "beard"
   },
   {
+    "id": "7e03fa35-20cf-4623-b399-525ef7c01b7c",
     "jp": "飛行場",
     "en": "airport",
     "furigana": "ひこうじょう"
   },
   {
+    "id": "a840a6fa-7922-4d48-98c4-da05f4e08716",
     "jp": "久しぶり",
     "en": "after a long time",
     "furigana": "ひさしぶり"
   },
   {
+    "id": "7231d1b7-fd34-4a65-ada6-b30084dadb25",
     "jp": "美術館",
     "en": "art gallery",
     "furigana": "びじゅつかん"
   },
   {
+    "id": "b0013e49-5f8d-40e7-b8fc-71aaef4904fa",
     "jp": "非常に",
     "en": "extremely",
     "furigana": "ひじょうに"
   },
   {
+    "id": "dc651757-0402-4a06-bc10-15f6d552f111",
     "jp": "びっくり・する",
     "en": "to be surprised"
   },
   {
+    "id": "0a80dddb-6ca4-4734-b4bd-0fc5ec85d78a",
     "jp": "引っ越す",
     "en": "to move house",
     "furigana": "ひっこす"
   },
   {
+    "id": "8b89f610-1876-408a-a005-481695322fa8",
     "jp": "必要",
     "en": "necessary",
     "furigana": "ひつよう"
   },
   {
+    "id": "725d8e30-91c3-42db-a501-cb1c6a55ff58",
     "jp": "ひどい",
     "en": "awful"
   },
   {
+    "id": "ec4e8ce5-48f0-42f6-869a-5a0fa6d60294",
     "jp": "開く",
     "en": "to open an event",
     "furigana": "ひらく"
   },
   {
+    "id": "5c345aaa-fbb9-4215-905a-066ba162f646",
     "jp": "ビル",
     "en": "building or bill"
   },
   {
+    "id": "be92d68d-bd48-42fc-a505-7a0effb74842",
     "jp": "昼間",
     "en": "daytime, during the day",
     "furigana": "ひるま"
   },
   {
+    "id": "6367bab0-7967-4ee2-babc-dba3ecb9be13",
     "jp": "昼休み",
     "en": "noon break",
     "furigana": "ひるやすみ"
   },
   {
+    "id": "9cf04914-acef-411a-ae56-1c34168e0911",
     "jp": "拾う",
     "en": "to pick up, to gather",
     "furigana": "ひろう"
   },
   {
+    "id": "c3edbf0e-a51a-4a4d-979d-77295472e849",
     "jp": "ファックス",
     "en": "fax"
   },
   {
+    "id": "22909019-83f5-4b6d-95be-a48da233e62d",
     "jp": "増える",
     "en": "to increase",
     "furigana": "ふえる"
   },
   {
+    "id": "bc0bd0a2-643e-44db-9262-065e5493d140",
     "jp": "深い",
     "en": "deep",
     "furigana": "ふかい"
   },
   {
+    "id": "4f0f17b2-ab9b-4238-b8d6-4a2ba8f03f7e",
     "jp": "複雑",
     "en": "complexity, complication",
     "furigana": "ふくざつ"
   },
   {
+    "id": "c5cf619d-264d-4901-a879-65d27b6d260a",
     "jp": "復習",
     "en": "revision",
     "furigana": "ふくしゅう"
   },
   {
+    "id": "f6f783f4-18e3-4595-a339-c0743177ebe0",
     "jp": "部長",
     "en": "head of a section",
     "furigana": "ぶちょう"
   },
   {
+    "id": "8c62b7f8-a028-4f43-9a5c-b33350c2e69c",
     "jp": "普通",
     "en": "usually, or a train that stops at every station",
     "furigana": "ふつう"
   },
   {
+    "id": "eb2231f7-4825-4cbd-8168-6b40d452d4c3",
     "jp": "ぶどう",
     "en": "grapes"
   },
   {
+    "id": "66964212-7b40-4b39-82d9-dc5777435648",
     "jp": "太る",
     "en": "to become fat",
     "furigana": "ふとる"
   },
   {
+    "id": "3567d057-a204-4b63-af90-536b4aa53203",
     "jp": "布団",
     "en": "Japanese bedding, futon",
     "furigana": "ふとん"
   },
   {
+    "id": "13c24be9-c3d7-4652-b49f-a6a9a2a9f615",
     "jp": "舟",
     "en": "ship",
     "furigana": "ふね"
   },
   {
+    "id": "dc1cb03f-3ff6-46bd-87a3-2bd762338223",
     "jp": "不便",
     "en": "inconvenience",
     "furigana": "ふべん"
   },
   {
+    "id": "e80b96c1-eb89-4064-ad39-e6d0efd82929",
     "jp": "踏む",
     "en": "to step on",
     "furigana": "ふむ"
   },
   {
+    "id": "f9b173d5-60e9-4c05-807d-7e79024b4118",
     "jp": "降り出す",
     "en": "to start to rain",
     "furigana": "ふりだす"
   },
   {
+    "id": "0768f4fd-3575-49f9-9cc3-cdc1ff04cfce",
     "jp": "プレゼント",
     "en": "present"
   },
   {
+    "id": "865ef263-59fb-4544-8e45-f203d522a8c0",
     "jp": "文化",
     "en": "culture",
     "furigana": "ぶんか"
   },
   {
+    "id": "054b3a7d-6973-4b6e-85fd-fedae8f46b07",
     "jp": "文学",
     "en": "literature",
     "furigana": "ぶんがく"
   },
   {
+    "id": "e0175f08-0b0a-4dd2-ae94-edc57ade4b87",
     "jp": "文法",
     "en": "grammar",
     "furigana": "ぶんぽう"
   },
   {
+    "id": "a03e12a3-b845-49c2-b8ad-60a83fd6f45a",
     "jp": "別",
     "en": "different",
     "furigana": "べつ"
   },
   {
+    "id": "db0b443a-ad40-4c85-ac06-605c986c973d",
     "jp": "ベル",
     "en": "bell"
   },
   {
+    "id": "8a5d8746-0a3f-47b8-b7f6-73d143839805",
     "jp": "変",
     "en": "strange",
     "furigana": "へん"
   },
   {
+    "id": "e13ed39a-0ec3-42d5-ad67-635efadca95c",
     "jp": "返事",
     "en": "reply",
     "furigana": "へんじ"
   },
   {
+    "id": "b79182ec-d83e-41ce-b3c2-55a224887dfa",
     "jp": "貿易",
     "en": "trade",
     "furigana": "ぼうえき"
   },
   {
+    "id": "715138c4-67e7-4222-a0f9-04bcd39236d0",
     "jp": "放送",
     "en": "ほうそう・する to broadcast"
   },
   {
+    "id": "a96a2110-a683-433c-aff8-635a636c3374",
     "jp": "法律",
     "en": "law",
     "furigana": "ほうりつ"
   },
   {
+    "id": "c173070b-b978-4cb4-a952-7c174aee52b9",
     "jp": "僕",
     "en": "I (used by males)",
     "furigana": "ぼく"
   },
   {
+    "id": "020eead5-5aa7-4fbc-9b2f-d520485a3ab2",
     "jp": "星",
     "en": "star",
     "furigana": "ほし"
   },
   {
+    "id": "d8ca0fd7-b82f-4012-859f-548b644a8b24",
     "jp": "ほど",
     "en": "extent"
   },
   {
+    "id": "d7aba458-7fa6-4afe-a483-dc12ba2b19ca",
     "jp": "ほとんど",
     "en": "mostly"
   },
   {
+    "id": "554c45be-7f55-4232-872c-7319405671f6",
     "jp": "ほめる",
     "en": "to praise"
   },
   {
+    "id": "763f9162-10bf-452b-ac67-ede2714e1386",
     "jp": "翻訳",
     "en": "translation",
     "furigana": "ほんやく"
   },
   {
+    "id": "f5977585-b2cd-4907-84b0-cf3d6ac92e02",
     "jp": "参る",
     "en": "(humble) to go, to come",
     "furigana": "まいる"
   },
   {
+    "id": "f04884ab-8db7-41c4-a1b2-d5325d8a748d",
     "jp": "負ける",
     "en": "to lose",
     "furigana": "まける"
   },
   {
+    "id": "d3345721-57dc-43c9-a661-0fe2d726d0b0",
     "jp": "まじめ",
     "en": "serious"
   },
   {
+    "id": "57f7511a-2fc6-4406-a28b-9adbeaedeb73",
     "jp": "まず",
     "en": "first of all"
   },
   {
+    "id": "483d769f-d55e-4b77-bf43-04aae6ca7693",
     "jp": "または",
     "en": "or, otherwise"
   },
   {
+    "id": "e4a31463-186b-4d39-bf9a-e32511cabb21",
     "jp": "間違える",
     "en": "to make a mistake",
     "furigana": "まちがえる"
   },
   {
+    "id": "03cda94f-880e-43a0-9a84-570df7800fb7",
     "jp": "間に合う",
     "en": "to be in time for",
     "furigana": "まにあう"
   },
   {
+    "id": "e21d374a-3c4c-470a-bb51-d4472718d64e",
     "jp": "周り",
     "en": "surroundings",
     "furigana": "まわり"
   },
   {
+    "id": "6621d64a-7877-4079-aec4-7e73b7280b4a",
     "jp": "回る",
     "en": "to go around",
     "furigana": "まわる"
   },
   {
+    "id": "575cf629-3ad8-408e-8a75-60cdd7ce50a1",
     "jp": "漫画",
     "en": "comic",
     "furigana": "まんが"
   },
   {
+    "id": "2c815729-712a-41a1-b17a-df6fd085ca12",
     "jp": "真中",
     "en": "middle",
     "furigana": "まんなか"
   },
   {
+    "id": "7ada7aea-5441-4539-b275-67b25e9c02a1",
     "jp": "見える",
     "en": "to be in sight",
     "furigana": "みえる"
   },
   {
+    "id": "bdb67612-dd5a-4c9e-9645-9eb7fc34b5cc",
     "jp": "湖",
     "en": "lake",
     "furigana": "みずうみ"
   },
   {
+    "id": "725821e4-a180-4c82-ac3a-4346d195c257",
     "jp": "味噌",
     "en": "bean paste",
     "furigana": "みそ"
   },
   {
+    "id": "000e4637-0528-4986-bd5c-954b4c248598",
     "jp": "見つかる",
     "en": "to be discovered",
     "furigana": "みつかる"
   },
   {
+    "id": "7d5c0419-745f-4bde-be51-f886ca93ded6",
     "jp": "見つける",
     "en": "to discover",
     "furigana": "みつける"
   },
   {
+    "id": "bd69f62e-e57d-4e21-b873-a048dae6518c",
     "jp": "皆",
     "en": "everybody",
     "furigana": "みな"
   },
   {
+    "id": "d7309743-7651-4c12-94d5-37eb95165a76",
     "jp": "港",
     "en": "harbour",
     "furigana": "みなと"
   },
   {
+    "id": "c8095a26-2513-46aa-9099-57fd47f6bc18",
     "jp": "向かう",
     "en": "to face",
     "furigana": "むかう"
   },
   {
+    "id": "00ac1992-2149-44a2-86a8-fc67a91ca1ea",
     "jp": "迎える",
     "en": "to go out to meet",
     "furigana": "むかえる"
   },
   {
+    "id": "754e9142-e647-40a6-85fe-6cbdb8b143c1",
     "jp": "昔",
     "en": "olden days, former",
     "furigana": "むかし"
   },
   {
+    "id": "fec2570f-19e8-4b90-af88-def61245de26",
     "jp": "虫",
     "en": "insect",
     "furigana": "むし"
   },
   {
+    "id": "f53740f2-b61e-40d7-9b8c-3b5401b0a60a",
     "jp": "息子",
     "en": "(humble) son",
     "furigana": "むすこ"
   },
   {
+    "id": "65942415-ed62-487c-876d-547a93a323d2",
     "jp": "娘",
     "en": "(humble) daughter",
     "furigana": "むすめ"
   },
   {
+    "id": "a4b6c83d-27af-46fa-b56d-5764f290db42",
     "jp": "無理",
     "en": "impossible",
     "furigana": "むり"
   },
   {
+    "id": "51282023-1000-4a33-9d77-41d097ca31ee",
     "jp": "召し上がる",
     "en": "(polite) to eat",
     "furigana": "めしあがる"
   },
   {
+    "id": "a85a9d3b-affd-45db-bda0-940575780353",
     "jp": "珍しい",
     "en": "rare",
     "furigana": "めずらしい"
   },
   {
+    "id": "775fc1c6-3e58-47b2-8b6d-63ff20d9e1af",
     "jp": "申し上げる",
     "en": "(humble) to say, to tell",
     "furigana": "もうしあげる"
   },
   {
+    "id": "937359b4-f325-4200-9dd1-89e098dbdfa5",
     "jp": "申す",
     "en": "(humble) to be called, to say",
     "furigana": "もうす"
   },
   {
+    "id": "72750dc6-d49a-4b0b-9d2d-667d89a4b925",
     "jp": "もうすぐ",
     "en": "soon"
   },
   {
+    "id": "d8999437-d1d6-4e20-9c06-224726ee9165",
     "jp": "もし",
     "en": "if"
   },
   {
+    "id": "c8ac5e59-50b5-4e6d-8210-a4176611a448",
     "jp": "もちろん",
     "en": "of course"
   },
   {
+    "id": "c9888a0d-d0ff-4643-9023-5b09d6d0e165",
     "jp": "もっとも",
     "en": "extremely"
   },
   {
+    "id": "fff934ff-062c-49de-83e7-5067eba4670d",
     "jp": "戻る",
     "en": "to turn back",
     "furigana": "もどる"
   },
   {
+    "id": "ac81d274-ba63-4c88-bab4-977758bfbf9a",
     "jp": "木綿",
     "en": "cotton",
     "furigana": "もめん"
   },
   {
+    "id": "e456eadc-61dd-49de-95ec-9370e8d7c553",
     "jp": "もらう",
     "en": "to receive"
   },
   {
+    "id": "e23f0e27-d898-4164-8505-2663830cf947",
     "jp": "森",
     "en": "forest",
     "furigana": "もり"
   },
   {
+    "id": "8277600d-40d8-455b-afba-40355dc14004",
     "jp": "焼く",
     "en": "to bake, to grill",
     "furigana": "やく"
   },
   {
+    "id": "2cf2e4c8-a0c7-42dc-9f27-1aa79e6e72f2",
     "jp": "約束",
     "en": "promise",
     "furigana": "やくそく"
   },
   {
+    "id": "da37231c-2d99-4ab1-953d-6549208d5d0e",
     "jp": "役に立つ",
     "en": "to be helpful",
     "furigana": "やくにたつ"
   },
   {
+    "id": "447f21d2-5d4b-4758-8d25-b22f5ea13ce7",
     "jp": "焼ける",
     "en": "to burn, to be roasted",
     "furigana": "やける"
   },
   {
+    "id": "6ae87c0a-82b1-446d-89b5-0cbea248f632",
     "jp": "優しい",
     "en": "kind",
     "furigana": "やさしい"
   },
   {
+    "id": "094ef6c8-b959-4ed5-9bdf-c4950ff4b527",
     "jp": "痩せる",
     "en": "to become thin",
     "furigana": "やせる"
   },
   {
+    "id": "b120d7de-842a-488f-aa2a-96dc4da3b554",
     "jp": "やっと",
     "en": "at last"
   },
   {
+    "id": "e160e897-b64b-4c81-ad17-8b320d693ffd",
     "jp": "やはり/やっぱり",
     "en": "as I thought, absolutely"
   },
   {
+    "id": "d313c73f-68ce-4008-9810-15feafdc1a2b",
     "jp": "止む",
     "en": "to stop",
     "furigana": "やむ"
   },
   {
+    "id": "8a0e5382-e92f-432b-9b8b-10fe94386f2c",
     "jp": "止める",
     "en": "to stop",
     "furigana": "やめる"
   },
   {
+    "id": "daf3e20b-0f32-483d-8762-bdea90dc6d01",
     "jp": "柔らかい",
     "en": "soft",
     "furigana": "やわらかい"
   },
   {
+    "id": "affb071b-df8d-4182-afe0-e41fab712763",
     "jp": "湯",
     "en": "hot water",
     "furigana": "ゆ"
   },
   {
+    "id": "184c1c69-6566-4628-9f57-a046a416826d",
     "jp": "輸出",
     "en": "ゆしゅつ・する to export"
   },
   {
+    "id": "85f33fac-0da4-4eef-89c5-25da2df9d52e",
     "jp": "輸入",
     "en": "ゆにゅう・する to import"
   },
   {
+    "id": "4d1405c1-7b2e-4481-b540-03f55986c31e",
     "jp": "指",
     "en": "finger",
     "furigana": "ゆび"
   },
   {
+    "id": "870855c0-ec11-4a2a-a8cb-6da1d8a784fa",
     "jp": "指輪",
     "en": "finger ring",
     "furigana": "ゆびわ"
   },
   {
+    "id": "c8f1dc75-ddab-4e78-840b-2178669dbf59",
     "jp": "夢",
     "en": "dream",
     "furigana": "ゆめ"
   },
   {
+    "id": "4acd2765-d592-4c7c-a8da-4e8a2dc20536",
     "jp": "揺れる",
     "en": "to shake, to sway",
     "furigana": "ゆれる"
   },
   {
+    "id": "680434ec-9711-421e-b1bd-befd873877c3",
     "jp": "用",
     "en": "use",
     "furigana": "よう"
   },
   {
+    "id": "efbf302f-1327-436b-903f-ecfd1b1d5ad0",
     "jp": "用意",
     "en": "preparation",
     "furigana": "ようい"
   },
   {
+    "id": "21713c9b-8023-46f0-bd08-813c28251f7f",
     "jp": "用事",
     "en": "things to do",
     "furigana": "ようじ"
   },
   {
+    "id": "b9985905-50e5-44fd-b862-f3846333ce60",
     "jp": "汚れる",
     "en": "to get dirty",
     "furigana": "よごれる"
   },
   {
+    "id": "e2cbd7ff-b629-4093-b8f7-823fa22bb5a9",
     "jp": "予習",
     "en": "preparation for a lesson",
     "furigana": "よしゅう"
   },
   {
+    "id": "4d813690-3112-4b32-a246-b47629fab892",
     "jp": "予定",
     "en": "arrangement",
     "furigana": "よてい"
   },
   {
+    "id": "62f14d82-f076-4450-bc72-68fa47b66488",
     "jp": "予約",
     "en": "reservation",
     "furigana": "よやく"
   },
   {
+    "id": "1d31bc3d-0cae-4678-9aa1-5062caf2eace",
     "jp": "寄る",
     "en": "to visit",
     "furigana": "よる"
   },
   {
+    "id": "986f2281-b5f4-4b0a-b455-4535c1183630",
     "jp": "喜ぶ",
     "en": "to be delighted",
     "furigana": "よろこぶ"
   },
   {
+    "id": "032c374d-0ebe-4edc-81fa-bcd019ed1d4b",
     "jp": "よろしい",
     "en": "(respectful) OK, all right"
   },
   {
+    "id": "f7e046dd-542a-4cb0-bc2a-9403a07cdefe",
     "jp": "理由",
     "en": "reason",
     "furigana": "りゆう"
   },
   {
+    "id": "4ed9d0d6-fa82-4d05-8f8e-71974ea81391",
     "jp": "利用",
     "en": "utilization",
     "furigana": "りよう"
   },
   {
+    "id": "bc91a2aa-8ac6-4bf8-ad8f-d95b52e43002",
     "jp": "両方",
     "en": "both sides",
     "furigana": "りょうほう"
   },
   {
+    "id": "6c147958-b738-4f57-be65-3f51b9e003ec",
     "jp": "旅館",
     "en": "Japanese hotel",
     "furigana": "りょかん"
   },
   {
+    "id": "e4242f09-21d0-47bd-91e4-b743bd621c91",
     "jp": "留守",
     "en": "absence",
     "furigana": "るす"
   },
   {
+    "id": "e61a95b5-99a8-45ac-b031-2f41473035bc",
     "jp": "冷房",
     "en": "air conditioning",
     "furigana": "れいぼう"
   },
   {
+    "id": "425326e7-6d5c-436d-b142-20734573c54d",
     "jp": "歴史",
     "en": "history",
     "furigana": "れきし"
   },
   {
+    "id": "24e9b128-d5ea-4bf6-8d14-a1169fe3324b",
     "jp": "レジ",
     "en": "register"
   },
   {
+    "id": "18ee831c-c499-4d19-a9f6-16e7b1498b03",
     "jp": "レポート/リポート",
     "en": "report"
   },
   {
+    "id": "a8b01b31-4d36-4302-8db0-f7fdadc5c92a",
     "jp": "連絡",
     "en": "contact",
     "furigana": "れんらく"
   },
   {
+    "id": "48b042b5-6a2f-4288-b4cf-5505ce3fd6aa",
     "jp": "ワープロ",
     "en": "word processor"
   },
   {
+    "id": "599d3aa1-365c-4bbf-a9ae-89fd5aa9834f",
     "jp": "沸かす",
     "en": "to boil, to heat",
     "furigana": "わかす"
   },
   {
+    "id": "a72c8e7f-74b6-4470-b3ae-b7df13fa67ba",
     "jp": "別れる",
     "en": "to separate",
     "furigana": "わかれる"
   },
   {
+    "id": "60a6f926-b4f8-4de4-bd36-fb7f2f1f4147",
     "jp": "沸く",
     "en": "to boil, to grow hot, to get excited",
     "furigana": "わく"
   },
   {
+    "id": "81656f64-846f-43d0-a3c7-911af19be6fe",
     "jp": "訳",
     "en": "meaning, reason",
     "furigana": "わけ"
   },
   {
+    "id": "e32c2130-90f1-4048-94e6-b72ef32d0472",
     "jp": "忘れ物",
     "en": "lost article",
     "furigana": "わすれもの"
   },
   {
+    "id": "3bc117cc-0236-4df0-8d47-53c6be6073ca",
     "jp": "笑う",
     "en": "to laugh, to smile",
     "furigana": "わらう"
   },
   {
+    "id": "13aac1d2-fc23-4bd4-ad77-08ff5dda794d",
     "jp": "割合",
     "en": "rate, ratio, percentage",
     "furigana": "わりあい"
   },
   {
+    "id": "0d235c69-4777-4788-8cbf-afa861293e4b",
     "jp": "割れる",
     "en": "to break",
     "furigana": "われる"
   },
   {
+    "id": "a1ca84d2-e1c4-4398-adc8-8f8226034590",
     "jp": "泳ぎ方",
     "en": "way of swimming",
     "furigana": "およぎかた"
