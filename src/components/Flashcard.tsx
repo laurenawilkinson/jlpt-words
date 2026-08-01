@@ -53,14 +53,14 @@ export const Flashcard = ({
       <FlashcardLevel className="absolute top-5" level={word.jlpt} />
       <h2
         className={cn(
-          'relative text-3xl font-bold break-keep sm:text-5xl',
+          'relative mt-5 text-3xl font-bold break-keep sm:text-5xl',
           jpFontClass
         )}
       >
         {word.furigana && showFurigana && (
           <span
             className={cn(
-              'text-foreground-secondary absolute right-0 bottom-full left-0 pb-1.5 text-xl font-bold',
+              'text-foreground-secondary absolute right-0 bottom-full left-0 text-lg font-bold sm:pb-1.5 sm:text-xl',
               jpFontClass
             )}
           >
@@ -70,11 +70,13 @@ export const Flashcard = ({
         {word.jp}
       </h2>
       {showRomaji && (
-        <p className="text-foreground-tertiary mt-2">{word.romaji}</p>
+        <p className="text-foreground-tertiary text-sm sm:mt-2 sm:text-base">
+          {word.romaji}
+        </p>
       )}
       <p
         className={cn(
-          'text-foreground-secondary mt-5 text-xl font-medium transition-all duration-300 ease-out',
+          'text-foreground-secondary mt-3 font-medium transition-all duration-300 ease-out sm:mt-5 sm:text-xl',
           !alwaysShowMeaning && !showMeaning
             ? 'pointer-events-none translate-y-2 opacity-0'
             : 'translate-y-0 opacity-100'
