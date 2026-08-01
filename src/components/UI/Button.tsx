@@ -10,10 +10,8 @@ const buttonVariants = cva(
     'font-medium',
     'transition-colors duration-150',
     '[&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0',
-    'select-none cursor-pointer',
-    'whitespace-nowrap',
-    'disabled:pointer-events-none',
-    'disabled:opacity-50',
+    'select-none cursor-pointer whitespace-nowrap',
+    'disabled:pointer-events-none disabled:opacity-50',
     'focus-visible:focus-ring',
   ],
   {
@@ -27,6 +25,7 @@ const buttonVariants = cva(
       variant: {
         filled: '',
         outline: '',
+        ghost: 'shadow-none border-transparent bg-transparent',
       },
 
       color: {
@@ -49,16 +48,27 @@ const buttonVariants = cva(
           'bg-transparent border border-border text-text-secondary hover:bg-neutral-100 hover:border-neutral-400 active:bg-neutral-200',
       },
       {
+        variant: 'ghost',
+        color: 'default',
+        class: 'text-text-secondary hover:bg-neutral-100 active:bg-neutral-200',
+      },
+
+      {
         variant: 'filled',
         color: 'primary',
         class:
-          'bg-primary-100 border border-transparent text-primary-600 hover:bg-primary-200 active:bg-primary-300',
+          'bg-primary-100 text-primary-600 hover:bg-primary-200 active:bg-primary-300',
       },
       {
         variant: 'outline',
         color: 'primary',
         class:
-          'bg-transparent border border-primary-200 text-primary-500 hover:bg-primary-50 hover:border-primary-300 active:bg-primary-100',
+          'border-primary-200 text-primary-500 hover:bg-primary-50 hover:border-primary-300 active:bg-primary-100',
+      },
+      {
+        variant: 'ghost',
+        color: 'primary',
+        class: 'text-primary-500 hover:bg-primary-50 active:bg-primary-100',
       },
     ],
 
@@ -69,12 +79,11 @@ const buttonVariants = cva(
     },
   }
 );
+
 export interface ButtonProps
   extends
     ButtonHTMLAttributes<HTMLButtonElement>,
-    VariantProps<typeof buttonVariants> {
-  asChild?: boolean;
-}
+    VariantProps<typeof buttonVariants> {}
 
 const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, variant, color, size, type = 'button', ...props }, ref) => (

@@ -15,6 +15,7 @@ interface WordsContextValue {
   words: Word[];
   knownWords: Word[];
   dailyWords: Word[];
+  isKnownWord: (wordId: string) => boolean;
   addKnownWord: (wordId: string) => void;
   removeKnownWord: (wordId: string) => void;
 }
@@ -39,6 +40,10 @@ export const WordsProvider: preact.FunctionComponent = ({ children }) => {
     [words, knownWordIds]
   );
 
+  const isKnownWord = (wordId: string) => {
+    return knownWordIds.includes(wordId);
+  };
+
   const addKnownWord = (wordId: string) => {
     const currentIds = getLocalKnownWordIds();
     const newIds = Array.from(new Set(currentIds).add(wordId));
@@ -61,11 +66,18 @@ export const WordsProvider: preact.FunctionComponent = ({ children }) => {
       setWords(wordArrays.flat());
     };
     fetchWordArrays();
-  }, [settings.jlptLevels, settings.words]);
+  }, [settings.jlptLevels]);
 
   const value = useMemo(
-    () => ({ words, knownWords, dailyWords, addKnownWord, removeKnownWord }),
-    [words, knownWords, dailyWords, addKnownWord, removeKnownWord]
+    () => ({
+      words,
+      knownWords,
+      dailyWords,
+      isKnownWord,
+      addKnownWord,
+      removeKnownWord,
+    }),
+    [words, knownWords, dailyWords, isKnownWord, addKnownWord, removeKnownWord]
   );
 
   return (

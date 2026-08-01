@@ -7,7 +7,7 @@ import { useSettings } from '@/providers/SettingsProvider';
 
 export const AppContent = () => {
   const { settings } = useSettings();
-  const { dailyWords } = useWords();
+  const { dailyWords, isKnownWord, addKnownWord, removeKnownWord } = useWords();
   const dateKey = useDailyDateKey();
 
   return (
@@ -27,6 +27,10 @@ export const AppContent = () => {
             showRomaji={settings.showRomaji}
             showMeaning={settings.showMeaning}
             jpFont={settings.jpFont}
+            isKnown={isKnownWord(word.id)}
+            toggleIsKnown={(known) =>
+              known ? removeKnownWord(word.id) : addKnownWord(word.id)
+            }
           />
         ))}
       </div>

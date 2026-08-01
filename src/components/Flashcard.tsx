@@ -1,9 +1,9 @@
-import { IconBook } from '@tabler/icons-preact';
+import { IconBook, IconLeaf } from '@tabler/icons-preact';
 import type { Settings, Word } from '@/types';
 import { FlashcardLevel } from './FlashcardLevel';
-import IconButton from './UI/IconButton';
 import { useState } from 'preact/hooks';
 import { cn } from '@/utils/cn';
+import ToggleButton from './UI/ToggleButton';
 
 interface FlashcardProps {
   word: Word;
@@ -11,6 +11,8 @@ interface FlashcardProps {
   showRomaji: boolean;
   showMeaning: boolean;
   jpFont: Settings['jpFont'];
+  isKnown: boolean;
+  toggleIsKnown: (known: boolean) => void;
 }
 
 export const Flashcard = ({
@@ -19,6 +21,8 @@ export const Flashcard = ({
   showRomaji,
   showMeaning: alwaysShowMeaning,
   jpFont,
+  isKnown,
+  toggleIsKnown,
 }: FlashcardProps) => {
   const [showMeaning, setShowMeaning] = useState(false);
   const jpFontClass = {
@@ -30,7 +34,7 @@ export const Flashcard = ({
   return (
     <div
       className={cn(
-        'bg-surface border-border relative flex h-64 w-full max-w-sm flex-col items-center justify-center rounded-4xl border p-4 shadow-md sm:h-96 sm:min-w-80 sm:flex-1',
+        'bg-surface group border-border relative flex h-64 w-full max-w-sm flex-col items-center justify-center rounded-4xl border p-4 shadow-md sm:h-96 sm:min-w-80 sm:flex-1',
         {
           'transition-all hover:-translate-y-0.5 hover:shadow-lg':
             !alwaysShowMeaning,
@@ -85,6 +89,23 @@ export const Flashcard = ({
           <IconBook size={20} className="text-foreground-tertiary" />
         </a>
       </p>
+      <div
+        className={cn(
+          'absolute bottom-4 flex justify-center',
+          !isKnown &&
+            'pointer-events-none translate-y-2 opacity-0 transition-all duration-300',
+          'group-hover:pointer-events-auto group-hover:translate-y-0 group-hover:opacity-100'
+        )}
+      >
+        <ToggleButton
+          color="matcha"
+          pressed={isKnown}
+          onClick={() => toggleIsKnown(isKnown)}
+        >
+          <IconLeaf />
+          {isKnown ? 'Known' : 'I know this'}
+        </ToggleButton>
+      </div>
     </div>
   );
 };
