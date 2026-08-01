@@ -12,11 +12,9 @@ export const AppContent = () => {
 
   return (
     <div className="flex flex-1 flex-col items-center px-4 py-6 text-center sm:py-12">
-      <p
-        id="todaysDate"
-        className="text-foreground-secondary mt-2 font-medium tracking-wide"
-      >
-        🌸 {format(dateKey, 'M月d日（EEE）', { locale: ja })}
+      <h1 className="mb-2 text-2xl font-medium sm:text-3xl">Today's Study</h1>
+      <p className="text-foreground-secondary font-jp-sans mt-2 font-semibold tracking-wide">
+        {format(dateKey, 'M月d日（EEE）', { locale: ja })}
       </p>
       <div className="mt-10 flex w-full flex-col items-center gap-6 sm:mt-14 sm:flex-row sm:flex-wrap sm:justify-center sm:px-8">
         {dailyWords.map((word) => (
