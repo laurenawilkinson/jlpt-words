@@ -7,13 +7,13 @@ import { WordsProvider } from './providers/WordsProvider';
 export const App = () => {
   return (
     <SettingsProvider>
-      <WordsProvider>
-        <AppHeader />
-        <div className="flex min-h-screen flex-col">
+      <AppHeader />
+      <div className="flex min-h-screen flex-col">
+        <WordsProvider>
           <AppContent />
-          <AppFooter />
-        </div>
-      </WordsProvider>
+        </WordsProvider>
+        <AppFooter />
+      </div>
     </SettingsProvider>
   );
 };
