@@ -19,3 +19,5 @@ export type Settings = {
   jlptLevels: JlptLevel[];
   jpFont: 'sans' | 'serif' | 'kawaii';
 };
+
+export type PageKey = 'study' | 'known';

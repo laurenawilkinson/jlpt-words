@@ -11,7 +11,7 @@ interface AppHeaderNavItemProps extends ButtonHTMLAttributes<HTMLButtonElement> 
   active: boolean;
 }
 
-const AppHeaderNavItem = ({
+export const AppHeaderNavItem = ({
   icon: IconComponent,
   label,
   variant = 'default',
@@ -38,5 +38,3 @@ const AppHeaderNavItem = ({
     </button>
   );
 };
-
-export default AppHeaderNavItem;

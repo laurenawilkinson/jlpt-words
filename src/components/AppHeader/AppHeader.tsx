@@ -4,9 +4,15 @@ import { SettingsMenu } from '../SettingsMenu/SettingsMenu';
 import { useRef, useState } from 'preact/hooks';
 import { useClickOutside } from '@/hooks/useClickOutside';
 import { useSettings } from '@/providers/SettingsProvider';
-import AppHeaderNavItem from './AppHeaderNavItem';
+import { AppHeaderNavItem } from './AppHeaderNavItem';
+import type { PageKey } from '@/types';
 
-export const AppHeader = () => {
+interface AppHeaderProps {
+  activePage: PageKey;
+  setActivePage: (page: PageKey) => void;
+}
+
+export const AppHeader = ({ activePage, setActivePage }: AppHeaderProps) => {
   const { settings, updateSettings } = useSettings();
   const [showSettingsMenu, setShowSettingsMenu] = useState(false);
   const settingsMenuRef = useRef<HTMLDivElement>(null);
@@ -38,8 +44,8 @@ export const AppHeader = () => {
             icon={IconLeaf}
             label="Known"
             variant="known"
-            active={false}
-            onClick={() => {}}
+            active={activePage === 'known'}
+            onClick={() => setActivePage('known')}
           />
           <div className="relative">
             <AppHeaderNavItem
