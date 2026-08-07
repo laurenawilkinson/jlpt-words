@@ -34,11 +34,13 @@ export const AppHeader = ({ activePage, setActivePage }: AppHeaderProps) => {
             alt="Torii Gate"
             width="68"
             height="68"
-            className="size-8"
+            className="size-8 sm:size-10"
           />
-          <p className="flex flex-col leading-tight">
-            <span className="font-jp-sans font-semibold">単語タブ</span>
-            <span className="text-foreground-secondary text-xs">
+          <p className="flex flex-col">
+            <span className="font-jp-sans leading-tight font-semibold sm:text-xl">
+              単語タブ
+            </span>
+            <span className="text-foreground-secondary text-xs leading-tight">
               Daily Japanese words
             </span>
           </p>

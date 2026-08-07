@@ -28,13 +28,13 @@ export const AppHeaderNavItem = ({
   return (
     <button
       className={cn(
-        'text-foreground-secondary inline-flex h-16 w-18 cursor-pointer flex-col items-center justify-center rounded-2xl text-center text-sm font-medium transition-colors duration-150',
+        'text-foreground-secondary inline-flex size-12 cursor-pointer flex-col items-center justify-center rounded-2xl text-center text-sm font-medium transition-colors duration-150 sm:h-16 sm:w-18',
         active ? variantClasses[variant] : 'hover:bg-neutral-300/50'
       )}
       {...props}
     >
       <IconComponent className="shrink-0" size={24} aria-hidden="true" />
-      {label}
+      <span className="hidden sm:inline">{label}</span>
     </button>
   );
 };
