@@ -20,15 +20,15 @@ export const AppHeaderNavItem = ({
 }: AppHeaderNavItemProps) => {
   const variantClasses: Record<NavItemVariant, string> = {
     default: 'bg-neutral-200',
-    study: 'bg-study/20 text-study',
-    known: 'bg-known/20 text-known',
-    saved: 'bg-saved/20 text-saved',
+    study: 'bg-study/10 text-study',
+    known: 'bg-known/10 text-known',
+    saved: 'bg-saved/10 text-saved',
   };
 
   return (
     <button
       className={cn(
-        'text-foreground-secondary inline-flex h-16 w-18 cursor-pointer flex-col items-center justify-center rounded-2xl text-center text-sm transition-colors duration-150',
+        'text-foreground-secondary inline-flex h-16 w-18 cursor-pointer flex-col items-center justify-center rounded-2xl text-center text-sm font-medium transition-colors duration-150',
         active ? variantClasses[variant] : 'hover:bg-neutral-300/50'
       )}
       {...props}

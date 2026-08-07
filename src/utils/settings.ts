@@ -3,12 +3,19 @@ import type { Settings } from '@/types';
 import { JLPT_LEVELS } from './jlptLevel';
 
 const LOCAL_SETTINGS_KEY = 'settings';
+
 export const JP_FONTS: Settings['jpFont'][] = ['sans', 'serif', 'kawaii'];
 export const JP_FONT_LABELS: Record<Settings['jpFont'], string> = {
   sans: 'Sans-serif (ゴシック)',
   serif: 'Serif (明朝)',
   kawaii: 'Cute (かわいい)',
 };
+export const JP_FONT_CLASSES: Record<Settings['jpFont'], string> = {
+  sans: 'font-jp-sans',
+  serif: 'font-jp-serif',
+  kawaii: 'font-jp-kawaii',
+};
+
 const DEFAULT_SETTINGS: Settings = {
   words: 3,
   showFurigana: true,

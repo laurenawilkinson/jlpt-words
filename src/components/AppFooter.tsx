@@ -7,7 +7,7 @@ export const AppFooter = () => {
   const [showCredits, setShowCredits] = useState(false);
 
   return (
-    <footer className="text-muted flex flex-row-reverse items-center justify-center gap-2 p-4 text-center text-xs sm:justify-start">
+    <footer className="text-foreground-secondary flex flex-row-reverse items-center justify-center gap-2 p-4 text-center text-xs sm:justify-start">
       <IconButton
         aria-label="About"
         className="hidden sm:inline-flex"
@@ -26,7 +26,7 @@ export const AppFooter = () => {
         </a>
         &bull;
         <a href="https://www.flaticon.com/free-icons/japan" target="_blank">
-          Images by Magnific
+          Images by Magnific & Paul J.
         </a>
         &bull;
         <a

@@ -4,6 +4,7 @@ import { FlashcardLevel } from './FlashcardLevel';
 import { useState } from 'preact/hooks';
 import { cn } from '@/utils/cn';
 import ToggleButton from './UI/ToggleButton';
+import { JP_FONT_CLASSES } from '@/utils/settings';
 
 interface FlashcardProps {
   word: Word;
@@ -25,11 +26,7 @@ export const Flashcard = ({
   toggleIsKnown,
 }: FlashcardProps) => {
   const [showMeaning, setShowMeaning] = useState(false);
-  const jpFontClass = {
-    'font-jp-sans': jpFont === 'sans',
-    'font-jp-serif': jpFont === 'serif',
-    'font-jp-kawaii': jpFont === 'kawaii',
-  };
+  const jpFontClass = JP_FONT_CLASSES[jpFont];
 
   return (
     <div

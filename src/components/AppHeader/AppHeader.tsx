@@ -1,5 +1,9 @@
 import { cn } from '@/utils/cn';
-import { IconLeaf, IconSettings } from '@tabler/icons-preact';
+import {
+  IconCalendarEvent,
+  IconLeaf,
+  IconSettings,
+} from '@tabler/icons-preact';
 import { SettingsMenu } from '../SettingsMenu/SettingsMenu';
 import { useRef, useState } from 'preact/hooks';
 import { useClickOutside } from '@/hooks/useClickOutside';
@@ -40,6 +44,13 @@ export const AppHeader = ({ activePage, setActivePage }: AppHeaderProps) => {
           </p>
         </div>
         <nav className="flex gap-1">
+          <AppHeaderNavItem
+            icon={IconCalendarEvent}
+            label="Today"
+            variant="study"
+            active={activePage === 'study'}
+            onClick={() => setActivePage('study')}
+          />
           <AppHeaderNavItem
             icon={IconLeaf}
             label="Known"

@@ -47,5 +47,11 @@ To test the extension build locally:
 
 ## Sources
 
+### Data
+
 Vocabulary by JLPT level: [Tanos JLPT lists](https://www.tanos.co.uk/jlpt/)
-Images: [Magnific on Flaticon](https://www.flaticon.com/free-icons/japan)
+
+### Images
+
+- [Magnific on Flaticon](https://www.flaticon.com/free-icons/japan) (Torii gate)
+- [Paul J. on Flaticon](https://www.flaticon.com/free-icons/bonsai) (Bonsai tree)
