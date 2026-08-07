@@ -40,7 +40,8 @@ export const KnownWordItem = ({
         <div className="flex flex-row items-baseline gap-3">
           <p
             className={cn(
-              'text-xl font-medium',
+              'text-xl',
+              settings.jpFont === 'kawaii' ? 'font-medium' : 'font-semibold',
               JP_FONT_CLASSES[settings.jpFont]
             )}
           >
