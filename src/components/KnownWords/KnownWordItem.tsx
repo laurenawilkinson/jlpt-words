@@ -64,7 +64,7 @@ export const KnownWordItem = ({
       <Button
         variant="outline"
         onClick={onRemove}
-        className="hidden transition-all ease-out sm:inline-flex sm:translate-y-1 sm:opacity-0 sm:group-hover:translate-y-0 sm:group-hover:opacity-100"
+        className="hidden transition-all ease-out sm:inline-flex sm:translate-y-1 sm:opacity-0 sm:group-hover:translate-y-0 sm:group-hover:opacity-100 sm:focus-visible:translate-y-0 sm:focus-visible:opacity-100"
       >
         Remove
       </Button>

@@ -28,7 +28,9 @@ export const AppHeaderNavItem = ({
   return (
     <button
       className={cn(
-        'text-foreground-secondary inline-flex size-12 cursor-pointer flex-col items-center justify-center rounded-2xl text-center text-sm font-medium transition-colors duration-150 sm:h-16 sm:w-18',
+        'text-foreground-secondary inline-flex size-12 cursor-pointer flex-col items-center justify-center rounded-2xl text-center text-sm font-medium transition-colors duration-150',
+        'sm:h-16 sm:w-18',
+        'focus-visible:focus-ring',
         active ? variantClasses[variant] : 'hover:bg-neutral-300/50'
       )}
       {...props}
