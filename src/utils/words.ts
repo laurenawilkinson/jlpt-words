@@ -3,7 +3,7 @@ import { isKana, toRomaji } from 'wanakana';
 import type { JlptLevel, JsonWord, Word } from '@/types';
 import z from 'zod';
 
-const LOCAL_KNOWN_KEY = 'known-words';
+const LOCAL_KNOWN_KEY = 'knownWords';
 
 const words: Record<JlptLevel, Word[]> = {
   N1: [],
@@ -13,15 +13,18 @@ const words: Record<JlptLevel, Word[]> = {
   N5: [],
 };
 
-export function getWordsForDate(
-  words: Word[],
-  count: number,
-  dateKey: string
-): Word[] {
+// Returns the full word list with a seeded order related to today's date
+export function getWordsForDate(words: Word[], dateKey: string): Word[] {
   const rng = seedrandom(dateKey);
 
-  const shuffled = [...words].sort(() => rng() - 0.5);
-  return shuffled.slice(0, count);
+  const shuffled = [...words];
+
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+
+  return shuffled;
 }
 
 export function transformWords(level: JlptLevel, words?: JsonWord[]): Word[] {

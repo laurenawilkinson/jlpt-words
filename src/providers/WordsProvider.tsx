@@ -2,9 +2,9 @@ import type { Word } from '@/types';
 import { createContext } from 'preact';
 import { useContext, useEffect, useMemo, useState } from 'preact/hooks';
 import { useSettings } from './SettingsProvider';
-import { useDailyDateKey } from '@/hooks/useDailyDateKey';
-import { getWordsForDate, loadWordsForLevel } from '@/utils/words';
+import { loadWordsForLevel } from '@/utils/words';
 import { useKnownWords } from '@/hooks/useKnownWords';
+import { useDailyWords } from '@/hooks/useDailyWords';
 
 interface WordsContextValue {
   words: Word[];
@@ -21,15 +21,18 @@ export const WordsProvider: preact.FunctionComponent = ({ children }) => {
   const { settings } = useSettings();
   const [words, setWords] = useState<Word[]>([]);
 
-  const { knownWords, isKnownWord, addKnownWord, removeKnownWord } =
-    useKnownWords(words);
+  const {
+    knownWords,
+    knownWordIds,
+    isKnownWord,
+    addKnownWord,
+    removeKnownWord,
+  } = useKnownWords(words);
 
-  const dateKey = useDailyDateKey();
-
-  const dailyWords = useMemo(
-    () => getWordsForDate(words, settings.words, dateKey),
-    [words, settings.words, dateKey]
-  );
+  const dailyWords = useDailyWords({
+    words,
+    knownWordIds,
+  });
 
   useEffect(() => {
     const fetchWordArrays = async () => {
