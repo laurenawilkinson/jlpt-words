@@ -18,6 +18,7 @@ export type Settings = {
   showMeaning: boolean;
   jlptLevels: JlptLevel[];
   jpFont: 'sans' | 'serif' | 'kawaii';
+  hideKnownWords: boolean;
 };
 
 export type PageKey = 'study' | 'known';

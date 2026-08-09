@@ -23,6 +23,7 @@ const DEFAULT_SETTINGS: Settings = {
   showMeaning: false,
   jlptLevels: ['N5'],
   jpFont: 'sans',
+  hideKnownWords: true,
 };
 export const MIN_WORDS = 1;
 export const MAX_WORDS = 10;
@@ -33,6 +34,7 @@ const settingsSchema = z.object({
   showMeaning: z.boolean(),
   jlptLevels: z.array(z.enum(JLPT_LEVELS)),
   jpFont: z.enum(JP_FONTS),
+  hideKnownWords: z.boolean(),
 });
 
 export const getLocalSettings = (): Settings => {

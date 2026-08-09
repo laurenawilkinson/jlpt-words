@@ -59,7 +59,7 @@ export const SettingsMenu = forwardRef<HTMLDivElement, SettingsMenuProps>(
             onChange={(value) => updateSettings({ showMeaning: value })}
           />
         </SettingsMenuSetting>
-        <SettingsMenuSetting label="JLPT Level" isVertical>
+        <SettingsMenuSetting label="JLPT level" isVertical>
           <div className="flex gap-1">
             {JLPT_LEVELS.map((level) => (
               <Pill
@@ -82,7 +82,7 @@ export const SettingsMenu = forwardRef<HTMLDivElement, SettingsMenuProps>(
             ))}
           </div>
         </SettingsMenuSetting>
-        <SettingsMenuSetting label="Japanese Font" isVertical>
+        <SettingsMenuSetting label="Japanese font" isVertical>
           <Select
             className="-mx-3 min-w-36"
             value={settings.jpFont}
@@ -91,6 +91,13 @@ export const SettingsMenu = forwardRef<HTMLDivElement, SettingsMenuProps>(
               label: JP_FONT_LABELS[font],
               value: font,
             }))}
+          />
+        </SettingsMenuSetting>
+        <SettingsMenuSetting label="Hide known words">
+          <Toggle
+            labelId="settingLabel-Known"
+            checked={settings.hideKnownWords}
+            onChange={(value) => updateSettings({ hideKnownWords: value })}
           />
         </SettingsMenuSetting>
       </div>
