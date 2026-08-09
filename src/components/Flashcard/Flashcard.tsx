@@ -3,8 +3,11 @@ import type { Settings, Word } from '@/types';
 import { FlashcardLevel } from './FlashcardLevel';
 import { useState } from 'preact/hooks';
 import { cn } from '@/utils/cn';
-import ToggleButton from './UI/ToggleButton';
+import ToggleButton from '../UI/ToggleButton';
 import { JP_FONT_CLASSES } from '@/utils/settings';
+
+export const flashcardContainerClasses =
+  'bg-surface group border-border relative flex h-64 w-full max-w-sm flex-col items-center justify-center rounded-4xl border p-4 shadow-md sm:h-96 sm:w-80';
 
 interface FlashcardProps {
   word: Word;
@@ -30,13 +33,10 @@ export const Flashcard = ({
 
   return (
     <div
-      className={cn(
-        'bg-surface group border-border relative flex h-64 w-full max-w-sm flex-col items-center justify-center rounded-4xl border p-4 shadow-md sm:h-96 sm:min-w-80 sm:flex-1',
-        {
-          'transition-all hover:-translate-y-0.5 hover:shadow-lg':
-            !alwaysShowMeaning,
-        }
-      )}
+      className={cn(flashcardContainerClasses, {
+        'transition-all hover:-translate-y-0.5 hover:shadow-lg':
+          !alwaysShowMeaning,
+      })}
     >
       {!alwaysShowMeaning && (
         <button

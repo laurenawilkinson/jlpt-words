@@ -8,6 +8,7 @@ import { useDailyWords } from '@/hooks/useDailyWords';
 
 interface WordsContextValue {
   words: Word[];
+  loadingWords: boolean;
   knownWords: Word[];
   dailyWords: Word[];
   isKnownWord: (wordId: string) => boolean;
@@ -20,6 +21,7 @@ const WordsContext = createContext<WordsContextValue | null>(null);
 export const WordsProvider: preact.FunctionComponent = ({ children }) => {
   const { settings } = useSettings();
   const [words, setWords] = useState<Word[]>([]);
+  const [loadingWords, setLoadingWords] = useState(true);
 
   const {
     knownWords,
@@ -36,10 +38,17 @@ export const WordsProvider: preact.FunctionComponent = ({ children }) => {
 
   useEffect(() => {
     const fetchWordArrays = async () => {
-      const wordArrays = await Promise.all(
-        settings.jlptLevels.map(loadWordsForLevel)
-      );
-      setWords(wordArrays.flat());
+      setLoadingWords(true);
+      try {
+        const wordArrays = await Promise.all(
+          settings.jlptLevels.map(loadWordsForLevel)
+        );
+        setWords(wordArrays.flat());
+      } catch {
+        console.error('Failed to load words');
+      } finally {
+        setLoadingWords(false);
+      }
     };
     fetchWordArrays();
   }, [settings.jlptLevels]);
@@ -47,13 +56,22 @@ export const WordsProvider: preact.FunctionComponent = ({ children }) => {
   const value = useMemo(
     () => ({
       words,
+      loadingWords,
       knownWords,
       dailyWords,
       isKnownWord,
       addKnownWord,
       removeKnownWord,
     }),
-    [words, knownWords, dailyWords, isKnownWord, addKnownWord, removeKnownWord]
+    [
+      words,
+      loadingWords,
+      knownWords,
+      dailyWords,
+      isKnownWord,
+      addKnownWord,
+      removeKnownWord,
+    ]
   );
 
   return (

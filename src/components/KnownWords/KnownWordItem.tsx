@@ -1,7 +1,7 @@
 import type { Word } from '@/types';
 import { cn } from '@/utils/cn';
 import Button from '../UI/Button';
-import { FlashcardLevel } from '../FlashcardLevel';
+import { FlashcardLevel } from '../Flashcard/FlashcardLevel';
 import { useSettings } from '@/providers/SettingsProvider';
 import { JP_FONT_CLASSES } from '@/utils/settings';
 import IconButton from '../UI/IconButton';

@@ -1,15 +1,34 @@
 import { format } from 'date-fns';
 import { ja } from 'date-fns/locale';
-import { Flashcard } from '../Flashcard';
+import { Flashcard } from '../Flashcard/Flashcard';
 import { useWords } from '@/providers/WordsProvider';
 import { useDailyDateKey } from '@/hooks/useDailyDateKey';
 import { useSettings } from '@/providers/SettingsProvider';
 import { AppContent } from '../AppContent';
+import { FlashcardPlaceholder } from '../Flashcard/FlashcardPlaceholder';
 
 export const StudyPage = () => {
   const { settings } = useSettings();
-  const { dailyWords, isKnownWord, addKnownWord, removeKnownWord } = useWords();
+  const {
+    dailyWords,
+    loadingWords,
+    isKnownWord,
+    addKnownWord,
+    removeKnownWord,
+  } = useWords();
   const dateKey = useDailyDateKey();
+
+  const placeholderFlashcards = Array.from(
+    { length: settings.words },
+    (_, i) => (
+      <FlashcardPlaceholder
+        key={i}
+        showFurigana={settings.showFurigana}
+        showRomaji={settings.showRomaji}
+        showMeaning={settings.showMeaning}
+      />
+    )
+  );
 
   return (
     <AppContent className="flex flex-col items-center py-6 text-center sm:py-12">
@@ -18,20 +37,22 @@ export const StudyPage = () => {
         {format(dateKey, 'M月d日（EEE）', { locale: ja })}
       </p>
       <div className="mt-10 flex w-full flex-col items-center gap-6 sm:mt-14 sm:flex-row sm:flex-wrap sm:justify-center sm:px-8">
-        {dailyWords.map((word) => (
-          <Flashcard
-            key={word.id}
-            word={word}
-            showFurigana={settings.showFurigana}
-            showRomaji={settings.showRomaji}
-            showMeaning={settings.showMeaning}
-            jpFont={settings.jpFont}
-            isKnown={isKnownWord(word.id)}
-            toggleIsKnown={(known) =>
-              known ? removeKnownWord(word.id) : addKnownWord(word.id)
-            }
-          />
-        ))}
+        {loadingWords
+          ? placeholderFlashcards
+          : dailyWords.map((word) => (
+              <Flashcard
+                key={word.id}
+                word={word}
+                showFurigana={settings.showFurigana}
+                showRomaji={settings.showRomaji}
+                showMeaning={settings.showMeaning}
+                jpFont={settings.jpFont}
+                isKnown={isKnownWord(word.id)}
+                toggleIsKnown={(known) =>
+                  known ? removeKnownWord(word.id) : addKnownWord(word.id)
+                }
+              />
+            ))}
       </div>
     </AppContent>
   );
