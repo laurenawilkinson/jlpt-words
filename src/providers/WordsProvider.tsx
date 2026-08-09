@@ -3,13 +3,8 @@ import { createContext } from 'preact';
 import { useContext, useEffect, useMemo, useState } from 'preact/hooks';
 import { useSettings } from './SettingsProvider';
 import { useDailyDateKey } from '@/hooks/useDailyDateKey';
-import {
-  getLocalKnownWordIds,
-  getWordsForDate,
-  loadWordsForLevel,
-  setLocalKnownWordIds,
-  type KnownWordIds,
-} from '@/utils/words';
+import { getWordsForDate, loadWordsForLevel } from '@/utils/words';
+import { useKnownWords } from '@/hooks/useKnownWords';
 
 interface WordsContextValue {
   words: Word[];
@@ -25,38 +20,16 @@ const WordsContext = createContext<WordsContextValue | null>(null);
 export const WordsProvider: preact.FunctionComponent = ({ children }) => {
   const { settings } = useSettings();
   const [words, setWords] = useState<Word[]>([]);
-  const [knownWordIds, setKnownWordIds] = useState<KnownWordIds>(
-    getLocalKnownWordIds()
-  );
+
+  const { knownWords, isKnownWord, addKnownWord, removeKnownWord } =
+    useKnownWords(words);
+
   const dateKey = useDailyDateKey();
 
   const dailyWords = useMemo(
     () => getWordsForDate(words, settings.words, dateKey),
     [words, settings.words, dateKey]
   );
-
-  const knownWords = useMemo(
-    () => words.filter((word) => knownWordIds.includes(word.id)),
-    [words, knownWordIds]
-  );
-
-  const isKnownWord = (wordId: string) => {
-    return knownWordIds.includes(wordId);
-  };
-
-  const addKnownWord = (wordId: string) => {
-    const currentIds = getLocalKnownWordIds();
-    const newIds = Array.from(new Set(currentIds).add(wordId));
-    setKnownWordIds(newIds);
-    setLocalKnownWordIds(newIds);
-  };
-
-  const removeKnownWord = (wordId: string) => {
-    const currentIds = getLocalKnownWordIds();
-    const newIds = currentIds.filter((id) => id !== wordId);
-    setKnownWordIds(newIds);
-    setLocalKnownWordIds(newIds);
-  };
 
   useEffect(() => {
     const fetchWordArrays = async () => {
