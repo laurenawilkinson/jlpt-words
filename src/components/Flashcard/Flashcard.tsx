@@ -1,7 +1,7 @@
 import { IconBook, IconLeaf } from '@tabler/icons-preact';
 import type { Settings, Word } from '@/types';
 import { FlashcardLevel } from './FlashcardLevel';
-import { useState } from 'preact/hooks';
+import { useId, useState } from 'preact/hooks';
 import { cn } from '@/utils/cn';
 import ToggleButton from '../UI/ToggleButton';
 import { JP_FONT_CLASSES } from '@/utils/settings';
@@ -30,6 +30,7 @@ export const Flashcard = ({
 }: FlashcardProps) => {
   const [showMeaning, setShowMeaning] = useState(false);
   const jpFontClass = JP_FONT_CLASSES[jpFont];
+  const jpWordId = useId();
 
   return (
     <div
@@ -40,8 +41,9 @@ export const Flashcard = ({
     >
       {!alwaysShowMeaning && (
         <button
-          aria-label="Show Meaning"
-          className="focus-visible:ring-ring absolute h-full w-full cursor-pointer rounded-[inherit] focus-visible:outline-0"
+          aria-label={showMeaning ? 'Hide meaning' : 'Show meaning'}
+          aria-describedby={jpWordId}
+          className="focus-visible:focus-ring absolute h-full w-full cursor-pointer rounded-[inherit]"
           onClick={() => {
             setShowMeaning(!showMeaning);
           }}
@@ -64,7 +66,7 @@ export const Flashcard = ({
             {word.furigana}
           </span>
         )}
-        {word.jp}
+        <span id={jpWordId}>{word.jp}</span>
       </h2>
       {showRomaji && (
         <p className="text-foreground-tertiary text-sm sm:mt-2 sm:text-base">
@@ -83,6 +85,8 @@ export const Flashcard = ({
           className="focus-visible:focus-ring flex items-center gap-2 rounded-full px-4 py-1 transition-colors hover:bg-neutral-50"
           href={`https://jisho.org/search/${encodeURIComponent(word.jp)}`}
           target="_blank"
+          tabIndex={!alwaysShowMeaning && !showMeaning ? -1 : 0}
+          aria-hidden={!alwaysShowMeaning && !showMeaning ? 'true' : undefined}
         >
           {word.en}
           <IconBook size={20} className="text-foreground-tertiary" />
@@ -93,7 +97,8 @@ export const Flashcard = ({
           'absolute bottom-4 flex justify-center',
           !isKnown &&
             'pointer-events-none translate-y-2 opacity-0 transition-all duration-300',
-          'group-hover:pointer-events-auto group-hover:translate-y-0 group-hover:opacity-100'
+          'group-hover:pointer-events-auto group-hover:translate-y-0 group-hover:opacity-100',
+          'focus-within:pointer-events-auto focus-within:translate-y-0 focus-within:opacity-100'
         )}
       >
         <ToggleButton
