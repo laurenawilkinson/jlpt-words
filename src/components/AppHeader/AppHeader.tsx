@@ -27,7 +27,7 @@ export const AppHeader = ({ activePage, setActivePage }: AppHeaderProps) => {
 
   return (
     <>
-      <header className="flex w-full justify-between gap-2 p-4">
+      <header className="flex w-full justify-between gap-2 p-4 sm:px-8">
         <div className="flex items-center gap-2">
           <img
             src="/images/torii.png"
