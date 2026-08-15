@@ -6,9 +6,9 @@ const LOCAL_SETTINGS_KEY = 'settings';
 
 export const JP_FONTS: Settings['jpFont'][] = ['sans', 'serif', 'kawaii'];
 export const JP_FONT_LABELS: Record<Settings['jpFont'], string> = {
-  sans: 'Sans-serif (ゴシック)',
-  serif: 'Serif (明朝)',
-  kawaii: 'Cute (かわいい)',
+  sans: 'Sans-serif・ゴシック',
+  serif: 'Serif・明朝',
+  kawaii: 'Cute・かわいい',
 };
 export const JP_FONT_CLASSES: Record<Settings['jpFont'], string> = {
   sans: 'font-jp-sans',
@@ -18,9 +18,9 @@ export const JP_FONT_CLASSES: Record<Settings['jpFont'], string> = {
 
 export const THEMES: AppTheme[] = ['system', 'sakura', 'tokyo-nights'];
 export const THEME_LABELS: Record<AppTheme, string> = {
-  system: 'System',
-  sakura: 'Sakura',
-  'tokyo-nights': 'Tokyo Nights',
+  system: 'System・システム',
+  sakura: 'Sakura・桜',
+  'tokyo-nights': 'Tokyo Nights・東京ナイト',
 };
 
 const DEFAULT_SETTINGS: Settings = {
