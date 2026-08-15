@@ -66,7 +66,7 @@ export const Select = <T extends string>({
                 className={cn(
                   'flex w-full cursor-pointer items-center gap-2 rounded-md px-3 py-2 transition-colors',
                   'focus-visible:focus-ring hover:bg-surface-hover',
-                  'aria-selected:bg-primary-soft hover:aria-selected:bg-primary-soft-hover focus-visible:aria-selected:bg-primary-soft-hover'
+                  'aria-selected:bg-primary-soft-active hover:aria-selected:bg-primary-soft-hover focus-visible:aria-selected:bg-primary-soft-hover'
                 )}
                 role="option"
                 aria-selected={option.value === value}

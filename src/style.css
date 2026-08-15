@@ -97,9 +97,9 @@
   --theme-control-track: var(--palette-neutral-300);
   --theme-control-thumb: var(--palette-neutral-0);
   --theme-scrollbar-thumb: var(--palette-neutral-400);
-  --theme-primary-soft: var(--palette-primary-100);
-  --theme-primary-soft-hover: var(--palette-primary-200);
-  --theme-primary-soft-active: var(--palette-primary-300);
+  --theme-primary-soft: var(--palette-primary-50);
+  --theme-primary-soft-hover: var(--palette-primary-100);
+  --theme-primary-soft-active: var(--palette-primary-200);
   --theme-primary-border: var(--palette-primary-200);
   --theme-primary-border-hover: var(--palette-primary-300);
   --theme-known-soft: var(--palette-known-100);
