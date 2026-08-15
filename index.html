@@ -6,6 +6,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      (() => {
+        try {
+          const settings = JSON.parse(localStorage.getItem('settings') || '{}');
+          const savedTheme = settings.theme;
+          const theme =
+            savedTheme === 'sakura' || savedTheme === 'tokyo-nights'
+              ? savedTheme
+              : 'system';
+          const resolvedTheme =
+            theme === 'system'
+              ? window.matchMedia('(prefers-color-scheme: dark)').matches
+                ? 'tokyo-nights'
+                : 'sakura'
+              : theme;
+
+          document.documentElement.dataset.theme = resolvedTheme;
+        } catch {
+          document.documentElement.dataset.theme = 'sakura';
+        }
+      })();
+    </script>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/icon-32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/icon-16.png" />

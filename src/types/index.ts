@@ -11,6 +11,8 @@ export type Word = {
   jlpt: JlptLevel;
 };
 
+export type AppTheme = 'system' | 'sakura' | 'tokyo-nights';
+
 export type Settings = {
   words: number;
   showFurigana: boolean;
@@ -19,6 +21,7 @@ export type Settings = {
   jlptLevels: JlptLevel[];
   jpFont: 'sans' | 'serif' | 'kawaii';
   hideKnownWords: boolean;
+  theme: AppTheme;
 };
 
 export type PageKey = 'study' | 'known';

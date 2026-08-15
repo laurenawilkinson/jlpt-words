@@ -2,6 +2,7 @@ import { createContext } from 'preact';
 import { useCallback, useContext, useMemo, useState } from 'preact/hooks';
 import { getLocalSettings, setLocalSettings } from '@/utils/settings';
 import type { Settings } from '@/types';
+import { useTheme } from '@/hooks/useTheme';
 
 type SettingsContextValue = {
   settings: Settings;
@@ -21,6 +22,8 @@ export const SettingsProvider: preact.FunctionComponent = ({ children }) => {
     () => ({ settings, updateSettings }),
     [settings, updateSettings]
   );
+
+  useTheme(settings.theme);
 
   return (
     <SettingsContext.Provider value={value}>

@@ -7,6 +7,8 @@ import {
   JP_FONTS,
   MAX_WORDS,
   MIN_WORDS,
+  THEME_LABELS,
+  THEMES,
 } from '@/utils/settings';
 import { Toggle } from '../UI/Toggle';
 import Pill from '../UI/Pill';
@@ -98,6 +100,17 @@ export const SettingsMenu = forwardRef<HTMLDivElement, SettingsMenuProps>(
             labelId="settingLabel-Known"
             checked={settings.hideKnownWords}
             onChange={(value) => updateSettings({ hideKnownWords: value })}
+          />
+        </SettingsMenuSetting>
+        <SettingsMenuSetting label="Theme" isVertical>
+          <Select
+            className="-mx-3 min-w-36"
+            value={settings.theme}
+            onChange={(theme) => updateSettings({ theme })}
+            options={THEMES.map((theme) => ({
+              label: THEME_LABELS[theme],
+              value: theme,
+            }))}
           />
         </SettingsMenuSetting>
       </div>

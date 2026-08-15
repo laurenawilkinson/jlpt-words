@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import type { Settings } from '@/types';
+import type { AppTheme, Settings } from '@/types';
 import { JLPT_LEVELS } from './jlptLevel';
 
 const LOCAL_SETTINGS_KEY = 'settings';
@@ -16,6 +16,13 @@ export const JP_FONT_CLASSES: Record<Settings['jpFont'], string> = {
   kawaii: 'font-jp-kawaii',
 };
 
+export const THEMES: AppTheme[] = ['system', 'sakura', 'tokyo-nights'];
+export const THEME_LABELS: Record<AppTheme, string> = {
+  system: 'System',
+  sakura: 'Sakura',
+  'tokyo-nights': 'Tokyo Nights',
+};
+
 const DEFAULT_SETTINGS: Settings = {
   words: 3,
   showFurigana: true,
@@ -24,6 +31,7 @@ const DEFAULT_SETTINGS: Settings = {
   jlptLevels: ['N5'],
   jpFont: 'sans',
   hideKnownWords: true,
+  theme: 'system',
 };
 export const MIN_WORDS = 1;
 export const MAX_WORDS = 10;
@@ -35,6 +43,7 @@ const settingsSchema = z.object({
   jlptLevels: z.array(z.enum(JLPT_LEVELS)),
   jpFont: z.enum(JP_FONTS),
   hideKnownWords: z.boolean(),
+  theme: z.enum(THEMES),
 });
 
 export const getLocalSettings = (): Settings => {
