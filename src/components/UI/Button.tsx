@@ -39,36 +39,38 @@ const buttonVariants = cva(
         variant: 'filled',
         color: 'default',
         class:
-          'bg-surface border border-transparent text-text shadow-xs hover:bg-neutral-100 active:bg-neutral-200',
+          'bg-surface border border-transparent text-foreground shadow-xs hover:bg-surface-hover active:bg-surface-active',
       },
       {
         variant: 'outline',
         color: 'default',
         class:
-          'bg-transparent border border-border text-text-secondary hover:bg-neutral-100 hover:border-neutral-400 active:bg-neutral-200',
+          'bg-transparent border border-border text-foreground-secondary hover:bg-surface-hover hover:border-ring active:bg-surface-active',
       },
       {
         variant: 'ghost',
         color: 'default',
-        class: 'text-text-secondary hover:bg-neutral-100 active:bg-neutral-200',
+        class:
+          'text-foreground-secondary hover:bg-surface-hover active:bg-surface-active',
       },
 
       {
         variant: 'filled',
         color: 'primary',
         class:
-          'bg-primary-100 text-primary-600 hover:bg-primary-200 active:bg-primary-300',
+          'bg-primary-soft text-primary-foreground hover:bg-primary-soft-hover active:bg-primary-soft-active',
       },
       {
         variant: 'outline',
         color: 'primary',
         class:
-          'border-primary-200 text-primary-500 hover:bg-primary-50 hover:border-primary-300 active:bg-primary-100',
+          'border-primary-border text-primary hover:bg-primary-soft hover:border-primary-border-hover active:bg-primary-soft-active',
       },
       {
         variant: 'ghost',
         color: 'primary',
-        class: 'text-primary-500 hover:bg-primary-50 active:bg-primary-100',
+        class:
+          'text-primary hover:bg-primary-soft active:bg-primary-soft-active',
       },
     ],
 

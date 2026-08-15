@@ -82,7 +82,7 @@ export const Flashcard = ({
         )}
       >
         <a
-          className="focus-visible:focus-ring flex items-center gap-2 rounded-full px-4 py-1 transition-colors hover:bg-neutral-50"
+          className="focus-visible:focus-ring hover:bg-surface-hover flex items-center gap-2 rounded-full px-4 py-1 transition-colors"
           href={`https://jisho.org/search/${encodeURIComponent(word.jp)}`}
           target="_blank"
           tabIndex={!alwaysShowMeaning && !showMeaning ? -1 : 0}

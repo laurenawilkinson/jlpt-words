@@ -39,7 +39,7 @@ export const Select = <T extends string>({
         aria-expanded={isOpen}
         onClick={() => setIsOpen((v) => !v)}
         class={cn(
-          'border-border-soft focus-visible:focus-ring flex w-full cursor-pointer items-center justify-between gap-2 rounded-full border px-3 py-2 transition-colors hover:bg-neutral-50',
+          'border-border-soft focus-visible:focus-ring hover:bg-surface-hover flex w-full cursor-pointer items-center justify-between gap-2 rounded-full border px-3 py-2 transition-colors',
           isOpen && 'bg-surface'
         )}
       >
@@ -65,8 +65,8 @@ export const Select = <T extends string>({
               <button
                 className={cn(
                   'flex w-full cursor-pointer items-center gap-2 rounded-md px-3 py-2 transition-colors',
-                  'focus-visible:focus-ring hover:bg-neutral-50',
-                  'aria-selected:bg-primary-100 hover:aria-selected:bg-primary-200 focus-visible:aria-selected:bg-primary-200'
+                  'focus-visible:focus-ring hover:bg-surface-hover',
+                  'aria-selected:bg-primary-soft hover:aria-selected:bg-primary-soft-hover focus-visible:aria-selected:bg-primary-soft-hover'
                 )}
                 role="option"
                 aria-selected={option.value === value}

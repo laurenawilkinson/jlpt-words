@@ -15,7 +15,7 @@ export const FlashcardLevel = ({
   return (
     <span
       className={cn(
-        'bg-primary-50 text-primary rounded-lg px-3 py-1 font-medium tracking-wide select-none',
+        'bg-level-badge text-level-badge-foreground rounded-lg px-3 py-1 font-medium tracking-wide select-none',
         { 'px-3 py-1': size === 'md', 'px-2 py-1 text-sm': size === 'sm' },
         className
       )}

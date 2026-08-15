@@ -22,24 +22,24 @@ const toggleVariants = cva('', {
     {
       color: 'default',
       pressed: false,
-      class: 'text-text-secondary hover:bg-neutral-100',
+      class: 'text-foreground-secondary hover:bg-surface-hover',
     },
     {
       color: 'default',
       pressed: true,
-      class: 'bg-neutral-100 text-text',
+      class: 'bg-surface-selected text-foreground',
     },
 
     {
       color: 'matcha',
       pressed: true,
-      class: 'text-matcha-500 hover:bg-matcha-50',
+      class: 'text-known hover:bg-known-soft',
     },
 
     {
       color: 'wisteria',
       pressed: true,
-      class: 'text-wisteria-500 hover:bg-wisteria-50',
+      class: 'text-saved hover:bg-saved-soft',
     },
   ],
 

@@ -19,10 +19,10 @@ export const AppHeaderNavItem = ({
   ...props
 }: AppHeaderNavItemProps) => {
   const variantClasses: Record<NavItemVariant, string> = {
-    default: 'bg-neutral-200',
-    study: 'bg-study/10 text-study',
-    known: 'bg-known/10 text-known',
-    saved: 'bg-saved/10 text-saved',
+    default: 'bg-surface-selected',
+    study: 'bg-primary-soft text-primary',
+    known: 'bg-known-soft text-known',
+    saved: 'bg-saved-soft text-saved',
   };
 
   return (
@@ -31,7 +31,7 @@ export const AppHeaderNavItem = ({
         'text-foreground-secondary inline-flex size-12 cursor-pointer flex-col items-center justify-center rounded-2xl text-center text-sm font-medium transition-colors duration-150',
         'sm:h-16 sm:w-18',
         'focus-visible:focus-ring',
-        active ? variantClasses[variant] : 'hover:bg-neutral-300/50'
+        active ? variantClasses[variant] : 'hover:bg-surface-hover'
       )}
       {...props}
     >

@@ -1,7 +1,7 @@
 @import 'tailwindcss';
 
-@theme {
-  /* Fonts */
+/* Components use only the semantic utilities below. Palette values are private to each theme. */
+@theme inline {
   --font-jp-sans:
     'system-ui', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Yu Gothic',
     'Meiryo', 'Noto Sans JP', 'sans-serif';
@@ -10,107 +10,176 @@
   --font-jp-kawaii: 'Kosugi Maru', 'Noto Sans JP', 'sans-serif';
   --default-font-family: 'Fredoka', sans-serif;
 
-  /* Sakura */
-  --color-primary-50: #fff0f4;
-  --color-primary-100: #fad6e1;
-  --color-primary-200: #f7b7c9;
-  --color-primary-300: #f39db3;
-  --color-primary-400: #ec819a;
-  --color-primary-500: #e16683;
-  --color-primary-600: #c84b68;
+  --color-canvas: var(--theme-canvas);
+  --color-surface: var(--theme-surface);
+  --color-surface-alt: var(--theme-surface-alt);
+  --color-foreground: var(--theme-foreground);
+  --color-foreground-secondary: var(--theme-foreground-secondary);
+  --color-foreground-tertiary: var(--theme-foreground-tertiary);
+  --color-border-soft: var(--theme-border-soft);
+  --color-border: var(--theme-border);
+  --color-ring: var(--theme-ring);
+  --color-surface-hover: var(--theme-surface-hover);
+  --color-surface-active: var(--theme-surface-active);
+  --color-surface-selected: var(--theme-surface-selected);
+  --color-control-track: var(--theme-control-track);
+  --color-control-thumb: var(--theme-control-thumb);
+  --color-scrollbar-thumb: var(--theme-scrollbar-thumb);
+  --color-primary: var(--theme-primary);
+  --color-primary-foreground: var(--theme-primary-foreground);
+  --color-primary-soft: var(--theme-primary-soft);
+  --color-primary-soft-hover: var(--theme-primary-soft-hover);
+  --color-primary-soft-active: var(--theme-primary-soft-active);
+  --color-primary-border: var(--theme-primary-border);
+  --color-primary-border-hover: var(--theme-primary-border-hover);
+  --color-known: var(--theme-known);
+  --color-known-soft: var(--theme-known-soft);
+  --color-saved: var(--theme-saved);
+  --color-saved-soft: var(--theme-saved-soft);
+  --color-level-badge: var(--theme-level-badge);
+  --color-level-badge-foreground: var(--theme-level-badge-foreground);
+  --color-success: var(--theme-success);
+  --color-danger: var(--theme-danger);
+  --shadow-xs: 0 1px 2px rgb(var(--palette-shadow) / 0.03);
+  --shadow-sm: 0 4px 10px rgb(var(--palette-shadow) / 0.045);
+  --shadow-md: 0 10px 24px rgb(var(--palette-shadow) / 0.06);
+  --shadow-lg: 0 18px 42px rgb(var(--palette-shadow) / 0.09);
+}
 
-  /* Matcha */
-  --color-matcha-50: #f2f8f1;
-  --color-matcha-100: #e3eedb;
-  --color-matcha-200: #cde2c2;
-  --color-matcha-300: #a8cc9a;
-  --color-matcha-400: #86b47b;
-  --color-matcha-500: #67975f;
+/* Palette-to-token mappings shared by every theme. */
+:root {
+  --theme-primary: var(--palette-primary-500);
+  --theme-primary-foreground: var(--palette-primary-600);
+  --theme-known: var(--palette-known-500);
+  --theme-saved: var(--palette-saved-500);
+  --theme-level-badge: var(--palette-primary-50);
+  --theme-success: var(--theme-known);
+  --theme-danger: var(--palette-danger-500);
+}
 
-  /* Wisteria */
-  --color-wisteria-50: #f6f0fa;
-  --color-wisteria-100: #ede3f6;
-  --color-wisteria-200: #d8c7ee;
-  --color-wisteria-300: #c2acdf;
-  --color-wisteria-400: #a68ccf;
-  --color-wisteria-500: #8d71bb;
+/* Sakura theme */
+:root,
+[data-theme='sakura'] {
+  --palette-neutral-0: #fff;
+  --palette-neutral-50: #fcf9f7;
+  --palette-neutral-100: #f7f0eb;
+  --palette-neutral-200: #efe2da;
+  --palette-neutral-300: #e2d1c6;
+  --palette-neutral-400: #cbb8aa;
+  --palette-neutral-500: #b39d8e;
+  --palette-neutral-700: #6d5d53;
+  --palette-neutral-900: #362e29;
+  --palette-primary-50: #fff0f4;
+  --palette-primary-100: #fad6e1;
+  --palette-primary-200: #f7b7c9;
+  --palette-primary-300: #f39db3;
+  --palette-primary-500: #e16683;
+  --palette-primary-600: #c84b68;
+  --palette-known-50: #f2f8f1;
+  --palette-known-100: #e3eedb;
+  --palette-known-500: #67975f;
+  --palette-saved-50: #f6f0fa;
+  --palette-saved-500: #8d71bb;
+  --palette-danger-500: #ad5252;
+  --palette-shadow: 74 58 52;
+  --theme-canvas: var(--palette-neutral-100);
+  --theme-surface: var(--palette-neutral-0);
+  --theme-surface-alt: #faf6f3;
+  --theme-foreground: var(--palette-neutral-900);
+  --theme-foreground-secondary: var(--palette-neutral-700);
+  --theme-foreground-tertiary: var(--palette-neutral-500);
+  --theme-border-soft: var(--palette-neutral-200);
+  --theme-border: var(--palette-neutral-300);
+  --theme-ring: var(--palette-neutral-500);
+  --theme-surface-hover: var(--palette-neutral-50);
+  --theme-surface-active: var(--palette-neutral-200);
+  --theme-surface-selected: var(--palette-neutral-100);
+  --theme-control-track: var(--palette-neutral-300);
+  --theme-control-thumb: var(--palette-neutral-0);
+  --theme-scrollbar-thumb: var(--palette-neutral-400);
+  --theme-primary-soft: var(--palette-primary-100);
+  --theme-primary-soft-hover: var(--palette-primary-200);
+  --theme-primary-soft-active: var(--palette-primary-300);
+  --theme-primary-border: var(--palette-primary-200);
+  --theme-primary-border-hover: var(--palette-primary-300);
+  --theme-known-soft: var(--palette-known-100);
+  --theme-saved-soft: var(--palette-saved-50);
+  --theme-level-badge-foreground: var(--palette-primary-500);
+}
 
-  /* Neutrals */
-  --color-neutral-50: #fcf9f7;
-  --color-neutral-100: #f7f0eb;
-  --color-neutral-200: #efe2da;
-  --color-neutral-300: #e2d1c6;
-  --color-neutral-400: #cbb8aa;
-  --color-neutral-500: #b39d8e;
-  --color-neutral-600: #8f7d70;
-  --color-neutral-700: #6d5d53;
-  --color-neutral-800: #51453d;
-  --color-neutral-900: #362e29;
-
-  /* Feedback */
-  --color-success: var(--color-matcha-500);
-  --color-danger: #ad5252;
-
-  /* Surfaces */
-  --color-background: var(--color-neutral-100);
-  --color-surface: #ffffff;
-  --color-surface-alt: #faf6f3;
-
-  /* Shadows */
-  --shadow-xs: 0 1px 2px rgb(74 58 52 / 0.03);
-  --shadow-sm: 0 4px 10px rgb(74 58 52 / 0.045);
-  --shadow-md: 0 10px 24px rgb(74 58 52 / 0.06);
-  --shadow-lg: 0 18px 42px rgb(74 58 52 / 0.09);
-
-  /* Text */
-  --color-foreground: var(--color-neutral-900);
-  --color-foreground-secondary: var(--color-neutral-700);
-  --color-foreground-tertiary: var(--color-neutral-500);
-
-  /* Borders */
-  --color-border-soft: var(--color-neutral-200);
-  --color-border: var(--color-neutral-300);
-  --color-ring: var(--color-neutral-500);
-
-  /* Aliases */
-  --color-primary: var(--color-primary-300);
-  --color-primary-hover: var(--color-primary-500);
-  --color-matcha: var(--color-matcha-500);
-  --color-wisteria: var(--color-wisteria-500);
-
-  --color-study: var(--color-primary);
-  --color-known: var(--color-matcha);
-  --color-saved: var(--color-wisteria);
+/* Tokyo Nights theme */
+[data-theme='tokyo-nights'] {
+  --palette-neutral-0: #211e29;
+  --palette-neutral-50: #272330;
+  --palette-neutral-100: #312c39;
+  --palette-neutral-200: #3d3647;
+  --palette-neutral-300: #4d4559;
+  --palette-neutral-400: #766681;
+  --palette-neutral-500: #817784;
+  --palette-neutral-700: #b9afbd;
+  --palette-neutral-900: #eee8f0;
+  --palette-primary-50: #3c2935;
+  --palette-primary-100: #513443;
+  --palette-primary-200: #664155;
+  --palette-primary-300: #7d5068;
+  --palette-primary-500: #d889a2;
+  --palette-primary-600: #e59ab2;
+  --palette-known-50: #273526;
+  --palette-known-100: #334531;
+  --palette-known-500: #83a77a;
+  --palette-saved-50: #332c40;
+  --palette-saved-500: #a993c9;
+  --palette-danger-500: #c77b7b;
+  --palette-shadow: 8 6 14;
+  --theme-canvas: #17151d;
+  --theme-surface: var(--palette-neutral-0);
+  --theme-surface-alt: var(--palette-neutral-50);
+  --theme-foreground: var(--palette-neutral-900);
+  --theme-foreground-secondary: var(--palette-neutral-700);
+  --theme-foreground-tertiary: var(--palette-neutral-500);
+  --theme-border-soft: var(--palette-neutral-100);
+  --theme-border: var(--palette-neutral-200);
+  --theme-ring: var(--palette-neutral-400);
+  --theme-surface-hover: var(--palette-neutral-50);
+  --theme-surface-active: var(--palette-neutral-100);
+  --theme-surface-selected: var(--palette-neutral-100);
+  --theme-control-track: var(--palette-neutral-200);
+  --theme-control-thumb: var(--palette-neutral-900);
+  --theme-scrollbar-thumb: var(--palette-neutral-400);
+  --theme-primary-soft: var(--palette-primary-50);
+  --theme-primary-soft-hover: var(--palette-primary-100);
+  --theme-primary-soft-active: var(--palette-primary-200);
+  --theme-primary-border: var(--palette-primary-200);
+  --theme-primary-border-hover: var(--palette-primary-300);
+  --theme-known-soft: var(--palette-known-50);
+  --theme-saved-soft: var(--palette-saved-50);
+  --theme-level-badge-foreground: var(--palette-primary-600);
 }
 
 @layer base {
   body {
     font-family: var(--default-font-family, 'Fredoka', sans-serif) !important;
     font-size: 100% !important;
-    color: var(--color-foreground);
+    background: var(--theme-canvas);
+    color: var(--theme-foreground);
   }
-
   html {
     scrollbar-width: thin;
-    scrollbar-color: var(--color-neutral-400) var(--color-neutral-100);
+    scrollbar-color: var(--theme-scrollbar-thumb) var(--theme-canvas);
   }
-
   ::-webkit-scrollbar {
     width: 12px;
   }
-
   ::-webkit-scrollbar-track {
-    background: var(--color-neutral-100);
+    background: var(--theme-canvas);
   }
-
   ::-webkit-scrollbar-thumb {
-    background-color: var(--color-neutral-400);
+    background-color: var(--theme-scrollbar-thumb);
+    border: 3px solid var(--theme-canvas);
     border-radius: 10px;
-    border: 3px solid var(--color-neutral-100);
   }
-
   ::-webkit-scrollbar-thumb:hover {
-    background-color: var(--color-neutral-500);
+    background-color: var(--theme-foreground-tertiary);
   }
 }
 

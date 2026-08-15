@@ -18,11 +18,11 @@ export const KnownWordsPage = () => {
   return (
     <AppContent>
       <div className="mx-auto w-full max-w-3xl">
-        <div className="bg-matcha-100 mb-6 rounded-2xl px-8 py-6">
+        <div className="bg-known-soft mb-6 rounded-2xl px-8 py-6">
           <div className="flex items-center justify-between gap-2">
             <div className="flex flex-col gap-1">
               <p className="text-xl font-semibold sm:text-2xl">
-                You know <span className="text-matcha">{knownWordsCount}</span>{' '}
+                You know <span className="text-known">{knownWordsCount}</span>{' '}
                 word
                 {knownWordsCount === 1 ? '' : 's'}
               </p>
