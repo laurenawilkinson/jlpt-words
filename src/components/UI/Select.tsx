@@ -43,7 +43,7 @@ export const Select = <T extends string>({
           isOpen && 'bg-surface'
         )}
       >
-        <span class="flex items-center gap-2">
+        <span class="inline-block truncate">
           {selected?.label ?? (
             <span class="text-foreground-tertiary">{placeholder}</span>
           )}

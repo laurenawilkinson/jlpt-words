@@ -27,7 +27,7 @@ export const SettingsMenu = forwardRef<HTMLDivElement, SettingsMenuProps>(
     return (
       <div
         className={cn(
-          'bg-surface border-border flex w-60 flex-col rounded-xl border px-6 py-4 text-left shadow-lg',
+          'bg-surface border-border flex w-64 flex-col rounded-xl border px-6 py-4 text-left shadow-lg',
           className
         )}
         ref={ref}
