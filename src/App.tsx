@@ -6,6 +6,7 @@ import { WordsProvider } from './providers/WordsProvider';
 import { useState } from 'preact/hooks';
 import type { PageKey } from './types';
 import { KnownWordsPage } from './components/KnownWords/KnownWordsPage';
+import { SavedWordsPage } from './components/SavedWords/SavedWordsPage';
 
 export const App = () => {
   const [page, setPage] = useState<PageKey>('study');
@@ -19,6 +20,8 @@ export const App = () => {
             <StudyPage />
           ) : page === 'known' ? (
             <KnownWordsPage />
+          ) : page === 'saved' ? (
+            <SavedWordsPage />
           ) : null}
         </WordsProvider>
         <AppFooter />

@@ -1,10 +1,16 @@
-import { IconBook, IconLeaf } from '@tabler/icons-preact';
+import {
+  IconBook,
+  IconLeaf,
+  IconStar,
+  IconStarFilled,
+} from '@tabler/icons-preact';
 import type { Settings, Word } from '@/types';
 import { FlashcardLevel } from './FlashcardLevel';
 import { useId, useState } from 'preact/hooks';
 import { cn } from '@/utils/cn';
 import ToggleButton from '../UI/ToggleButton';
 import { JP_FONT_CLASSES } from '@/utils/settings';
+import IconButton from '../UI/IconButton';
 
 export const flashcardContainerClasses =
   'bg-surface group border-border relative flex h-64 w-full max-w-sm flex-col items-center justify-center rounded-4xl border p-4 shadow-md sm:h-96 sm:w-80';
@@ -17,6 +23,8 @@ interface FlashcardProps {
   jpFont: Settings['jpFont'];
   isKnown: boolean;
   toggleIsKnown: (known: boolean) => void;
+  isSaved: boolean;
+  toggleIsSaved: (saved: boolean) => void;
 }
 
 export const Flashcard = ({
@@ -27,6 +35,8 @@ export const Flashcard = ({
   jpFont,
   isKnown,
   toggleIsKnown,
+  isSaved,
+  toggleIsSaved,
 }: FlashcardProps) => {
   const [showMeaning, setShowMeaning] = useState(false);
   const jpFontClass = JP_FONT_CLASSES[jpFont];
@@ -49,7 +59,15 @@ export const Flashcard = ({
           }}
         ></button>
       )}
-      <FlashcardLevel className="absolute top-5" level={word.jlpt} />
+      <div className="absolute top-0 flex w-full items-center justify-between p-5">
+        <FlashcardLevel level={word.jlpt} />
+        <IconButton
+          aria-pressed={isSaved}
+          onClick={() => toggleIsSaved(isSaved)}
+        >
+          {isSaved ? <IconStarFilled /> : <IconStar />}
+        </IconButton>
+      </div>
       <h2
         className={cn(
           'relative mt-5 text-3xl font-bold break-keep sm:text-5xl',

@@ -3,6 +3,7 @@ import {
   IconCalendarEvent,
   IconLeaf,
   IconSettings,
+  IconStar,
 } from '@tabler/icons-preact';
 import { SettingsMenu } from '../SettingsMenu/SettingsMenu';
 import { useRef, useState } from 'preact/hooks';
@@ -27,8 +28,8 @@ export const AppHeader = ({ activePage, setActivePage }: AppHeaderProps) => {
 
   return (
     <>
-      <header className="flex w-full justify-between gap-2 p-4 sm:px-8">
-        <div className="flex items-center gap-2">
+      <header className="flex w-full justify-center gap-2 p-4 sm:justify-between sm:px-8">
+        <div className="hidden items-center gap-2 sm:flex">
           <img
             src="/images/torii.png"
             alt="Torii Gate"
@@ -45,13 +46,20 @@ export const AppHeader = ({ activePage, setActivePage }: AppHeaderProps) => {
             </span>
           </p>
         </div>
-        <nav className="flex gap-1">
+        <nav className="flex gap-2 sm:gap-1">
           <AppHeaderNavItem
             icon={IconCalendarEvent}
             label="Today"
             variant="study"
             active={activePage === 'study'}
             onClick={() => setActivePage('study')}
+          />
+          <AppHeaderNavItem
+            icon={IconStar}
+            label="Saved"
+            variant="saved"
+            active={activePage === 'saved'}
+            onClick={() => setActivePage('saved')}
           />
           <AppHeaderNavItem
             icon={IconLeaf}

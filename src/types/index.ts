@@ -24,4 +24,4 @@ export type Settings = {
   theme: AppTheme;
 };
 
-export type PageKey = 'study' | 'known';
+export type PageKey = 'study' | 'known' | 'saved';

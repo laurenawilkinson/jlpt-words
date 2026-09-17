@@ -4,6 +4,7 @@ import type { JlptLevel, JsonWord, Word } from '@/types';
 import z from 'zod';
 
 const LOCAL_KNOWN_KEY = 'knownWords';
+const LOCAL_SAVED_KEY = 'savedWords';
 
 const words: Record<JlptLevel, Word[]> = {
   N1: [],
@@ -59,6 +60,7 @@ export async function loadWordsForLevel(level: JlptLevel): Promise<Word[]> {
   }
 }
 
+// --- Known words ---
 const knownWordsSchema = z.array(z.string()).default([]);
 
 export type KnownWordIds = string[];
@@ -82,4 +84,30 @@ export const getLocalKnownWordIds = (): KnownWordIds => {
 export const setLocalKnownWordIds = (newIds: KnownWordIds) => {
   const validated = knownWordsSchema.parse(newIds);
   localStorage.setItem(LOCAL_KNOWN_KEY, JSON.stringify(validated));
+};
+
+// --- Saved words ---
+const savedWordsSchema = z.array(z.string()).default([]);
+
+export type SavedWordIds = string[];
+
+export const getLocalSavedWordIds = (): SavedWordIds => {
+  const localSaved = localStorage.getItem(LOCAL_SAVED_KEY);
+
+  if (!localSaved) return [];
+
+  try {
+    const parsed = JSON.parse(localSaved);
+    const validated = savedWordsSchema.parse(parsed);
+
+    return validated;
+  } catch {
+    localStorage.removeItem(LOCAL_SAVED_KEY);
+    return [];
+  }
+};
+
+export const setLocalSavedWordIds = (newIds: SavedWordIds) => {
+  const validated = savedWordsSchema.parse(newIds);
+  localStorage.setItem(LOCAL_SAVED_KEY, JSON.stringify(validated));
 };

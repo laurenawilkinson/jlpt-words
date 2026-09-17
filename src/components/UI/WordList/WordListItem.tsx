@@ -1,23 +1,23 @@
 import type { Word } from '@/types';
 import { cn } from '@/utils/cn';
-import Button from '../UI/Button';
-import { FlashcardLevel } from '../Flashcard/FlashcardLevel';
+import Button from '../Button';
+import { FlashcardLevel } from '../../Flashcard/FlashcardLevel';
 import { useSettings } from '@/providers/SettingsProvider';
 import { JP_FONT_CLASSES } from '@/utils/settings';
-import IconButton from '../UI/IconButton';
+import IconButton from '../IconButton';
 import { IconX } from '@tabler/icons-preact';
 
-interface KnownWordItemProps {
+interface WordListItemProps {
   className?: string;
   word: Word;
   onRemove: () => void;
 }
 
-export const KnownWordItem = ({
+export const WordListItem = ({
   className,
   word,
   onRemove,
-}: KnownWordItemProps) => {
+}: WordListItemProps) => {
   const { settings } = useSettings();
   return (
     <div

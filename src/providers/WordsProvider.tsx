@@ -5,15 +5,22 @@ import { useSettings } from './SettingsProvider';
 import { loadWordsForLevel } from '@/utils/words';
 import { useKnownWords } from '@/hooks/useKnownWords';
 import { useDailyWords } from '@/hooks/useDailyWords';
+import { useSavedWords } from '@/hooks/useSavedWords';
 
 interface WordsContextValue {
   words: Word[];
   loadingWords: boolean;
-  knownWords: Word[];
   dailyWords: Word[];
+
+  knownWords: Word[];
   isKnownWord: (wordId: string) => boolean;
   addKnownWord: (wordId: string) => void;
   removeKnownWord: (wordId: string) => void;
+
+  savedWords: Word[];
+  isSavedWord: (wordId: string) => boolean;
+  addSavedWord: (wordId: string) => void;
+  removeSavedWord: (wordId: string) => void;
 }
 
 const WordsContext = createContext<WordsContextValue | null>(null);
@@ -30,6 +37,9 @@ export const WordsProvider: preact.FunctionComponent = ({ children }) => {
     addKnownWord,
     removeKnownWord,
   } = useKnownWords(words);
+
+  const { savedWords, isSavedWord, addSavedWord, removeSavedWord } =
+    useSavedWords(words);
 
   const dailyWords = useDailyWords({
     words,
@@ -53,24 +63,32 @@ export const WordsProvider: preact.FunctionComponent = ({ children }) => {
     fetchWordArrays();
   }, [settings.jlptLevels]);
 
-  const value = useMemo(
+  const value: WordsContextValue = useMemo(
     () => ({
       words,
       loadingWords,
-      knownWords,
       dailyWords,
+      knownWords,
       isKnownWord,
       addKnownWord,
       removeKnownWord,
+      savedWords,
+      isSavedWord,
+      addSavedWord,
+      removeSavedWord,
     }),
     [
       words,
       loadingWords,
-      knownWords,
       dailyWords,
+      knownWords,
       isKnownWord,
       addKnownWord,
       removeKnownWord,
+      savedWords,
+      isSavedWord,
+      addSavedWord,
+      removeSavedWord,
     ]
   );
 

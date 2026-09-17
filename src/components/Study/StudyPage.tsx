@@ -15,6 +15,9 @@ export const StudyPage = () => {
     isKnownWord,
     addKnownWord,
     removeKnownWord,
+    isSavedWord,
+    addSavedWord,
+    removeSavedWord,
   } = useWords();
   const dateKey = useDailyDateKey();
 
@@ -50,6 +53,10 @@ export const StudyPage = () => {
                 isKnown={isKnownWord(word.id)}
                 toggleIsKnown={(known) =>
                   known ? removeKnownWord(word.id) : addKnownWord(word.id)
+                }
+                isSaved={isSavedWord(word.id)}
+                toggleIsSaved={(saved) =>
+                  saved ? removeSavedWord(word.id) : addSavedWord(word.id)
                 }
               />
             ))}
